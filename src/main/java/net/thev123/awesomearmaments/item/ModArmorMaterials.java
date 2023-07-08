@@ -10,8 +10,11 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
     //enum format credits: https://github.com/aleganza/Plenty-Of-Armors
-    PLATED_IRON("plated_iron", 16, new int[]{2, 6, 5, 2}, 14, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 1.0F, 0.1F, () -> {
+    PLATED_IRON("plated_iron", 17, new int[]{2, 6, 5, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 1.0F, 0.1F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.IRON_INGOT});
+    }),
+    PLATED_DIAMOND("plated_diamond", 35, new int[]{3, 8, 6, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 2.5F, 0.1F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{Items.DIAMOND});
     });
 
 //    public static final StringIdentifiable.Codec<ArmorMaterials> CODEC;
