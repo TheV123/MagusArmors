@@ -7,18 +7,17 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.thev123.awesomearmaments.AwesomeArmaments;
-import net.thev123.awesomearmaments.item.ModArmorMaterials;
-import net.thev123.awesomearmaments.item.custom.ModArmorItem;
+import net.thev123.awesomearmaments.item.custom.ModArmorPlatedIron;
 
 public class ModItems {
     public static final Item PLATED_IRON_HELMET = registerItem("plated_iron_helmet",
-            new ModArmorItem(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ModArmorPlatedIron(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item PLATED_IRON_CHESTPLATE = registerItem("plated_iron_chestplate",
-            new ModArmorItem(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+            new ModArmorPlatedIron(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item PLATED_IRON_LEGGINGS = registerItem("plated_iron_leggings",
-            new ModArmorItem(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+            new ModArmorPlatedIron(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item PLATED_IRON_BOOTS = registerItem("plated_iron_boots",
-            new ModArmorItem(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+            new ModArmorPlatedIron(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
 
     private static Item registerItem(String name, Item item) {
