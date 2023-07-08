@@ -71,7 +71,7 @@ public class ModItems {
             new ModArmorBulwark(ModArmorMaterials.BULWARK, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item BULWARK_BOOTS = registerItem("bulwark_boots",
             new ModArmorBulwark(ModArmorMaterials.BULWARK, ArmorItem.Type.BOOTS, new FabricItemSettings()));
-    private static void addItemsToIngredientTab(FabricItemGroupEntries entries) {
+    private static void addItemsToCreativeModeTab(FabricItemGroupEntries entries) {
         entries.add(PLATED_IRON_UPGRADE);
         entries.add(PLATED_DIAMOND_UPGRADE);
         entries.add(PLATED_NETHERITE_UPGRADE);
@@ -84,6 +84,6 @@ public class ModItems {
         AwesomeArmaments.LOGGER.info("Registering Mod Items for " + AwesomeArmaments.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(
-                ModItems::addItemsToIngredientTab);
+                ModItems::addItemsToCreativeModeTab);
     }
 }
