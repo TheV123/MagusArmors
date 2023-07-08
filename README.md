@@ -1,10 +1,12 @@
 # AwesomeArmaments
 Awesome armor and weapons mod for Minecraft
 
-#Authors
-Vishal Kamalakrishnan
+# Authors
+Vishal Kamalakrishnan 
+
 Deyan Jani
 
-#Credits
+# Credits
 Kaupenjoe for his amazing tutorial series
+
 Plenty of Armors for not only being an amazing mod but an inspiration (https://github.com/aleganza/Plenty-Of-Armors)

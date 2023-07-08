@@ -17,7 +17,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
         return Ingredient.ofItems(new ItemConvertible[]{Items.DIAMOND});
     });
 
-//    public static final StringIdentifiable.Codec<ArmorMaterials> CODEC;
+    //    public static final StringIdentifiable.Codec<ArmorMaterials> CODEC;
     private static final int[] BASE_DURABILITY = new int[]{13, 15, 16, 11};
     private final String name;
     private final int durabilityMultiplier;
