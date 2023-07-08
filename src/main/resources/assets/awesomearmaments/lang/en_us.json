@@ -14,5 +14,8 @@
   "item.awesomearmaments.bulwark_helmet": "Bulwark Helmet",
   "item.awesomearmaments.bulwark_chestplate": "Bulwark Chestplate",
   "item.awesomearmaments.bulwark_leggings": "Bulwark Leggings",
-  "item.awesomearmaments.bulwark_boots": "Bulwark Boots"
+  "item.awesomearmaments.bulwark_boots": "Bulwark Boots",
+  "item.awesomearmaments.plated_iron_upgrade": "Plated Iron Upgrade",
+  "item.awesomearmaments.plated_diamond_upgrade": "Plated Diamond Upgrade",
+  "item.awesomearmaments.plated_netherite_upgrade": "Plated Netherite Upgrade"
 }
