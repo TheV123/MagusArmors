@@ -16,7 +16,10 @@ public enum ModArmorMaterials implements ArmorMaterial {
     PLATED_DIAMOND("plated_diamond", 35, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 2.5F, 0.1F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.DIAMOND});
     }),
-    PLATED_NETHERITE("plated_netherite", 42, new int[]{4, 6, 8, 4}, 10, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.5F, 0.25F, () -> {
+    PLATED_NETHERITE("plated_netherite", 42, new int[]{4, 6, 8, 4}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.5F, 0.25F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{Items.NETHERITE_INGOT});
+    }),
+    BULWARK("bulwark", 50, new int[]{5, 7, 8, 5}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 5F, 0.5F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.NETHERITE_INGOT});
     });
 

@@ -9,6 +9,7 @@ import net.minecraft.util.Identifier;
 import net.thev123.awesomearmaments.AwesomeArmaments;
 import net.thev123.awesomearmaments.item.custom.ModArmorPlatedDiamond;
 import net.thev123.awesomearmaments.item.custom.ModArmorPlatedIron;
+import net.thev123.awesomearmaments.item.custom.ModArmorPlatedNetherite;
 
 public class ModItems {
     public static final Item PLATED_IRON_HELMET = registerItem("plated_iron_helmet",
@@ -32,14 +33,23 @@ public class ModItems {
 
     //temporary textures from https://www.planetminecraft.com/texture-pack/spryzeen-s-knight-armor/
     public static final Item PLATED_NETHERITE_HELMET = registerItem("plated_netherite_helmet",
-            new ModArmorPlatedDiamond(ModArmorMaterials.PLATED_NETHERITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ModArmorPlatedNetherite(ModArmorMaterials.PLATED_NETHERITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item PLATED_NETHERITE_CHESTPLATE = registerItem("plated_netherite_chestplate",
-            new ModArmorPlatedDiamond(ModArmorMaterials.PLATED_NETHERITE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+            new ModArmorPlatedNetherite(ModArmorMaterials.PLATED_NETHERITE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item PLATED_NETHERITE_LEGGINGS = registerItem("plated_netherite_leggings",
-            new ModArmorPlatedDiamond(ModArmorMaterials.PLATED_NETHERITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+            new ModArmorPlatedNetherite(ModArmorMaterials.PLATED_NETHERITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item PLATED_NETHERITE_BOOTS = registerItem("plated_netherite_boots",
-            new ModArmorPlatedDiamond(ModArmorMaterials.PLATED_NETHERITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+            new ModArmorPlatedNetherite(ModArmorMaterials.PLATED_NETHERITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
+    //temporary textures from https://www.planetminecraft.com/texture-pack/improved-netherite-by-toxteer/
+    public static final Item BULWARK_HELMET = registerItem("bulwark_helmet",
+            new ModArmorPlatedDiamond(ModArmorMaterials.BULWARK, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item BULWARK_CHESTPLATE = registerItem("bulwark_chestplate",
+            new ModArmorPlatedDiamond(ModArmorMaterials.BULWARK, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item BULWARK_LEGGINGS = registerItem("bulwark_leggings",
+            new ModArmorPlatedDiamond(ModArmorMaterials.BULWARK, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item BULWARK_BOOTS = registerItem("bulwark_boots",
+            new ModArmorPlatedDiamond(ModArmorMaterials.BULWARK, ArmorItem.Type.BOOTS, new FabricItemSettings()));
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(AwesomeArmaments.MOD_ID, name), item);
     }
