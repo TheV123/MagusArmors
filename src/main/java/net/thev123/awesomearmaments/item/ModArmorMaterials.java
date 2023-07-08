@@ -21,6 +21,9 @@ public enum ModArmorMaterials implements ArmorMaterial {
     }),
     BULWARK("bulwark", 50, new int[]{5, 7, 8, 5}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 5F, 0.5F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.NETHERITE_INGOT});
+    }),
+    WISE_IRON("wise_iron", 15, new int[]{2, 5, 6, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{Items.IRON_INGOT});
     });
 
     //    public static final StringIdentifiable.Codec<ArmorMaterials> CODEC;

@@ -10,10 +10,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.thev123.awesomearmaments.AwesomeArmaments;
-import net.thev123.awesomearmaments.item.custom.ModArmorBulwark;
-import net.thev123.awesomearmaments.item.custom.ModArmorPlatedDiamond;
-import net.thev123.awesomearmaments.item.custom.ModArmorPlatedIron;
-import net.thev123.awesomearmaments.item.custom.ModArmorPlatedNetherite;
+import net.thev123.awesomearmaments.item.custom.*;
 
 public class ModItems {
     public static final Item PLATED_IRON_UPGRADE = registerItem("plated_iron_upgrade",
@@ -71,6 +68,17 @@ public class ModItems {
             new ModArmorBulwark(ModArmorMaterials.BULWARK, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item BULWARK_BOOTS = registerItem("bulwark_boots",
             new ModArmorBulwark(ModArmorMaterials.BULWARK, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    //temporary texture from: https://www.planetminecraft.com/texture-pack/glistening-iron-java-edition/
+    public static final Item WISE_IRON_HELMET = registerItem("wise_iron_helmet",
+            new ModArmorWiseIron(ModArmorMaterials.WISE_IRON, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item WISE_IRON_CHESTPLATE = registerItem("wise_iron_chestplate",
+            new ModArmorWiseIron(ModArmorMaterials.WISE_IRON, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item WISE_IRON_LEGGINGS = registerItem("wise_iron_leggings",
+            new ModArmorWiseIron(ModArmorMaterials.WISE_IRON, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item WISE_IRON_BOOTS = registerItem("wise_iron_boots",
+            new ModArmorWiseIron(ModArmorMaterials.WISE_IRON, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
     private static void addItemsToCreativeModeTab(FabricItemGroupEntries entries) {
         entries.add(PLATED_IRON_UPGRADE);
         entries.add(PLATED_DIAMOND_UPGRADE);
