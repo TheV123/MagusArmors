@@ -2,3 +2,10 @@
 .idea
 .bin
 run
+run/logs
+.fabric
+data
+logs
+mods
+saves
+build
