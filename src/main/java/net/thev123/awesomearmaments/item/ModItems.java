@@ -27,6 +27,7 @@ public class ModItems {
             new ModArmorPlatedIron(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.BOOTS,
                     new FabricItemSettings()));
 
+    //temporary textures from https://www.planetminecraft.com/texture-pack/spryzeen-s-knight-armor/
     public static final Item PLATED_DIAMOND_HELMET = registerItem("plated_diamond_helmet",
             new ModArmorPlatedDiamond(ModArmorMaterials.PLATED_DIAMOND, ArmorItem.Type.HELMET,
                     new FabricItemSettings()));
@@ -52,6 +53,16 @@ public class ModItems {
         entries.add(PLATED_DIAMOND_UPGRADE);
         entries.add(PLATED_NETHERITE_UPGRADE);
     }
+
+    //temporary textures from https://www.planetminecraft.com/texture-pack/spryzeen-s-knight-armor/
+    public static final Item PLATED_NETHERITE_HELMET = registerItem("plated_netherite_helmet",
+            new ModArmorPlatedDiamond(ModArmorMaterials.PLATED_NETHERITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item PLATED_NETHERITE_CHESTPLATE = registerItem("plated_netherite_chestplate",
+            new ModArmorPlatedDiamond(ModArmorMaterials.PLATED_NETHERITE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item PLATED_NETHERITE_LEGGINGS = registerItem("plated_netherite_leggings",
+            new ModArmorPlatedDiamond(ModArmorMaterials.PLATED_NETHERITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item PLATED_NETHERITE_BOOTS = registerItem("plated_netherite_boots",
+            new ModArmorPlatedDiamond(ModArmorMaterials.PLATED_NETHERITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(AwesomeArmaments.MOD_ID, name), item);
