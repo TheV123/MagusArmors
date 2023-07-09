@@ -27,7 +27,11 @@ public class ModArmorAquaDiamond extends ArmorItem{
     //effects
     private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP1 =
             new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>()
-                    .put(ModArmorMaterials.AQUA_DIAMOND, new StatusEffectInstance(StatusEffects.CONDUIT_POWER, 200, 0))
+                    .put(ModArmorMaterials.AQUA_DIAMOND, new StatusEffectInstance(StatusEffects.WATER_BREATHING, 200, 0))
+                    .build();
+    private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP2 =
+            new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>()
+                    .put(ModArmorMaterials.AQUA_DIAMOND, new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE, 200, 0))
                     .build();
     @Override
     public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {
@@ -52,6 +56,15 @@ public class ModArmorAquaDiamond extends ArmorItem{
 
     private void evaluateArmorEffects(PlayerEntity player) {
         for(Map.Entry<ArmorMaterial, StatusEffectInstance> entry : MATERIAL_TO_EFFECT_MAP1.entrySet()) {
+            ArmorMaterial mapArmorMaterial = entry.getKey();
+            StatusEffectInstance mapStatusEffect = entry.getValue();
+
+            if(hasCorrectArmorOn(mapArmorMaterial, player)) {
+                addStatusEffectForMaterial(player, mapStatusEffect);
+                break;
+            }
+        }
+        for(Map.Entry<ArmorMaterial, StatusEffectInstance> entry : MATERIAL_TO_EFFECT_MAP2.entrySet()) {
             ArmorMaterial mapArmorMaterial = entry.getKey();
             StatusEffectInstance mapStatusEffect = entry.getValue();
 

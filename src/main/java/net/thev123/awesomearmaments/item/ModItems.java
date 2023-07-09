@@ -21,38 +21,38 @@ public class ModItems {
             new Item(new FabricItemSettings()));
 
     public static final Item PLATED_IRON_HELMET = registerItem("plated_iron_helmet",
-            new ModArmorPlatedIron(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.HELMET,
+            new ArmorItem(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.HELMET,
                     new FabricItemSettings()));
     public static final Item PLATED_IRON_CHESTPLATE = registerItem("plated_iron_chestplate",
-            new ModArmorPlatedIron(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.CHESTPLATE,
+            new ArmorItem(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.CHESTPLATE,
                     new FabricItemSettings()));
     public static final Item PLATED_IRON_LEGGINGS = registerItem("plated_iron_leggings",
-            new ModArmorPlatedIron(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.LEGGINGS,
+            new ArmorItem(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.LEGGINGS,
                     new FabricItemSettings()));
     public static final Item PLATED_IRON_BOOTS = registerItem("plated_iron_boots",
-            new ModArmorPlatedIron(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.BOOTS,
+            new ArmorItem(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.BOOTS,
                     new FabricItemSettings()));
     //temporary textures from https://www.planetminecraft.com/texture-pack/spryzeen-s-knight-armor/
     public static final Item PLATED_DIAMOND_HELMET = registerItem("plated_diamond_helmet",
-            new ModArmorPlatedDiamond(ModArmorMaterials.PLATED_DIAMOND, ArmorItem.Type.HELMET,
+            new ArmorItem(ModArmorMaterials.PLATED_DIAMOND, ArmorItem.Type.HELMET,
                     new FabricItemSettings()));
     public static final Item PLATED_DIAMOND_CHESTPLATE = registerItem("plated_diamond_chestplate",
-            new ModArmorPlatedDiamond(ModArmorMaterials.PLATED_DIAMOND, ArmorItem.Type.CHESTPLATE,
+            new ArmorItem(ModArmorMaterials.PLATED_DIAMOND, ArmorItem.Type.CHESTPLATE,
                     new FabricItemSettings()));
     public static final Item PLATED_DIAMOND_LEGGINGS = registerItem("plated_diamond_leggings",
-            new ModArmorPlatedDiamond(ModArmorMaterials.PLATED_DIAMOND, ArmorItem.Type.LEGGINGS,
+            new ArmorItem(ModArmorMaterials.PLATED_DIAMOND, ArmorItem.Type.LEGGINGS,
                     new FabricItemSettings()));
     public static final Item PLATED_DIAMOND_BOOTS = registerItem("plated_diamond_boots",
-            new ModArmorPlatedDiamond(ModArmorMaterials.PLATED_DIAMOND, ArmorItem.Type.BOOTS,
+            new ArmorItem(ModArmorMaterials.PLATED_DIAMOND, ArmorItem.Type.BOOTS,
                     new FabricItemSettings()));
     public static final Item PLATED_NETHERITE_HELMET = registerItem("plated_netherite_helmet",
-            new ModArmorPlatedNetherite(ModArmorMaterials.PLATED_NETHERITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.PLATED_NETHERITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item PLATED_NETHERITE_CHESTPLATE = registerItem("plated_netherite_chestplate",
-            new ModArmorPlatedNetherite(ModArmorMaterials.PLATED_NETHERITE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.PLATED_NETHERITE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item PLATED_NETHERITE_LEGGINGS = registerItem("plated_netherite_leggings",
-            new ModArmorPlatedNetherite(ModArmorMaterials.PLATED_NETHERITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.PLATED_NETHERITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item PLATED_NETHERITE_BOOTS = registerItem("plated_netherite_boots",
-            new ModArmorPlatedNetherite(ModArmorMaterials.PLATED_NETHERITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.PLATED_NETHERITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     //temporary texture from: https://www.planetminecraft.com/texture-pack/glistening-iron-java-edition/
     public static final Item WISE_IRON_HELMET = registerItem("wise_iron_helmet",
