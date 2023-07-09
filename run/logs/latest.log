@@ -1,5 +1,5 @@
-[22:46:39] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.14.21
-[22:46:39] [main/INFO] (FabricLoader) Loading 46 mods:
+[23:15:18] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.14.21
+[23:15:18] [main/INFO] (FabricLoader) Loading 46 mods:
 	- awesomearmaments 1.0.0
 	- fabric-api 0.85.0+1.20.1
 	- fabric-api-base 0.4.29+b04edc7a77
@@ -46,13 +46,13 @@
 	- fabricloader 0.14.21
 	- java 17
 	- minecraft 1.20.1
-[22:46:39] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Vishal/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[22:46:40] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[22:46:40] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[22:46:40] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[22:46:45] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 119 milliseconds
-[22:46:47] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22:46:47] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+[23:15:18] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Vishal/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[23:15:19] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[23:15:19] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[23:15:19] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[23:15:24] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 138 milliseconds
+[23:15:26] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23:15:26] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar:?]
@@ -70,71 +70,215 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar:?]
 	... 9 more
-[22:46:47] [Render thread/INFO] (Minecraft) Setting user: Player300
-[22:46:47] [Render thread/INFO] (awesomearmaments) Hello Fabric world!
-[22:46:47] [Render thread/INFO] (awesomearmaments) Registering Mod Items for awesomearmaments
-[22:46:47] [Render thread/INFO] (awesomearmaments) Registering Item Groups for awesomearmaments
-[22:46:47] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[22:46:48] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
-[22:46:49] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-networking-api-v1, fabric-key-binding-api-v1, fabric-renderer-api-v1, fabric-crash-report-info-v1, fabric-mining-level-api-v1, fabric-game-rule-api-v1, awesomearmaments, fabric-api-base, fabric-object-builder-api-v1, fabric-convention-tags-v1, fabric-message-api-v1, fabric-content-registries-v0, fabric-blockrenderlayer-v1, fabric-screen-handler-api-v1, fabric-loot-api-v2, fabricloader, fabric-rendering-fluids-v1, fabric-client-tags-api-v1, fabric-registry-sync-v0, fabric-recipe-api-v1, fabric-command-api-v2, fabric-models-v0, fabric-transfer-api-v1, fabric-screen-api-v1, fabric-particles-v1, fabric-lifecycle-events-v1, fabric-block-api-v1, fabric-gametest-api-v1, fabric-events-interaction-v0, fabric-sound-api-v1, fabric-api-lookup-api-v1, fabric-api, fabric-transitive-access-wideners-v1, fabric-resource-loader-v0, fabric-rendering-v1, fabric-biome-api-v1, fabric-data-generation-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-dimensions-v1, fabric-resource-conditions-api-v1, fabric-renderer-indigo, fabric-entity-events-v1, fabric-rendering-data-attachment-v1)
-[22:46:49] [Worker-Main-10/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
-[22:46:49] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[22:46:50] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[22:46:50] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[22:46:50] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
-[22:46:50] [Render thread/INFO] (Minecraft) Sound engine started
-[22:46:51] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[22:46:51] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[22:46:51] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[22:46:51] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[22:46:51] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[22:46:51] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[22:46:51] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[22:46:51] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[22:46:51] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[22:46:51] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[22:46:51] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[22:46:51] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[22:46:51] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[22:46:56] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[22:46:56] [Render thread/INFO] (Minecraft) Loaded 1271 advancements
-[22:46:57] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 1.130 ms
-[22:46:57] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
-[22:46:57] [Server thread/INFO] (Minecraft) Generating keypair
-[22:46:58] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[22:47:00] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:47:00] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:47:00] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:47:00] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:47:00] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:47:00] [Render thread/INFO] (Minecraft) Preparing spawn area: 83%
-[22:47:00] [Render thread/INFO] (Minecraft) Time elapsed: 2577 ms
-[22:47:00] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
-[22:47:00] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
-[22:47:01] [Server thread/INFO] (Minecraft) Player300[local:E:c021dcd4] logged in with entity id 92 at (-290.99096745696653, 66.0, 780.2162875292964)
-[22:47:01] [Server thread/INFO] (Minecraft) Player300 joined the game
-[22:47:01] [Server thread/INFO] (Minecraft) Player300 has made the advancement [Diamonds!]
-[22:47:01] [Server thread/INFO] (Minecraft) Player300 has made the advancement [Acquire Hardware]
-[22:47:01] [Server thread/INFO] (Minecraft) Player300 has made the advancement [Cover Me with Diamonds]
-[22:47:02] [Render thread/INFO] (Minecraft) [System] [CHAT] Player300 has made the advancement [Diamonds!]
-[22:47:02] [Render thread/INFO] (Minecraft) [System] [CHAT] Player300 has made the advancement [Acquire Hardware]
-[22:47:02] [Render thread/INFO] (Minecraft) [System] [CHAT] Player300 has made the advancement [Cover Me with Diamonds]
-[22:47:02] [Render thread/INFO] (Minecraft) Loaded 74 advancements
-[22:47:47] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[22:47:47] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World123123]'/minecraft:overworld
-[22:47:47] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World123123]'/minecraft:the_end
-[22:47:47] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World123123]'/minecraft:the_nether
-[22:47:48] [Server thread/INFO] (Minecraft) Player300 lost connection: Disconnected
-[22:47:48] [Server thread/INFO] (Minecraft) Player300 left the game
-[22:47:48] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[22:47:48] [Server thread/INFO] (Minecraft) Stopping server
-[22:47:48] [Server thread/INFO] (Minecraft) Saving players
-[22:47:48] [Server thread/INFO] (Minecraft) Saving worlds
-[22:47:48] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World123123]'/minecraft:overworld
-[22:47:49] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World123123]'/minecraft:the_end
-[22:47:49] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World123123]'/minecraft:the_nether
-[22:47:49] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World123123): All chunks are saved
-[22:47:49] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:47:49] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:47:49] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
-[22:47:50] [Render thread/INFO] (Minecraft) Stopping!
+[23:15:26] [Render thread/INFO] (Minecraft) Setting user: Player247
+[23:15:26] [Render thread/INFO] (awesomearmaments) Hello Fabric world!
+[23:15:26] [Render thread/INFO] (awesomearmaments) Registering Mod Items for awesomearmaments
+[23:15:26] [Render thread/INFO] (awesomearmaments) Registering Item Groups for awesomearmaments
+[23:15:26] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[23:15:26] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
+[23:15:28] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-gametest-api-v1, awesomearmaments, fabric-message-api-v1, fabric-command-api-v2, fabric-renderer-api-v1, fabric-models-v0, fabric-rendering-v1, fabric-recipe-api-v1, fabric-rendering-data-attachment-v1, fabric-item-group-api-v1, fabric-screen-handler-api-v1, fabric-lifecycle-events-v1, fabric-object-builder-api-v1, fabricloader, fabric-convention-tags-v1, fabric-loot-api-v2, fabric-biome-api-v1, fabric-blockrenderlayer-v1, fabric-key-binding-api-v1, fabric-data-generation-api-v1, fabric-api-base, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-sound-api-v1, fabric-api-lookup-api-v1, fabric-mining-level-api-v1, fabric-entity-events-v1, fabric-item-api-v1, fabric-particles-v1, fabric-block-api-v1, fabric-crash-report-info-v1, fabric-registry-sync-v0, fabric-dimensions-v1, fabric-content-registries-v0, fabric-resource-conditions-api-v1, fabric-client-tags-api-v1, fabric-api, fabric-events-interaction-v0, fabric-transitive-access-wideners-v1, fabric-transfer-api-v1, fabric-rendering-fluids-v1, fabric-game-rule-api-v1, fabric-renderer-indigo, fabric-networking-api-v1)
+[23:15:28] [Worker-Main-6/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
+[23:15:28] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[23:15:29] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[23:15:29] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[23:15:29] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[23:15:29] [Render thread/INFO] (Minecraft) Sound engine started
+[23:15:29] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[23:15:29] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[23:15:29] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[23:15:29] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[23:15:29] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[23:15:29] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[23:15:29] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[23:15:29] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[23:15:29] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[23:15:30] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[23:15:30] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[23:15:30] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[23:15:30] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[23:15:41] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:plated_netherite_upgrade
+com.google.gson.JsonSyntaxException: Unknown item 'awesome_armaments:plated_diamond_upgrade'
+	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.recipe.ShapedRecipe.getItem(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.recipe.Ingredient.entryFromJson(Ingredient.java:160) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.recipe.Ingredient.fromJson(Ingredient.java:143) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.recipe.ShapedRecipe.readSymbols(ShapedRecipe.java:252) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.recipe.ShapedRecipe$Serializer.read(ShapedRecipe.java:285) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.recipe.ShapedRecipe$Serializer.read(ShapedRecipe.java:279) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:135) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:56) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:35) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:13) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:156) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:130) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:139) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.load(IntegratedServerLoader.java:188) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:123) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:202) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:64) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:590) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:480) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraft.client.gui.screen.world.SelectWorldScreen.method_19945(SelectWorldScreen.java:59) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.gui.widget.ButtonWidget.onPress(ButtonWidget.java:94) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.gui.widget.PressableWidget.onClick(PressableWidget.java:56) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.gui.widget.ClickableWidget.mouseClicked(ClickableWidget.java:189) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:38) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:98) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:409) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:98) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:102) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[23:15:41] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:plated_iron_upgrade
+com.google.gson.JsonSyntaxException: Unknown item 'awesome_armaments:plated_iron_upgrade'
+	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.recipe.ShapedRecipe.getItem(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.recipe.ShapedRecipe.outputFromJson(ShapedRecipe.java:259) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.recipe.ShapedRecipe$Serializer.read(ShapedRecipe.java:293) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.recipe.ShapedRecipe$Serializer.read(ShapedRecipe.java:279) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:135) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:56) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:35) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:13) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:156) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:130) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:139) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.load(IntegratedServerLoader.java:188) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:123) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:202) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:64) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:590) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:480) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraft.client.gui.screen.world.SelectWorldScreen.method_19945(SelectWorldScreen.java:59) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.gui.widget.ButtonWidget.onPress(ButtonWidget.java:94) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.gui.widget.PressableWidget.onClick(PressableWidget.java:56) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.gui.widget.ClickableWidget.mouseClicked(ClickableWidget.java:189) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:38) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:98) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:409) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:98) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:102) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[23:15:41] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:plated_diamond_upgrade
+com.google.gson.JsonSyntaxException: Unknown item 'awesome_armaments:plated_diamond_upgrade'
+	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.recipe.ShapedRecipe.getItem(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.recipe.Ingredient.entryFromJson(Ingredient.java:160) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.recipe.Ingredient.fromJson(Ingredient.java:143) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.recipe.ShapedRecipe.readSymbols(ShapedRecipe.java:252) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.recipe.ShapedRecipe$Serializer.read(ShapedRecipe.java:285) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.recipe.ShapedRecipe$Serializer.read(ShapedRecipe.java:279) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:135) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:56) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:35) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:13) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:156) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:130) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:139) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.load(IntegratedServerLoader.java:188) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:123) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:202) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:64) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:590) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:480) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraft.client.gui.screen.world.SelectWorldScreen.method_19945(SelectWorldScreen.java:59) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.gui.widget.ButtonWidget.onPress(ButtonWidget.java:94) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.gui.widget.PressableWidget.onClick(PressableWidget.java:56) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.gui.widget.ClickableWidget.mouseClicked(ClickableWidget.java:189) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:38) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:98) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:409) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:98) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:102) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[23:15:41] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[23:15:41] [Render thread/INFO] (Minecraft) Loaded 1271 advancements
+[23:15:41] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 1.753 ms
+[23:15:41] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
+[23:15:41] [Server thread/INFO] (Minecraft) Generating keypair
+[23:15:43] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[23:15:45] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:15:45] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:15:45] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:15:45] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:15:45] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:15:45] [Render thread/INFO] (Minecraft) Preparing spawn area: 66%
+[23:15:45] [Render thread/INFO] (Minecraft) Time elapsed: 2644 ms
+[23:15:45] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[23:15:45] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[23:15:46] [Server thread/INFO] (Minecraft) Player247[local:E:59f2bdbd] logged in with entity id 270 at (1.9517848455921207, 72.0, 2.195194634430408)
+[23:15:46] [Server thread/INFO] (Minecraft) Player247 joined the game
+[23:15:46] [Server thread/INFO] (Minecraft) Player247 has made the advancement [Acquire Hardware]
+[23:15:47] [Render thread/INFO] (Minecraft) [System] [CHAT] Player247 has made the advancement [Acquire Hardware]
+[23:15:47] [Render thread/INFO] (Minecraft) Loaded 51 advancements
+[23:16:18] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[23:16:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World123]'/minecraft:overworld
+[23:16:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World123]'/minecraft:the_end
+[23:16:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World123]'/minecraft:the_nether
+[23:16:22] [Server thread/INFO] (Minecraft) Player247 lost connection: Disconnected
+[23:16:22] [Server thread/INFO] (Minecraft) Player247 left the game
+[23:16:22] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[23:16:22] [Server thread/INFO] (Minecraft) Stopping server
+[23:16:22] [Server thread/INFO] (Minecraft) Saving players
+[23:16:22] [Server thread/INFO] (Minecraft) Saving worlds
+[23:16:22] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World123]'/minecraft:overworld
+[23:16:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World123]'/minecraft:the_end
+[23:16:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World123]'/minecraft:the_nether
+[23:16:23] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World123): All chunks are saved
+[23:16:23] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:16:23] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:16:23] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[23:16:24] [Render thread/INFO] (Minecraft) Stopping!
