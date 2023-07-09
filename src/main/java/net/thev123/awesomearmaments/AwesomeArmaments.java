@@ -2,6 +2,7 @@ package net.thev123.awesomearmaments;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.thev123.awesomearmaments.effect.ModEffects;
 import net.thev123.awesomearmaments.item.ModItemGroups;
 import net.thev123.awesomearmaments.item.ModItems;
 import org.slf4j.Logger;
@@ -17,5 +18,6 @@ public class AwesomeArmaments implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
+		ModEffects.registerEffects();
 	}
 }
