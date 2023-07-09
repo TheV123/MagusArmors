@@ -12,7 +12,7 @@ import net.minecraft.registry.Registry;
 public class ModItemGroups {
     public static final ItemGroup UPGRADE = Registry.register(Registries.ITEM_GROUP,
             new Identifier(AwesomeArmaments.MOD_ID, "awesome_armaments"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.awesome_armaments"))
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.awesomearmaments"))
                     .icon(() -> new ItemStack(ModItems.PLATED_IRON_HELMET)).entries((displayContext, entries) -> {
                         entries.add(ModItems.PLATED_IRON_UPGRADE);
                         entries.add(ModItems.PLATED_DIAMOND_UPGRADE);
@@ -34,6 +34,15 @@ public class ModItemGroups {
                         entries.add(ModItems.WISE_IRON_CHESTPLATE);
                         entries.add(ModItems.WISE_IRON_LEGGINGS);
                         entries.add(ModItems.WISE_IRON_BOOTS);
+                        entries.add(ModItems.WISE_DIAMOND_HELMET);
+                        entries.add(ModItems.WISE_DIAMOND_CHESTPLATE);
+                        entries.add(ModItems.WISE_DIAMOND_LEGGINGS);
+                        entries.add(ModItems.WISE_DIAMOND_BOOTS);
+
+                        entries.add(ModItems.AQUA_DIAMOND_HELMET);
+                        entries.add(ModItems.AQUA_DIAMOND_CHESTPLATE);
+                        entries.add(ModItems.AQUA_DIAMOND_LEGGINGS);
+                        entries.add(ModItems.AQUA_DIAMOND_BOOTS);
 
                         entries.add(ModItems.BULWARK_HELMET);
                         entries.add(ModItems.BULWARK_CHESTPLATE);

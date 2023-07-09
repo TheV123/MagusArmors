@@ -27,6 +27,9 @@ public enum ModArmorMaterials implements ArmorMaterial {
     }),
     WISE_DIAMOND("wise_diamond", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.DIAMOND});
+    }),
+    AQUA_DIAMOND("aqua_diamond", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{Items.DIAMOND});
     });
 
     //    public static final StringIdentifiable.Codec<ArmorMaterials> CODEC;

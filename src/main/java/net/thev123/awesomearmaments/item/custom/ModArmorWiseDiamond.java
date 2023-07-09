@@ -18,7 +18,7 @@ import java.util.Map;
 import java.util.Random;
 
 public class ModArmorWiseDiamond extends ArmorItem {
-    public static final int effectDuration = 400;
+    public static final int effectDuration = 200;
     public static final int amplifier = 0;
     private static final int REPAIR_TICKS = 300;  // Number of ticks between repairs
     private static final int REPAIR_AMOUNT = 2;   // Amount of durability to repair per tick

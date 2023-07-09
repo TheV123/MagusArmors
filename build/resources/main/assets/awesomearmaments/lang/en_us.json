@@ -24,6 +24,11 @@
   "item.awesomearmaments.wise_diamond_leggings": "Wise Diamond Leggings",
   "item.awesomearmaments.wise_diamond_boots": "Wise Diamond Boots",
 
+  "item.awesomearmaments.aqua_diamond_helmet": "Aqua Diamond Helmet",
+  "item.awesomearmaments.aqua_diamond_chestplate": "Aqua Diamond Chestplate",
+  "item.awesomearmaments.aqua_diamond_leggings": "Aqua Diamond Leggings",
+  "item.awesomearmaments.aqua_diamond_boots": "Aqua Diamond Boots",
+
   "item.awesomearmaments.bulwark_helmet": "Bulwark Helmet",
   "item.awesomearmaments.bulwark_chestplate": "Bulwark Chestplate",
   "item.awesomearmaments.bulwark_leggings": "Bulwark Leggings",
@@ -35,5 +40,5 @@
 
   "itemgroup.awesomearmaments": "Awesome Armaments",
 
-  "effect.awesomearmaments.experience_empower": "Experience Empower"
+  "effect.awesomearmaments.experience_empower": "Exp Empower"
 }

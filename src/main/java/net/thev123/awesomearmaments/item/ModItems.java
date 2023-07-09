@@ -32,7 +32,6 @@ public class ModItems {
     public static final Item PLATED_IRON_BOOTS = registerItem("plated_iron_boots",
             new ModArmorPlatedIron(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.BOOTS,
                     new FabricItemSettings()));
-
     //temporary textures from https://www.planetminecraft.com/texture-pack/spryzeen-s-knight-armor/
     public static final Item PLATED_DIAMOND_HELMET = registerItem("plated_diamond_helmet",
             new ModArmorPlatedDiamond(ModArmorMaterials.PLATED_DIAMOND, ArmorItem.Type.HELMET,
@@ -46,10 +45,6 @@ public class ModItems {
     public static final Item PLATED_DIAMOND_BOOTS = registerItem("plated_diamond_boots",
             new ModArmorPlatedDiamond(ModArmorMaterials.PLATED_DIAMOND, ArmorItem.Type.BOOTS,
                     new FabricItemSettings()));
-
-
-
-    //temporary textures from https://www.planetminecraft.com/texture-pack/spryzeen-s-knight-armor/
     public static final Item PLATED_NETHERITE_HELMET = registerItem("plated_netherite_helmet",
             new ModArmorPlatedNetherite(ModArmorMaterials.PLATED_NETHERITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item PLATED_NETHERITE_CHESTPLATE = registerItem("plated_netherite_chestplate",
@@ -58,16 +53,6 @@ public class ModItems {
             new ModArmorPlatedNetherite(ModArmorMaterials.PLATED_NETHERITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item PLATED_NETHERITE_BOOTS = registerItem("plated_netherite_boots",
             new ModArmorPlatedNetherite(ModArmorMaterials.PLATED_NETHERITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
-
-    //temporary textures from https://www.planetminecraft.com/texture-pack/improved-netherite-by-toxteer/
-    public static final Item BULWARK_HELMET = registerItem("bulwark_helmet",
-            new ModArmorBulwark(ModArmorMaterials.BULWARK, ArmorItem.Type.HELMET, new FabricItemSettings()));
-    public static final Item BULWARK_CHESTPLATE = registerItem("bulwark_chestplate",
-            new ModArmorBulwark(ModArmorMaterials.BULWARK, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
-    public static final Item BULWARK_LEGGINGS = registerItem("bulwark_leggings",
-            new ModArmorBulwark(ModArmorMaterials.BULWARK, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
-    public static final Item BULWARK_BOOTS = registerItem("bulwark_boots",
-            new ModArmorBulwark(ModArmorMaterials.BULWARK, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     //temporary texture from: https://www.planetminecraft.com/texture-pack/glistening-iron-java-edition/
     public static final Item WISE_IRON_HELMET = registerItem("wise_iron_helmet",
@@ -87,6 +72,26 @@ public class ModItems {
             new ModArmorWiseDiamond(ModArmorMaterials.WISE_DIAMOND, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item WISE_DIAMOND_BOOTS = registerItem("wise_diamond_boots",
             new ModArmorWiseDiamond(ModArmorMaterials.WISE_DIAMOND, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item AQUA_DIAMOND_HELMET = registerItem("aqua_diamond_helmet",
+            new ModArmorAquaDiamond(ModArmorMaterials.AQUA_DIAMOND, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item AQUA_DIAMOND_CHESTPLATE = registerItem("aqua_diamond_chestplate",
+            new ModArmorAquaDiamond(ModArmorMaterials.AQUA_DIAMOND, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item AQUA_DIAMOND_LEGGINGS = registerItem("aqua_diamond_leggings",
+            new ModArmorAquaDiamond(ModArmorMaterials.AQUA_DIAMOND, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item AQUA_DIAMOND_BOOTS = registerItem("aqua_diamond_boots",
+            new ModArmorAquaDiamond(ModArmorMaterials.AQUA_DIAMOND, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    //temporary textures from https://www.planetminecraft.com/texture-pack/improved-netherite-by-toxteer/
+    public static final Item BULWARK_HELMET = registerItem("bulwark_helmet",
+            new ModArmorBulwark(ModArmorMaterials.BULWARK, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item BULWARK_CHESTPLATE = registerItem("bulwark_chestplate",
+            new ModArmorBulwark(ModArmorMaterials.BULWARK, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item BULWARK_LEGGINGS = registerItem("bulwark_leggings",
+            new ModArmorBulwark(ModArmorMaterials.BULWARK, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item BULWARK_BOOTS = registerItem("bulwark_boots",
+            new ModArmorBulwark(ModArmorMaterials.BULWARK, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(AwesomeArmaments.MOD_ID, name), item);
