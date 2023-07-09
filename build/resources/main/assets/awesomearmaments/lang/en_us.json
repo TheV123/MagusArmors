@@ -33,5 +33,7 @@
   "item.awesomearmaments.plated_diamond_upgrade": "Plated Diamond Upgrade",
   "item.awesomearmaments.plated_netherite_upgrade": "Plated Netherite Upgrade",
 
-  "itemgroup.awesome_armaments": "Awesome Armaments"
+  "itemgroup.awesomearmaments": "Awesome Armaments",
+
+  "effect.awesomearmaments.experience_empower": "Experience Empower"
 }
