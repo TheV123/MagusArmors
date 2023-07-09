@@ -69,6 +69,15 @@ public class ModItems {
     public static final Item BULWARK_BOOTS = registerItem("bulwark_boots",
             new ModArmorBulwark(ModArmorMaterials.BULWARK, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
+    public static final Item AQUA_DIAMOND_HELMET = registerItem("aqua_diamond_helmet",
+            new ModArmorBulwark(ModArmorMaterials.AQUA_DIAMOND, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item AQUA_DIAMOND_CHESTPLATE = registerItem("aqua_diamond_chestplate",
+            new ModArmorBulwark(ModArmorMaterials.AQUA_DIAMOND, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item AQUA_DIAMOND_LEGGINGS = registerItem("aqua_diamond_leggings",
+            new ModArmorBulwark(ModArmorMaterials.AQUA_DIAMOND, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item AQUA_DIAMOND_BOOTS = registerItem("aqua_diamond_boots",
+            new ModArmorBulwark(ModArmorMaterials.AQUA_DIAMOND, ArmorItem.Type.BOOTS, new FabricItemSettings()))
+
     //temporary texture from: https://www.planetminecraft.com/texture-pack/glistening-iron-java-edition/
     public static final Item WISE_IRON_HELMET = registerItem("wise_iron_helmet",
             new ModArmorWiseIron(ModArmorMaterials.WISE_IRON, ArmorItem.Type.HELMET, new FabricItemSettings()));

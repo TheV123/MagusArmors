@@ -2,6 +2,7 @@ package net.thev123.awesomearmaments.item.custom;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.projectile.thrown.ExperienceBottleEntity;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.ItemStack;
@@ -33,11 +34,11 @@ public class ModArmorWiseDiamond extends ArmorItem {
         if (!world.isClient && entity instanceof PlayerEntity) {
             PlayerEntity player = (PlayerEntity) entity;
 
-            List<Entity> nearbyEntities = world.getEntitiesByClass(Entity.class, player.getBoundingBox().expand(5.0),
-                    (entity) -> entity instanceof ExperienceOrbEntity);
+            List<ExperienceBottleEntity> experienceBottles = world.getEntitiesByClass(ExperienceBottleEntity.class,
+                    player.getBoundingBox().expand(5.0), test -> true);
 
-            for (Entity nearbyEntity : nearbyEntities) {
-                if (nearbyEntity instanceof ExperienceOrbEntity) {
+            for (ExperienceBottleEntity experienceBottle : experienceBottles) {
+                if (experienceBottle.getOwner() == player) {
                     Random random = (Random) world.getRandom();
                     if (random.nextDouble() < HEAL_CHANCE) {
                         player = (PlayerEntity) entity;

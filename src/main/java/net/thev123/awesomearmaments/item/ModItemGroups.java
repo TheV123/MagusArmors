@@ -40,6 +40,10 @@ public class ModItemGroups {
                         entries.add(ModItems.BULWARK_LEGGINGS);
                         entries.add(ModItems.BULWARK_BOOTS);
 
+                        entries.add(ModItems.AQUA_DIAMOND_HELMET);
+                        entries.add(ModItems.AQUA_DIAMOND_CHESTPLATE);
+                        entries.add(ModItems.AQUA_DIAMOND_LEGGINGS);
+                        entries.add(ModItems.AQUA_DIAMOND_BOOTS);
 
                     }).build());
 
