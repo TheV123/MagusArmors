@@ -79,11 +79,15 @@ public class ModItems {
     public static final Item WISE_IRON_BOOTS = registerItem("wise_iron_boots",
             new ModArmorWiseIron(ModArmorMaterials.WISE_IRON, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
-    private static void addItemsToCreativeModeTab(FabricItemGroupEntries entries) {
-        entries.add(PLATED_IRON_UPGRADE);
-        entries.add(PLATED_DIAMOND_UPGRADE);
-        entries.add(PLATED_NETHERITE_UPGRADE);
-    }
+    public static final Item WISE_DIAMOND_HELMET = registerItem("wise_diamond_helmet",
+            new ModArmorWiseDiamond(ModArmorMaterials.WISE_DIAMOND, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item WISE_DIAMOND_CHESTPLATE = registerItem("wise_diamond_chestplate",
+            new ModArmorWiseDiamond(ModArmorMaterials.WISE_DIAMOND, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item WISE_DIAMOND_LEGGINGS = registerItem("wise_diamond_leggings",
+            new ModArmorWiseDiamond(ModArmorMaterials.WISE_DIAMOND, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item WISE_DIAMOND_BOOTS = registerItem("wise_diamond_boots",
+            new ModArmorWiseDiamond(ModArmorMaterials.WISE_DIAMOND, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(AwesomeArmaments.MOD_ID, name), item);
     }
@@ -91,7 +95,5 @@ public class ModItems {
     public static void registerModItems() {
         AwesomeArmaments.LOGGER.info("Registering Mod Items for " + AwesomeArmaments.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(
-                ModItems::addItemsToCreativeModeTab);
     }
 }

@@ -19,6 +19,11 @@
   "item.awesomearmaments.wise_iron_leggings": "Wise Iron Leggings",
   "item.awesomearmaments.wise_iron_boots": "Wise Iron Boots",
 
+  "item.awesomearmaments.wise_diamond_helmet": "Wise Diamond Helmet",
+  "item.awesomearmaments.wise_diamond_chestplate": "Wise Diamond Chestplate",
+  "item.awesomearmaments.wise_diamond_leggings": "Wise Diamond Leggings",
+  "item.awesomearmaments.wise_diamond_boots": "Wise Diamond Boots",
+
   "item.awesomearmaments.bulwark_helmet": "Bulwark Helmet",
   "item.awesomearmaments.bulwark_chestplate": "Bulwark Chestplate",
   "item.awesomearmaments.bulwark_leggings": "Bulwark Leggings",
@@ -28,5 +33,5 @@
   "item.awesomearmaments.plated_diamond_upgrade": "Plated Diamond Upgrade",
   "item.awesomearmaments.plated_netherite_upgrade": "Plated Netherite Upgrade",
 
-  "itemgroup.upgrade": "Upgraded Materials"
+  "itemgroup.awesome_armaments": "Awesome Armaments"
 }

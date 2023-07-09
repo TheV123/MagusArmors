@@ -6,13 +6,13 @@ import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-public class ModArmorWiseIron extends ArmorItem {
+public class ModArmorWiseDiamond extends ArmorItem {
+
     private static final int REPAIR_TICKS = 200;  // Number of ticks between repairs
-    private static final int REPAIR_AMOUNT = 2;   // Amount of durability to repair per tick
-    public ModArmorWiseIron(ArmorMaterial material, Type type, Settings settings) {
+    private static final int REPAIR_AMOUNT = 3;   // Amount of durability to repair per tick
+    public ModArmorWiseDiamond(ArmorMaterial material, Type type, Settings settings) {
         super(material, type, settings);
     }
-
     @Override
     public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {
         super.inventoryTick(stack, world, entity, slot, selected);
@@ -23,6 +23,4 @@ public class ModArmorWiseIron extends ArmorItem {
             }
         }
     }
-
-
 }

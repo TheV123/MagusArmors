@@ -30,10 +30,10 @@ public class ModArmorBulwark extends ArmorItem{
         float knockbackResistance = ModArmorMaterials.BULWARK.getKnockbackResistance();
 
         ImmutableMultimap.Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
-        builder.put(EntityAttributes.GENERIC_MOVEMENT_SPEED, new EntityAttributeModifier("Speed  modifier", -0.01, EntityAttributeModifier.Operation.ADDITION));
         builder.put(EntityAttributes.GENERIC_ARMOR, new EntityAttributeModifier("Armor  modifier", protection, EntityAttributeModifier.Operation.ADDITION));
         builder.put(EntityAttributes.GENERIC_ARMOR_TOUGHNESS, new EntityAttributeModifier("Armor  toughness", toughness, EntityAttributeModifier.Operation.ADDITION));
         builder.put(EntityAttributes.GENERIC_KNOCKBACK_RESISTANCE, new EntityAttributeModifier("Armor knockback resistance", knockbackResistance, EntityAttributeModifier.Operation.ADDITION));
+        builder.put(EntityAttributes.GENERIC_MOVEMENT_SPEED, new EntityAttributeModifier("Speed  modifier", -0.005, EntityAttributeModifier.Operation.ADDITION));
 
         this.attributeModifiers = builder.build();
     }

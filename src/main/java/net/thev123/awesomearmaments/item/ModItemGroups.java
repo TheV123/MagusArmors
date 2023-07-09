@@ -11,12 +11,36 @@ import net.minecraft.registry.Registry;
 
 public class ModItemGroups {
     public static final ItemGroup UPGRADE = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(AwesomeArmaments.MOD_ID, "upgrade"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.upgrade"))
-                    .icon(() -> new ItemStack(ModItems.PLATED_IRON_UPGRADE)).entries((displayContext, entries) -> {
+            new Identifier(AwesomeArmaments.MOD_ID, "awesome_armaments"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.awesome_armaments"))
+                    .icon(() -> new ItemStack(ModItems.PLATED_IRON_HELMET)).entries((displayContext, entries) -> {
                         entries.add(ModItems.PLATED_IRON_UPGRADE);
                         entries.add(ModItems.PLATED_DIAMOND_UPGRADE);
                         entries.add(ModItems.PLATED_NETHERITE_UPGRADE);
+                        entries.add(ModItems.PLATED_IRON_HELMET);
+                        entries.add(ModItems.PLATED_IRON_CHESTPLATE);
+                        entries.add(ModItems.PLATED_IRON_LEGGINGS);
+                        entries.add(ModItems.PLATED_IRON_BOOTS);
+                        entries.add(ModItems.PLATED_DIAMOND_HELMET);
+                        entries.add(ModItems.PLATED_DIAMOND_CHESTPLATE);
+                        entries.add(ModItems.PLATED_DIAMOND_LEGGINGS);
+                        entries.add(ModItems.PLATED_DIAMOND_BOOTS);
+                        entries.add(ModItems.PLATED_NETHERITE_HELMET);
+                        entries.add(ModItems.PLATED_NETHERITE_CHESTPLATE);
+                        entries.add(ModItems.PLATED_NETHERITE_LEGGINGS);
+                        entries.add(ModItems.PLATED_NETHERITE_BOOTS);
+
+                        entries.add(ModItems.WISE_IRON_HELMET);
+                        entries.add(ModItems.WISE_IRON_CHESTPLATE);
+                        entries.add(ModItems.WISE_IRON_LEGGINGS);
+                        entries.add(ModItems.WISE_IRON_BOOTS);
+
+                        entries.add(ModItems.BULWARK_HELMET);
+                        entries.add(ModItems.BULWARK_CHESTPLATE);
+                        entries.add(ModItems.BULWARK_LEGGINGS);
+                        entries.add(ModItems.BULWARK_BOOTS);
+
+
                     }).build());
 
     public static void registerItemGroups() {
