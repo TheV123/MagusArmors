@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:iron-ingot"
+  },
+  "base": {
+    "item": "minecraft:iron_helmet"
+  },
+  "result": {
+    "item": "awesomearmaments:wise_iron_helmet"
+  },
+  "template": {
+    "item": "awesomearmaments:wise_iron"
+  }
+}

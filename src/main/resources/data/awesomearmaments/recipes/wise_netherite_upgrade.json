@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#N#",
+    "ECE",
+    "#V#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:experience_bottle"
+    },
+    "N": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "E": {
+      "item": "minecraft:enchanted_book"
+    },
+    "C": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "V": {
+      "item": "minecraft:emerald_block"
+    }
+  },
+  "result": {}
+}
