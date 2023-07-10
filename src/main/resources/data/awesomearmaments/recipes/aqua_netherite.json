@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#N#",
+    "WCW",
+    "#T#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "N": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    },
+    "C": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "T": {
+      "item": "minecraft:trident"
+    }
+  },
+  "result": {
+    "item": "awesomearmaments:aqua_netherite"
+  }
+}

@@ -48,10 +48,12 @@ public class ModItemGroups {
                         entries.add(ModItems.WISE_NETHERITE_LEGGINGS);
                         entries.add(ModItems.WISE_NETHERITE_BOOTS);
 
+                        entries.add(ModItems.AQUA_DIAMOND);
                         entries.add(ModItems.AQUA_DIAMOND_HELMET);
                         entries.add(ModItems.AQUA_DIAMOND_CHESTPLATE);
                         entries.add(ModItems.AQUA_DIAMOND_LEGGINGS);
                         entries.add(ModItems.AQUA_DIAMOND_BOOTS);
+                        entries.add(ModItems.AQUA_NETHERITE);
 
                         entries.add(ModItems.BULWARK_HELMET);
                         entries.add(ModItems.BULWARK_CHESTPLATE);
