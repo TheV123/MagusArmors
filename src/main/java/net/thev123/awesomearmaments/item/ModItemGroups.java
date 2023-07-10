@@ -35,7 +35,6 @@ public class ModItemGroups {
                         entries.add(ModItems.WISE_IRON_CHESTPLATE);
                         entries.add(ModItems.WISE_IRON_LEGGINGS);
                         entries.add(ModItems.WISE_IRON_BOOTS);
-                        entries.add(ModItems.WISE_DIAMOND);
                         entries.add(ModItems.WISE_DIAMOND_UPGRADE);
                         entries.add(ModItems.WISE_DIAMOND_HELMET);
                         entries.add(ModItems.WISE_DIAMOND_CHESTPLATE);

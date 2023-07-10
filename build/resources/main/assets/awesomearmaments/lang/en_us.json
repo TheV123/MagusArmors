@@ -43,11 +43,11 @@
   "item.awesomearmaments.plated_diamond_upgrade": "Plated Diamond Upgrade",
   "item.awesomearmaments.plated_netherite_upgrade": "Plated Netherite Upgrade",
 
-  "item.awesomearmaments.wise_iron": "Wise Iron",
-  "item.awesomearmaments.wise_diamond": "Wise Diamond",
-  "item.awesomearmaments.wise_netherite": "Wise Netherite",
+  "item.awesomearmaments.wise_iron_upgrade": "Wise Iron Upgrade",
   "item.awesomearmaments.wise_diamond_upgrade": "Wise Diamond Upgrade",
   "item.awesomearmaments.wise_netherite_upgrade": "Wise Netherite Upgrade",
+
+  "item.awesomearmaments.wise_netherite": "Wise Netherite",
 
   "item.awesomearmaments.aqua_diamond": "Aqua Diamond",
   "item.awesomearmaments.aqua_netherite": "Aqua Netherite",
