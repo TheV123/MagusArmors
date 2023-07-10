@@ -16,13 +16,13 @@
       "item": "minecraft:water_bucket"
     },
     "C": {
-      "item": "minecraft:crying_obsidian"
+      "item": "awesomearmaments:aqua_diamond_upgrade"
     },
     "T": {
       "item": "minecraft:trident"
     }
   },
   "result": {
-    "item": "awesomearmaments:aqua_netherite"
+    "item": "awesomearmaments:aqua_netherite_upgrade"
   }
 }

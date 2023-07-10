@@ -16,10 +16,14 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.PLATED_IRON_HELMET)).entries((displayContext, entries) -> {
                         entries.add(ModItems.PLATED_IRON_UPGRADE);
                         entries.add(ModItems.WISE_IRON_UPGRADE);
+
                         entries.add(ModItems.PLATED_DIAMOND_UPGRADE);
                         entries.add(ModItems.WISE_DIAMOND_UPGRADE);
+                        entries.add(ModItems.AQUA_DIAMOND_UPGRADE);
+
                         entries.add(ModItems.PLATED_NETHERITE_UPGRADE);
                         entries.add(ModItems.WISE_NETHERITE_UPGRADE);
+                        entries.add(ModItems.AQUA_NETHERITE_UPGRADE);
 
                         entries.add(ModItems.PLATED_IRON_HELMET);
                         entries.add(ModItems.PLATED_IRON_CHESTPLATE);
@@ -47,12 +51,10 @@ public class ModItemGroups {
                         entries.add(ModItems.WISE_NETHERITE_LEGGINGS);
                         entries.add(ModItems.WISE_NETHERITE_BOOTS);
 
-                        entries.add(ModItems.AQUA_DIAMOND);
                         entries.add(ModItems.AQUA_DIAMOND_HELMET);
                         entries.add(ModItems.AQUA_DIAMOND_CHESTPLATE);
                         entries.add(ModItems.AQUA_DIAMOND_LEGGINGS);
                         entries.add(ModItems.AQUA_DIAMOND_BOOTS);
-                        entries.add(ModItems.AQUA_NETHERITE);
 
                         entries.add(ModItems.BULWARK_HELMET);
                         entries.add(ModItems.BULWARK_CHESTPLATE);
