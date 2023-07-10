@@ -30,7 +30,7 @@ public class ModItemGroups {
                         entries.add(ModItems.PLATED_NETHERITE_LEGGINGS);
                         entries.add(ModItems.PLATED_NETHERITE_BOOTS);
 
-                        entries.add(ModItems.WISE_IRON);
+                        entries.add(ModItems.WISE_IRON_UPGRADE);
                         entries.add(ModItems.WISE_IRON_HELMET);
                         entries.add(ModItems.WISE_IRON_CHESTPLATE);
                         entries.add(ModItems.WISE_IRON_LEGGINGS);
