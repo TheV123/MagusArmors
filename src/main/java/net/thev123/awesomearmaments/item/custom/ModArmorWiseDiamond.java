@@ -73,7 +73,7 @@ public class ModArmorWiseDiamond extends ArmorItem {
 
         // effect repeat issue fix
         if (player.getActiveStatusEffects().containsKey(ModEffects.EXPERIENCE_EMPOWER)) {
-            if (player.getActiveStatusEffects().get(mapStatusEffect.getEffectType()).getDuration() < 221) {
+            if (player.getActiveStatusEffects().get(mapStatusEffect.getEffectType()).getDuration() < 100) {
                 player.addStatusEffect(new StatusEffectInstance(ModEffects.EXPERIENCE_EMPOWER,
                         effectDuration, amplifier, false, false, false));
             }

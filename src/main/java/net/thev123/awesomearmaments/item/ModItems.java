@@ -19,8 +19,6 @@ public class ModItems {
 
     public static final Item WISE_IRON_UPGRADE = registerItem("wise_iron_upgrade",
             new Item(new FabricItemSettings()));
-    public static final Item WISE_NETHERITE = registerItem("wise_netherite",
-            new Item(new FabricItemSettings()));
     public static final Item WISE_DIAMOND_UPGRADE = registerItem("wise_diamond_upgrade",
             new Item(new FabricItemSettings()));
     public static final Item WISE_NETHERITE_UPGRADE = registerItem(
