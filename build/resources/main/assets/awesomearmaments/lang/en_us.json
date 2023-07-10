@@ -24,6 +24,11 @@
   "item.awesomearmaments.wise_diamond_leggings": "Wise Diamond Leggings",
   "item.awesomearmaments.wise_diamond_boots": "Wise Diamond Boots",
 
+  "item.awesomearmaments.wise_netherite_helmet": "Wise Netherite Helmet",
+  "item.awesomearmaments.wise_netherite_chestplate": "Wise Netherite Chestplate",
+  "item.awesomearmaments.wise_netherite_leggings": "Wise Netherite Leggings",
+  "item.awesomearmaments.wise_netherite_boots": "Wise Netherite Boots",
+
   "item.awesomearmaments.aqua_diamond_helmet": "Aqua Diamond Helmet",
   "item.awesomearmaments.aqua_diamond_chestplate": "Aqua Diamond Chestplate",
   "item.awesomearmaments.aqua_diamond_leggings": "Aqua Diamond Leggings",
@@ -37,6 +42,12 @@
   "item.awesomearmaments.plated_iron_upgrade": "Plated Iron Upgrade",
   "item.awesomearmaments.plated_diamond_upgrade": "Plated Diamond Upgrade",
   "item.awesomearmaments.plated_netherite_upgrade": "Plated Netherite Upgrade",
+
+  "item.awesomearmaments.wise_iron": "Wise Iron",
+  "item.awesomearmaments.wise_diamond": "Wise Diamond",
+  "item.awesomearmaments.wise_netherite": "Wise Netherite",
+  "item.awesomearmaments.wise_diamond_upgrade": "Wise Diamond Upgrade",
+  "item.awesomearmaments.wise_netherite_upgrade": "Wise Netherite Upgrade",
 
   "itemgroup.awesomearmaments": "Awesome Armaments",
 

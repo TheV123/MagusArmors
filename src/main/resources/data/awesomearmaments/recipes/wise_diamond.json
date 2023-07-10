@@ -19,5 +19,7 @@
       "item": "minecraft:emerald"
     }
   },
-  "result": {}
+  "result": {
+    "item": "awesomearmaments:wise_diamond"
+  }
 }

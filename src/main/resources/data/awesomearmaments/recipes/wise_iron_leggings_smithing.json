@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "minecraft:iron-ingot"
+    "item": "minecraft:iron_ingot"
   },
   "base": {
     "item": "minecraft:iron_leggings"

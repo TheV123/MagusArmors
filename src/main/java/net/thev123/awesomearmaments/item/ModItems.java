@@ -20,6 +20,17 @@ public class ModItems {
     public static final Item PLATED_NETHERITE_UPGRADE = registerItem("plated_netherite_upgrade",
             new Item(new FabricItemSettings()));
 
+    public static final Item WISE_IRON = registerItem("wise_iron",
+            new Item(new FabricItemSettings()));
+    public static final Item WISE_DIAMOND = registerItem("wise_diamond",
+            new Item(new FabricItemSettings()));
+    public static final Item WISE_NETHERITE = registerItem("wise_netherite",
+            new Item(new FabricItemSettings()));
+    public static final Item WISE_DIAMOND_UPGRADE = registerItem("wise_diamond_upgrade",
+            new Item(new FabricItemSettings()));
+    public static final Item WISE_NETHERITE_UPGRADE = registerItem(
+            "wise_netherite_upgrade", new Item(new FabricItemSettings()));
+
     public static final Item PLATED_IRON_HELMET = registerItem("plated_iron_helmet",
             new ArmorItem(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.HELMET,
                     new FabricItemSettings()));
@@ -72,6 +83,15 @@ public class ModItems {
             new ModArmorWiseDiamond(ModArmorMaterials.WISE_DIAMOND, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item WISE_DIAMOND_BOOTS = registerItem("wise_diamond_boots",
             new ModArmorWiseDiamond(ModArmorMaterials.WISE_DIAMOND, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item WISE_NETHERITE_HELMET = registerItem("wise_netherite_helmet",
+            new ModArmorWiseDiamond(ModArmorMaterials.WISE_NETHERITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item WISE_NETHERITE_CHESTPLATE = registerItem("wise_netherite_chestplate",
+            new ModArmorWiseDiamond(ModArmorMaterials.WISE_NETHERITE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item WISE_NETHERITE_LEGGINGS = registerItem("wise_netherite_leggings",
+            new ModArmorWiseDiamond(ModArmorMaterials.WISE_NETHERITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item WISE_NETHERITE_BOOTS = registerItem("wise_netherite_boots",
+            new ModArmorWiseDiamond(ModArmorMaterials.WISE_NETHERITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     public static final Item AQUA_DIAMOND_HELMET = registerItem("aqua_diamond_helmet",
             new ModArmorAquaDiamond(ModArmorMaterials.AQUA_DIAMOND, ArmorItem.Type.HELMET, new FabricItemSettings()));

@@ -30,14 +30,23 @@ public class ModItemGroups {
                         entries.add(ModItems.PLATED_NETHERITE_LEGGINGS);
                         entries.add(ModItems.PLATED_NETHERITE_BOOTS);
 
+                        entries.add(ModItems.WISE_IRON);
                         entries.add(ModItems.WISE_IRON_HELMET);
                         entries.add(ModItems.WISE_IRON_CHESTPLATE);
                         entries.add(ModItems.WISE_IRON_LEGGINGS);
                         entries.add(ModItems.WISE_IRON_BOOTS);
+                        entries.add(ModItems.WISE_DIAMOND);
+                        entries.add(ModItems.WISE_DIAMOND_UPGRADE);
                         entries.add(ModItems.WISE_DIAMOND_HELMET);
                         entries.add(ModItems.WISE_DIAMOND_CHESTPLATE);
                         entries.add(ModItems.WISE_DIAMOND_LEGGINGS);
                         entries.add(ModItems.WISE_DIAMOND_BOOTS);
+                        entries.add(ModItems.WISE_NETHERITE);
+                        entries.add(ModItems.WISE_NETHERITE_UPGRADE);
+                        entries.add(ModItems.WISE_NETHERITE_HELMET);
+                        entries.add(ModItems.WISE_NETHERITE_CHESTPLATE);
+                        entries.add(ModItems.WISE_NETHERITE_LEGGINGS);
+                        entries.add(ModItems.WISE_NETHERITE_BOOTS);
 
                         entries.add(ModItems.AQUA_DIAMOND_HELMET);
                         entries.add(ModItems.AQUA_DIAMOND_CHESTPLATE);

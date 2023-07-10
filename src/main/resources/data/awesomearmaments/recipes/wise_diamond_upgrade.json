@@ -19,5 +19,7 @@
       "item": "minecraft:crying_obsidian"
     }
   },
-  "result": {}
+  "result": {
+    "item": "awesomearmaments:wise_diamond_upgrade"
+  }
 }
