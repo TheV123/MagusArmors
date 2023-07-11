@@ -15,14 +15,14 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.awesomearmaments"))
                     .icon(() -> new ItemStack(ModItems.PLATED_IRON_HELMET)).entries((displayContext, entries) -> {
                         entries.add(ModItems.PLATED_IRON_UPGRADE);
-                        entries.add(ModItems.WISE_IRON_UPGRADE);
-
                         entries.add(ModItems.PLATED_DIAMOND_UPGRADE);
-                        entries.add(ModItems.WISE_DIAMOND_UPGRADE);
-                        entries.add(ModItems.AQUA_DIAMOND_UPGRADE);
-
                         entries.add(ModItems.PLATED_NETHERITE_UPGRADE);
+
+                        entries.add(ModItems.WISE_IRON_UPGRADE);
+                        entries.add(ModItems.WISE_DIAMOND_UPGRADE);
                         entries.add(ModItems.WISE_NETHERITE_UPGRADE);
+
+                        entries.add(ModItems.AQUA_DIAMOND_UPGRADE);
                         entries.add(ModItems.AQUA_NETHERITE_UPGRADE);
 
                         entries.add(ModItems.PLATED_IRON_HELMET);
