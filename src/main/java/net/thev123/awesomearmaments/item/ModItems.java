@@ -63,7 +63,6 @@ public class ModItems {
     public static final Item PLATED_NETHERITE_BOOTS = registerItem("plated_netherite_boots",
             new ArmorItem(ModArmorMaterials.PLATED_NETHERITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
-    //temporary texture from: https://www.planetminecraft.com/texture-pack/glistening-iron-java-edition/
     public static final Item WISE_IRON_HELMET = registerItem("wise_iron_helmet",
             new ModArmorWiseIron(ModArmorMaterials.WISE_IRON, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item WISE_IRON_CHESTPLATE = registerItem("wise_iron_chestplate",
@@ -100,7 +99,6 @@ public class ModItems {
     public static final Item AQUA_DIAMOND_BOOTS = registerItem("aqua_diamond_boots",
             new ModArmorAquaDiamond(ModArmorMaterials.AQUA_DIAMOND, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
-    //temporary textures from https://www.planetminecraft.com/texture-pack/improved-netherite-by-toxteer/
     public static final Item BULWARK_HELMET = registerItem("bulwark_helmet",
             new ModArmorBulwark(ModArmorMaterials.BULWARK, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item BULWARK_CHESTPLATE = registerItem("bulwark_chestplate",
