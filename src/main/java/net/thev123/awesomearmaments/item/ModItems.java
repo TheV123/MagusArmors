@@ -99,6 +99,15 @@ public class ModItems {
     public static final Item AQUA_DIAMOND_BOOTS = registerItem("aqua_diamond_boots",
             new ModArmorAquaDiamond(ModArmorMaterials.AQUA_DIAMOND, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
+    public static final Item AQUA_NETHERITE_HELMET = registerItem("aqua_netherite_helmet",
+            new ModArmorAquaNetherite(ModArmorMaterials.AQUA_NETHERITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item AQUA_NETHERITE_CHESTPLATE = registerItem("aqua_netherite_chestplate",
+            new ModArmorAquaNetherite(ModArmorMaterials.AQUA_NETHERITE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item AQUA_NETHERITE_LEGGINGS = registerItem("aqua_netherite_leggings",
+            new ModArmorAquaNetherite(ModArmorMaterials.AQUA_NETHERITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item AQUA_NETHERITE_BOOTS = registerItem("aqua_netherite_boots",
+            new ModArmorAquaNetherite(ModArmorMaterials.AQUA_NETHERITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
     public static final Item BULWARK_HELMET = registerItem("bulwark_helmet",
             new ModArmorBulwark(ModArmorMaterials.BULWARK, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item BULWARK_CHESTPLATE = registerItem("bulwark_chestplate",
