@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ExperienceEmpowerEffect extends StatusEffect {
-    private static final float HEAL_CHANCE = 0.1f;  // 10% chance to heal
+    private static final float HEAL_CHANCE = 0.15f;  // 15% chance to heal
     private static final int HEAL_AMOUNT = 1;
 
     private static boolean flag = true;

@@ -19,13 +19,13 @@ public enum ModArmorMaterials implements ArmorMaterial {
     PLATED_NETHERITE("plated_netherite", 42, new int[]{4, 6, 8, 4}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.5F, 0.25F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.NETHERITE_INGOT});
     }),
-    WISE_IRON("wise_iron", 15, new int[]{2, 5, 6, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
+    WISE_IRON("wise_iron", 15, new int[]{2, 5, 6, 2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.IRON_INGOT});
     }),
-    WISE_DIAMOND("wise_diamond", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> {
+    WISE_DIAMOND("wise_diamond", 33, new int[]{3, 6, 8, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.DIAMOND});
     }),
-    WISE_NETHERITE("wise_netherite", 37, new int[]{3, 6, 8, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 2.0F, 0.1F, () -> {
+    WISE_NETHERITE("wise_netherite", 37, new int[]{3, 6, 8, 3}, 20, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 2.0F, 0.1F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.NETHERITE_INGOT});
     }),
     AQUA_DIAMOND("aqua_diamond", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> {
@@ -34,7 +34,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     AQUA_NETHERITE("aqua_netherite", 37, new int[]{3, 6, 8, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.NETHERITE_INGOT});
     }),
-    BULWARK("bulwark", 50, new int[]{5, 7, 8, 5}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 5F, 0.5F, () -> {
+    BULWARK("bulwark", 50, new int[]{5, 8, 9, 5}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 5F, 0.5F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.NETHERITE_INGOT});
     });
 
