@@ -15,17 +15,19 @@ import net.thev123.awesomearmaments.item.ModArmorMaterials;
 import java.util.Map;
 
 public class ModArmorAquaNetherite extends ArmorItem{
+    public static final int effectDuration = 200;
+    public static final int amplifier = 0;
     public ModArmorAquaNetherite(ArmorMaterial material, ArmorItem.Type type, Item.Settings settings) {
         super(material, type, settings);
     }
     //effects
     private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP1 =
             new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>()
-                    .put(ModArmorMaterials.AQUA_NETHERITE, new StatusEffectInstance(StatusEffects.CONDUIT_POWER, 200, 0))
+                    .put(ModArmorMaterials.AQUA_NETHERITE, new StatusEffectInstance(StatusEffects.CONDUIT_POWER, effectDuration, amplifier))
                     .build();
     private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP2 =
             new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>()
-                    .put(ModArmorMaterials.AQUA_NETHERITE, new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE, 200, 0))
+                    .put(ModArmorMaterials.AQUA_NETHERITE, new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE, effectDuration, amplifier))
                     .build();
     @Override
     public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {

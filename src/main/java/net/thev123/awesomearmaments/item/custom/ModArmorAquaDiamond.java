@@ -1,13 +1,7 @@
 package net.thev123.awesomearmaments.item.custom;
 
 import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.ImmutableMultimap;
-import com.google.common.collect.Multimap;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.entity.attribute.EntityAttribute;
-import net.minecraft.entity.attribute.EntityAttributeModifier;
-import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
@@ -20,18 +14,15 @@ import net.thev123.awesomearmaments.item.ModArmorMaterials;
 import java.util.Map;
 
 public class ModArmorAquaDiamond extends ArmorItem{
-
+    public static final int effectDuration = 200;
+    public static final int amplifier = 0;
     public ModArmorAquaDiamond(ArmorMaterial material, Type type, Settings settings) {
         super(material, type, settings);
     }
     //effects
     private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP1 =
             new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>()
-                    .put(ModArmorMaterials.AQUA_DIAMOND, new StatusEffectInstance(StatusEffects.WATER_BREATHING, 200, 0))
-                    .build();
-    private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP2 =
-            new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>()
-                    .put(ModArmorMaterials.AQUA_DIAMOND, new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE, 200, 0))
+                    .put(ModArmorMaterials.AQUA_DIAMOND, new StatusEffectInstance(StatusEffects.CONDUIT_POWER, effectDuration, amplifier))
                     .build();
     @Override
     public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {
@@ -59,16 +50,7 @@ public class ModArmorAquaDiamond extends ArmorItem{
             ArmorMaterial mapArmorMaterial = entry.getKey();
             StatusEffectInstance mapStatusEffect = entry.getValue();
 
-            if(hasCorrectArmorOn(mapArmorMaterial, player)) {
-                addStatusEffectForMaterial(player, mapStatusEffect);
-                break;
-            }
-        }
-        for(Map.Entry<ArmorMaterial, StatusEffectInstance> entry : MATERIAL_TO_EFFECT_MAP2.entrySet()) {
-            ArmorMaterial mapArmorMaterial = entry.getKey();
-            StatusEffectInstance mapStatusEffect = entry.getValue();
-
-            if(hasCorrectArmorOn(mapArmorMaterial, player)) {
+            if (hasCorrectArmorOn(mapArmorMaterial, player)) {
                 addStatusEffectForMaterial(player, mapStatusEffect);
                 break;
             }

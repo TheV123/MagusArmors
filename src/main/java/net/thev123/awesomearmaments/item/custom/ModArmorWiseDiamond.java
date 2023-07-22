@@ -9,7 +9,6 @@ import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
-import net.minecraft.entity.ExperienceOrbEntity;
 import net.thev123.awesomearmaments.effect.ModEffects;
 import net.thev123.awesomearmaments.item.ModArmorMaterials;
 

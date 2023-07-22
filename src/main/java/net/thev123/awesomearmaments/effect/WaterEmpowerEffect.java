@@ -1,20 +1,16 @@
 package net.thev123.awesomearmaments.effect;
 
-import com.google.common.collect.Lists;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityType;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.attribute.EntityAttributeModifier;
+import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.math.Box;
-import net.minecraft.util.math.random.Random;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class WaterEmpowerEffect extends StatusEffect {
+    private static boolean alreadyOn = false;
     protected WaterEmpowerEffect(StatusEffectCategory category, int color) {
         super(category, color);
     }
@@ -23,11 +19,15 @@ public class WaterEmpowerEffect extends StatusEffect {
     public void applyUpdateEffect(LivingEntity pLivingEntity, int pAmplifier) {
         if (!pLivingEntity.getWorld().isClient()) {
             PlayerEntity player = (PlayerEntity) pLivingEntity;
-            if(player.isSubmergedInWater() || player.isSwimming()){
-                ItemStack boots = player.getInventory().getArmorStack(0);
-                ItemStack leggings = player.getInventory().getArmorStack(1);
-                ItemStack chestplate = player.getInventory().getArmorStack(2);
-                ItemStack helmet = player.getInventory().getArmorStack(3);
+            ItemStack boots = player.getInventory().getArmorStack(0);
+            ItemStack leggings = player.getInventory().getArmorStack(1);
+            ItemStack chestplate = player.getInventory().getArmorStack(2);
+            ItemStack helmet = player.getInventory().getArmorStack(3);
+            if(player.isSubmergedInWater() || player.isSwimming() || player.isInsideWaterOrBubbleColumn() || player.isWet()){
+
+            }
+            else{
+
             }
         }
     }

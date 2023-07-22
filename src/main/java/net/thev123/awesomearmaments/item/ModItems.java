@@ -82,13 +82,13 @@ public class ModItems {
             new ModArmorWiseDiamond(ModArmorMaterials.WISE_DIAMOND, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     public static final Item WISE_NETHERITE_HELMET = registerItem("wise_netherite_helmet",
-            new ModArmorWiseDiamond(ModArmorMaterials.WISE_NETHERITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ModArmorWiseNetherite(ModArmorMaterials.WISE_NETHERITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item WISE_NETHERITE_CHESTPLATE = registerItem("wise_netherite_chestplate",
-            new ModArmorWiseDiamond(ModArmorMaterials.WISE_NETHERITE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+            new ModArmorWiseNetherite(ModArmorMaterials.WISE_NETHERITE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item WISE_NETHERITE_LEGGINGS = registerItem("wise_netherite_leggings",
-            new ModArmorWiseDiamond(ModArmorMaterials.WISE_NETHERITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+            new ModArmorWiseNetherite(ModArmorMaterials.WISE_NETHERITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item WISE_NETHERITE_BOOTS = registerItem("wise_netherite_boots",
-            new ModArmorWiseDiamond(ModArmorMaterials.WISE_NETHERITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+            new ModArmorWiseNetherite(ModArmorMaterials.WISE_NETHERITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     public static final Item AQUA_DIAMOND_HELMET = registerItem("aqua_diamond_helmet",
             new ModArmorAquaDiamond(ModArmorMaterials.AQUA_DIAMOND, ArmorItem.Type.HELMET, new FabricItemSettings()));

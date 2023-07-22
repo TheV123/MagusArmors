@@ -17,9 +17,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ExperienceEmpowerEffect extends StatusEffect {
-    private static final float HEAL_CHANCE = 0.15f;  // 15% chance to heal
-    private static final int HEAL_AMOUNT = 1;
-
     private static boolean flag = true;
     protected ExperienceEmpowerEffect(StatusEffectCategory category, int color) {
         super(category, color);
@@ -27,6 +24,16 @@ public class ExperienceEmpowerEffect extends StatusEffect {
 
     @Override
     public void applyUpdateEffect(LivingEntity pLivingEntity, int pAmplifier) {
+        float HEAL_CHANCE =  0.15f; // 15% chance to heal
+        float HEAL_AMOUNT = 1;
+        if (pAmplifier == 1){
+            HEAL_CHANCE = 0.20f; // 20% chance to heal
+            HEAL_AMOUNT = 2;
+        }
+        if (pAmplifier == 2){
+            HEAL_CHANCE = 0.25f; // 25% chance to heal
+            HEAL_AMOUNT = 3;
+        }
         if (!pLivingEntity.getWorld().isClient()) {
             PlayerEntity player = (PlayerEntity) pLivingEntity;
             Box box = player.hasVehicle() && !player.getVehicle().isRemoved() ? player.getBoundingBox().union(player.getVehicle().getBoundingBox()).expand(1.0, 0.0, 1.0) : player.getBoundingBox().expand(1.0, 0.5, 1.0);
@@ -39,12 +46,12 @@ public class ExperienceEmpowerEffect extends StatusEffect {
                     Random random = player.getWorld().random;
                     if(flag){
                         if(random.nextDouble() < HEAL_CHANCE){
-                            player.heal(HEAL_AMOUNT);
+                            player.heal(HEAL_AMOUNT * pAmplifier);
                             flag = false;
                         }
                     }
                     if(!flag){
-                        if(random.nextDouble() < HEAL_CHANCE/2){
+                        if(random.nextDouble() < HEAL_CHANCE/3){
                             player.heal(HEAL_AMOUNT);
                         }
                         flag = true;
