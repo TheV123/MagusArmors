@@ -24,6 +24,7 @@ public class ModArmorInfiniteSight extends ArmorItem {
                     .put(ModArmorMaterials.INFINITE_SIGHT,
                             new StatusEffectInstance(StatusEffects.LUCK, effectDuration, amplifier)).build();
 
+
     public ModArmorInfiniteSight(ArmorMaterial material, ArmorItem.Type slot, Settings settings) {
         super(material, slot, settings);
     }

@@ -10,6 +10,7 @@ import net.thev123.awesomearmaments.AwesomeArmaments;
 public class ModEffects {
     public static StatusEffect EXPERIENCE_EMPOWER;
     public static StatusEffect EXPERIENCE_EMPOWER2;
+    public static StatusEffect INFINITE_SIGHT;
     public static StatusEffect WATER_EMPOWER;
 
 
@@ -21,6 +22,11 @@ public class ModEffects {
         return Registry.register(Registries.STATUS_EFFECT, new Identifier(AwesomeArmaments.MOD_ID, name),
                 new ExperienceEmpowerEffect2(StatusEffectCategory.BENEFICIAL, 0xb2d95f));
     }
+
+    public static StatusEffect registerInfiniteSight(String name) {
+        return Registry.register(Registries.STATUS_EFFECT, new Identifier(AwesomeArmaments.MOD_ID, name),
+                new InfiniteSightEffect(StatusEffectCategory.NEUTRAL, 0xb2d95f));
+    }
     public static StatusEffect registerWaterEmpower(String name) {
         return Registry.register(Registries.STATUS_EFFECT, new Identifier(AwesomeArmaments.MOD_ID, name),
                 new WaterEmpowerEffect(StatusEffectCategory.BENEFICIAL, 0x5fb2d9));
@@ -28,6 +34,7 @@ public class ModEffects {
     public static void registerEffects() {
         EXPERIENCE_EMPOWER = registerExperienceEmpower("experience_empower");
         EXPERIENCE_EMPOWER2 = registerExperienceEmpower2("experience_empower2");
+        INFINITE_SIGHT = registerInfiniteSight("infinite_sight");
         WATER_EMPOWER = registerWaterEmpower("water_empower");
     }
 }
