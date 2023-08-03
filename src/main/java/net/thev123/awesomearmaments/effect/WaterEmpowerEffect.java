@@ -10,7 +10,9 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 
 public class WaterEmpowerEffect extends StatusEffect {
-    private static boolean alreadyOn = false;
+    private int healingCooldown = 0;
+    private static final int MAX_COOLDOWN = 100; // 100 ticks (5 second) between heals
+
     protected WaterEmpowerEffect(StatusEffectCategory category, int color) {
         super(category, color);
     }
@@ -19,7 +21,15 @@ public class WaterEmpowerEffect extends StatusEffect {
     public void applyUpdateEffect(LivingEntity pLivingEntity, int pAmplifier) {
         if (!pLivingEntity.getWorld().isClient()) {
             PlayerEntity player = (PlayerEntity) pLivingEntity;
-
+            if(player.isSubmergedInWater() || player.isSwimming()){
+                if(healingCooldown <= 0){
+                    player.heal(1.0f);
+                    healingCooldown = MAX_COOLDOWN;
+                }
+                else{
+                    healingCooldown --;
+                }
+            }
         }
     }
 
