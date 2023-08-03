@@ -19,16 +19,7 @@ public class WaterEmpowerEffect extends StatusEffect {
     public void applyUpdateEffect(LivingEntity pLivingEntity, int pAmplifier) {
         if (!pLivingEntity.getWorld().isClient()) {
             PlayerEntity player = (PlayerEntity) pLivingEntity;
-            ItemStack boots = player.getInventory().getArmorStack(0);
-            ItemStack leggings = player.getInventory().getArmorStack(1);
-            ItemStack chestplate = player.getInventory().getArmorStack(2);
-            ItemStack helmet = player.getInventory().getArmorStack(3);
-            if(player.isSubmergedInWater() || player.isSwimming() || player.isInsideWaterOrBubbleColumn() || player.isWet()){
 
-            }
-            else{
-
-            }
         }
     }
 

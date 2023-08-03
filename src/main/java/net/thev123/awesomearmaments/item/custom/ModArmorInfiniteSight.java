@@ -14,17 +14,17 @@ import net.thev123.awesomearmaments.item.ModArmorMaterials;
 
 import java.util.Map;
 
-public class ModArmorWiseNetherite extends ArmorItem {
+public class ModArmorInfiniteSight extends ArmorItem {
     public static final int effectDuration = 200;
     public static final int amplifier = 0;
     private static final int REPAIR_TICKS = 200;  // Number of ticks between repairs
-    private static final int REPAIR_AMOUNT = 2;   // Amount of durability to repair per tick
+    private static final int REPAIR_AMOUNT = 3;   // Amount of durability to repair per tick
     private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>())
-                    .put(ModArmorMaterials.WISE_NETHERITE,
+                    .put(ModArmorMaterials.INFINITE_SIGHT,
                             new StatusEffectInstance(StatusEffects.LUCK, effectDuration, amplifier)).build();
 
-    public ModArmorWiseNetherite(ArmorMaterial material, ArmorItem.Type slot, Settings settings) {
+    public ModArmorInfiniteSight(ArmorMaterial material, ArmorItem.Type slot, Settings settings) {
         super(material, slot, settings);
     }
 
@@ -50,7 +50,7 @@ public class ModArmorWiseNetherite extends ArmorItem {
 
     private void evaluateArmorEffects(PlayerEntity player) {
         for (Map.Entry<ArmorMaterial, StatusEffectInstance> entry : MATERIAL_TO_EFFECT_MAP.entrySet()) {
-            ArmorMaterial mapArmorMaterial = ModArmorMaterials.WISE_NETHERITE;
+            ArmorMaterial mapArmorMaterial = ModArmorMaterials.INFINITE_SIGHT;
             StatusEffectInstance mapStatusEffect = new StatusEffectInstance(ModEffects.EXPERIENCE_EMPOWER2,
                     effectDuration, amplifier, false, false, false);
 
@@ -69,7 +69,7 @@ public class ModArmorWiseNetherite extends ArmorItem {
         }
 
         // effect repeat issue fix
-        if (player.getActiveStatusEffects().containsKey(ModEffects.EXPERIENCE_EMPOWER2)) {
+        if (player.getActiveStatusEffects().containsKey(ModEffects.EXPERIENCE_EMPOWER)) {
             if (player.getActiveStatusEffects().get(mapStatusEffect.getEffectType()).getDuration() < 100) {
                 player.addStatusEffect(new StatusEffectInstance(ModEffects.EXPERIENCE_EMPOWER2,
                         effectDuration, amplifier, false, false, false));

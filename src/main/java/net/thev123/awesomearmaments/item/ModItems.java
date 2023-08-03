@@ -117,6 +117,24 @@ public class ModItems {
     public static final Item BULWARK_BOOTS = registerItem("bulwark_boots",
             new ModArmorBulwark(ModArmorMaterials.BULWARK, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
+    public static final Item INFINITE_SIGHT_HELMET = registerItem("infinite_sight_helmet",
+            new ModArmorInfiniteSight(ModArmorMaterials.INFINITE_SIGHT, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item INFINTIE_SIGHT_CHESTPLATE = registerItem("infinite_sight_chestplate",
+            new ModArmorInfiniteSight(ModArmorMaterials.INFINITE_SIGHT, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item INFINITE_SIGHT_LEGGINGS = registerItem("infinite_sight_leggings",
+            new ModArmorInfiniteSight(ModArmorMaterials.INFINITE_SIGHT, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item INFINITE_SIGHT_BOOTS = registerItem("infinite_sight_boots",
+            new ModArmorInfiniteSight(ModArmorMaterials.INFINITE_SIGHT, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item NEPTUNE_HELMET = registerItem("neptune_helmet",
+            new ModArmorNeptune(ModArmorMaterials.NEPTUNE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item NEPTUNE_CHESTPLATE = registerItem("neptune_chestplate",
+            new ModArmorNeptune(ModArmorMaterials.NEPTUNE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item NEPTUNE_LEGGINGS = registerItem("neptune_leggings",
+            new ModArmorNeptune(ModArmorMaterials.NEPTUNE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item NEPTUNE_BOOTS = registerItem("neptune_boots",
+            new ModArmorNeptune(ModArmorMaterials.NEPTUNE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(AwesomeArmaments.MOD_ID, name), item);

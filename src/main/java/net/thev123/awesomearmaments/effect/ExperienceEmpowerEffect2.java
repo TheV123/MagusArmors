@@ -3,25 +3,22 @@ package net.thev123.awesomearmaments.effect;
 import com.google.common.collect.Lists;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
-import net.minecraft.entity.ExperienceOrbEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
-import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.HungerManager;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.math.Box;
 import net.minecraft.util.math.random.Random;
-import org.jetbrains.annotations.Nullable;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ExperienceEmpowerEffect extends StatusEffect {
+public class ExperienceEmpowerEffect2 extends StatusEffect {
     private static boolean flag = true;
     private final float HEAL_CHANCE =  0.15f; // 15% chance to heal
-    private final float HEAL_AMOUNT = 1;  //heals .5 hearts
-    protected ExperienceEmpowerEffect(StatusEffectCategory category, int color) {
+    private final float HEAL_AMOUNT = 2;  //heals 1 heart
+    protected ExperienceEmpowerEffect2(StatusEffectCategory category, int color) {
         super(category, color);
     }
 
