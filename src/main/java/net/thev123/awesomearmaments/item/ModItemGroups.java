@@ -65,6 +65,11 @@ public class ModItemGroups {
                         entries.add(ModItems.BULWARK_LEGGINGS);
                         entries.add(ModItems.BULWARK_BOOTS);
 
+                        entries.add(ModItems.NEPTUNE_HELMET);
+                        entries.add(ModItems.NEPTUNE_CHESTPLATE);
+                        entries.add(ModItems.NEPTUNE_LEGGINGS);
+                        entries.add(ModItems.NEPTUNE_BOOTS);
+
 
                     }).build());
 
