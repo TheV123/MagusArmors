@@ -6,7 +6,6 @@ import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
 
 public class InfiniteSightEffect extends StatusEffect {
