@@ -25,9 +25,9 @@ public class ModArmorBerserkNetherite extends ArmorItem{
         super(material, type, settings);
 
         //attributes
-        int protection = ModArmorMaterials.BULWARK.getProtection(type);
-        float toughness = ModArmorMaterials.BULWARK.getToughness();
-        float knockbackResistance = ModArmorMaterials.BULWARK.getKnockbackResistance();
+        int protection = ModArmorMaterials.BERSERK_NETHERITE.getProtection(type);
+        float toughness = ModArmorMaterials.BERSERK_NETHERITE.getToughness();
+        float knockbackResistance = ModArmorMaterials.BERSERK_NETHERITE.getKnockbackResistance();
 
         ImmutableMultimap.Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
         builder.put(EntityAttributes.GENERIC_ARMOR, new EntityAttributeModifier("Armor  modifier", protection, EntityAttributeModifier.Operation.ADDITION));
