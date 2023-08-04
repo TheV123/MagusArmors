@@ -12,7 +12,7 @@ import java.util.UUID;
 
 public class WaterEmpowerEffect extends StatusEffect {
     private int healingCooldown = 0;
-    private static final int MAX_COOLDOWN = 60; // 60 ticks (3 seconds) between heals
+    private static final int MAX_COOLDOWN = 20; // 20 ticks (1 seconds) between heals
 
     private static final UUID HEALTH_MODIFIER_ID = UUID.fromString("f669e5a0-df49-11eb-ba80-0242ac130004");
     private static final double HEALTH_INCREASE_AMOUNT = 4.0; // 2 hearts increase (each heart is 2 health points)

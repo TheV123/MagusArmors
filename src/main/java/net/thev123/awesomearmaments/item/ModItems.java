@@ -108,6 +108,23 @@ public class ModItems {
     public static final Item AQUA_NETHERITE_BOOTS = registerItem("aqua_netherite_boots",
             new ModArmorAquaNetherite(ModArmorMaterials.AQUA_NETHERITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
+    public static final Item BERSERK_DIAMOND_HELMET = registerItem("berserk_diamond_helmet",
+            new ModArmorBerserkDiamond(ModArmorMaterials.BERSERK_DIAMOND, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item BERSERK_DIAMOND_CHESTPLATE = registerItem("berserk_diamond_chestplate",
+            new ModArmorBerserkDiamond(ModArmorMaterials.BERSERK_DIAMOND, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item BERSERK_DIAMOND_LEGGINGS = registerItem("berserk_diamond_leggings",
+            new ModArmorBerserkDiamond(ModArmorMaterials.BERSERK_DIAMOND, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item BERSERK_DIAMOND_BOOTS = registerItem("berserk_diamond_boots",
+            new ModArmorBerserkDiamond(ModArmorMaterials.BERSERK_DIAMOND, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item BERSERK_NETHERITE_HELMET = registerItem("berserk_netherite_helmet",
+            new ModArmorBerserkDiamond(ModArmorMaterials.BERSERK_NETHERITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item BERSERK_NETHERITE_CHESTPLATE = registerItem("berserk_netherite_chestplate",
+            new ModArmorBerserkDiamond(ModArmorMaterials.BERSERK_NETHERITE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item BERSERK_NETHERITE_LEGGINGS = registerItem("berserk_netherite_leggings",
+            new ModArmorBerserkDiamond(ModArmorMaterials.BERSERK_NETHERITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item BERSERK_NETHERITE_BOOTS = registerItem("berserk_netherite_boots",
+            new ModArmorBerserkDiamond(ModArmorMaterials.BERSERK_NETHERITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
     public static final Item BULWARK_HELMET = registerItem("bulwark_helmet",
             new ModArmorBulwark(ModArmorMaterials.BULWARK, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item BULWARK_CHESTPLATE = registerItem("bulwark_chestplate",

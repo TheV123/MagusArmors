@@ -60,6 +60,15 @@ public class ModItemGroups {
                         entries.add(ModItems.AQUA_NETHERITE_LEGGINGS);
                         entries.add(ModItems.AQUA_NETHERITE_BOOTS);
 
+                        entries.add(ModItems.BERSERK_DIAMOND_HELMET);
+                        entries.add(ModItems.BERSERK_DIAMOND_CHESTPLATE);
+                        entries.add(ModItems.BERSERK_DIAMOND_LEGGINGS);
+                        entries.add(ModItems.BERSERK_DIAMOND_BOOTS);
+                        entries.add(ModItems.BERSERK_NETHERITE_HELMET);
+                        entries.add(ModItems.BERSERK_NETHERITE_CHESTPLATE);
+                        entries.add(ModItems.BERSERK_NETHERITE_LEGGINGS);
+                        entries.add(ModItems.BERSERK_NETHERITE_BOOTS);
+
                         entries.add(ModItems.BULWARK_HELMET);
                         entries.add(ModItems.BULWARK_CHESTPLATE);
                         entries.add(ModItems.BULWARK_LEGGINGS);
