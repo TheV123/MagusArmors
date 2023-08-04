@@ -24,6 +24,11 @@ public class ModArmorInfiniteSight extends ArmorItem {
                     .put(ModArmorMaterials.INFINITE_SIGHT,
                             new StatusEffectInstance(StatusEffects.LUCK, effectDuration, amplifier)).build();
 
+    private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP2 =
+            (new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>())
+                    .put(ModArmorMaterials.INFINITE_SIGHT,
+                            new StatusEffectInstance(StatusEffects.LUCK, effectDuration, amplifier)).build();
+
 
     public ModArmorInfiniteSight(ArmorMaterial material, ArmorItem.Type slot, Settings settings) {
         super(material, slot, settings);
@@ -59,6 +64,15 @@ public class ModArmorInfiniteSight extends ArmorItem {
                 addStatusEffectForMaterial(player, mapArmorMaterial, mapStatusEffect);
             }
         }
+        for (Map.Entry<ArmorMaterial, StatusEffectInstance> entry : MATERIAL_TO_EFFECT_MAP2.entrySet()) {
+            ArmorMaterial mapArmorMaterial = ModArmorMaterials.INFINITE_SIGHT;
+            StatusEffectInstance mapStatusEffect = new StatusEffectInstance(ModEffects.INFINITE_SIGHT,
+                    effectDuration, amplifier, false, false, false);
+
+            if(hasCorrectArmorOn(mapArmorMaterial, player)) {
+                addStatusEffectForMaterial(player, mapArmorMaterial, mapStatusEffect);
+            }
+        }
     }
 
     private void addStatusEffectForMaterial(PlayerEntity player, ArmorMaterial mapArmorMaterial, StatusEffectInstance mapStatusEffect) {
@@ -68,11 +82,21 @@ public class ModArmorInfiniteSight extends ArmorItem {
             player.addStatusEffect(new StatusEffectInstance(ModEffects.EXPERIENCE_EMPOWER2,
                     effectDuration, amplifier, false, false, false));
         }
+        if(hasCorrectArmorOn(mapArmorMaterial, player) && !hasPlayerEffect) {
+            player.addStatusEffect(new StatusEffectInstance(ModEffects.INFINITE_SIGHT,
+                    effectDuration, amplifier, false, false, false));
+        }
 
         // effect repeat issue fix
-        if (player.getActiveStatusEffects().containsKey(ModEffects.EXPERIENCE_EMPOWER)) {
+        if (player.getActiveStatusEffects().containsKey(ModEffects.EXPERIENCE_EMPOWER2)) {
             if (player.getActiveStatusEffects().get(mapStatusEffect.getEffectType()).getDuration() < 100) {
                 player.addStatusEffect(new StatusEffectInstance(ModEffects.EXPERIENCE_EMPOWER2,
+                        effectDuration, amplifier, false, false, false));
+            }
+        }
+        if (player.getActiveStatusEffects().containsKey(ModEffects.INFINITE_SIGHT)) {
+            if (player.getActiveStatusEffects().get(mapStatusEffect.getEffectType()).getDuration() < 100) {
+                player.addStatusEffect(new StatusEffectInstance(ModEffects.INFINITE_SIGHT,
                         effectDuration, amplifier, false, false, false));
             }
         }
