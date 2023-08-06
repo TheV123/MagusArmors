@@ -13,6 +13,8 @@ public class ModEffects {
     public static StatusEffect INFINITE_SIGHT;
     public static StatusEffect WATER_EMPOWER;
 
+    public static StatusEffect BLOODLUST;
+
 
     public static StatusEffect registerExperienceEmpower(String name) {
         return Registry.register(Registries.STATUS_EFFECT, new Identifier(AwesomeArmaments.MOD_ID, name),
@@ -29,12 +31,17 @@ public class ModEffects {
     }
     public static StatusEffect registerWaterEmpower(String name) {
         return Registry.register(Registries.STATUS_EFFECT, new Identifier(AwesomeArmaments.MOD_ID, name),
-                new WaterEmpowerEffect(StatusEffectCategory.BENEFICIAL, 0x5fb2d9));
+                new WaterEmpowerEffect(StatusEffectCategory.BENEFICIAL, 0x00ffff));
+    }
+    public static StatusEffect registerBloodlust(String name) {
+        return Registry.register(Registries.STATUS_EFFECT, new Identifier(AwesomeArmaments.MOD_ID, name),
+                new BloodlustEffect(StatusEffectCategory.BENEFICIAL, 0xff0000));
     }
     public static void registerEffects() {
         EXPERIENCE_EMPOWER = registerExperienceEmpower("experience_empower");
         EXPERIENCE_EMPOWER2 = registerExperienceEmpower2("experience_empower2");
         INFINITE_SIGHT = registerInfiniteSight("infinite_sight");
         WATER_EMPOWER = registerWaterEmpower("water_empower");
+        BLOODLUST = registerBloodlust("bloodlust");
     }
 }
