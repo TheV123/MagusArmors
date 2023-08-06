@@ -41,7 +41,6 @@ public class ModItems {
     public static final Item PLATED_IRON_BOOTS = registerItem("plated_iron_boots",
             new ArmorItem(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.BOOTS,
                     new FabricItemSettings()));
-    //temporary textures from https://www.planetminecraft.com/texture-pack/spryzeen-s-knight-armor/
     public static final Item PLATED_DIAMOND_HELMET = registerItem("plated_diamond_helmet",
             new ArmorItem(ModArmorMaterials.PLATED_DIAMOND, ArmorItem.Type.HELMET,
                     new FabricItemSettings()));
@@ -152,6 +151,14 @@ public class ModItems {
     public static final Item NEPTUNE_BOOTS = registerItem("neptune_boots",
             new ModArmorNeptune(ModArmorMaterials.NEPTUNE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
+    public static final Item BLOODLUST_HELMET = registerItem("bloodlust_helmet",
+            new ModArmorBloodlust(ModArmorMaterials.BLOODLUST, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item BLOODLUST_CHESTPLATE = registerItem("bloodlust_chestplate",
+            new ModArmorBloodlust(ModArmorMaterials.BLOODLUST, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item BLOODLUST_LEGGINGS = registerItem("bloodlust_leggings",
+            new ModArmorBloodlust(ModArmorMaterials.BLOODLUST, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item BLOODLUST_BOOTS = registerItem("bloodlust_boots",
+            new ModArmorBloodlust(ModArmorMaterials.BLOODLUST, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(AwesomeArmaments.MOD_ID, name), item);

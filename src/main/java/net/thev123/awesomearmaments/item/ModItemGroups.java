@@ -84,6 +84,11 @@ public class ModItemGroups {
                         entries.add(ModItems.NEPTUNE_LEGGINGS);
                         entries.add(ModItems.NEPTUNE_BOOTS);
 
+                        entries.add(ModItems.BLOODLUST_HELMET);
+                        entries.add(ModItems.BLOODLUST_CHESTPLATE);
+                        entries.add(ModItems.BLOODLUST_LEGGINGS);
+                        entries.add(ModItems.BLOODLUST_BOOTS);
+
 
                     }).build());
 

@@ -48,6 +48,9 @@ public enum ModArmorMaterials implements ArmorMaterial {
     }),
     NEPTUNE("neptune", 37, new int[]{3, 6, 8, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3F, 0.1F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.NETHERITE_INGOT});
+    }),
+    BLOODLUST("bloodlust", 37, new int[]{3, 6, 8, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3F, 0.1F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{Items.NETHERITE_INGOT});
     });
 
     //    public static final StringIdentifiable.Codec<ArmorMaterials> CODEC;
