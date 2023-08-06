@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:blaze_powder"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "#D#",
+    "CRC",
+    "#D#"
+  ],
+  "result": {
+    "item": "awesomearmaments:beserk_diamond_upgrade"
+  }
+}
