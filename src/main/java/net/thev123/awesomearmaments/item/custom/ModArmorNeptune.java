@@ -53,7 +53,7 @@ public class ModArmorNeptune extends ArmorItem {
     private void evaluateArmorEffects(PlayerEntity player) {
         for (Map.Entry<ArmorMaterial, StatusEffectInstance> entry : MATERIAL_TO_EFFECT_MAP.entrySet()) {
             ArmorMaterial mapArmorMaterial = ModArmorMaterials.NEPTUNE;
-            StatusEffectInstance mapStatusEffect = new StatusEffectInstance(ModEffects.WATER_EMPOWER,
+            StatusEffectInstance mapStatusEffect = new StatusEffectInstance(ModEffects.WATERBORN,
                     effectDuration, amplifier, false, false, false);
 
             if(hasCorrectArmorOn(mapArmorMaterial, player)) {
@@ -84,7 +84,7 @@ public class ModArmorNeptune extends ArmorItem {
         boolean hasPlayerEffect = player.hasStatusEffect(mapStatusEffect.getEffectType());
 
         if(hasCorrectArmorOn(mapArmorMaterial, player) && !hasPlayerEffect) {
-            player.addStatusEffect(new StatusEffectInstance(ModEffects.WATER_EMPOWER,
+            player.addStatusEffect(new StatusEffectInstance(ModEffects.WATERBORN,
                     effectDuration, amplifier, false, false, false));
         }
         if(hasCorrectArmorOn(mapArmorMaterial, player) && !hasPlayerEffect) {
@@ -97,9 +97,9 @@ public class ModArmorNeptune extends ArmorItem {
         }
 
         // effect repeat issue fix
-        if (player.getActiveStatusEffects().containsKey(ModEffects.WATER_EMPOWER)) {
+        if (player.getActiveStatusEffects().containsKey(ModEffects.WATERBORN)) {
             if (player.getActiveStatusEffects().get(mapStatusEffect.getEffectType()).getDuration() < 100) {
-                player.addStatusEffect(new StatusEffectInstance(ModEffects.WATER_EMPOWER,
+                player.addStatusEffect(new StatusEffectInstance(ModEffects.WATERBORN,
                         effectDuration, amplifier, false, false, false));
             }
         }
