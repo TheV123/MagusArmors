@@ -7,9 +7,9 @@
     "item": "minecraft:netherite_leggings"
   },
   "result": {
-    "item": "minecraft:plated_netherite_leggings"
+    "item": "awesomearmaments:beserk_netherite_leggings"
   },
   "template": {
-    "item": "minecraft:plated_netherite_upgrade"
+    "item": "awesomearmaments:beserk_netherite_upgrade"
   }
 }

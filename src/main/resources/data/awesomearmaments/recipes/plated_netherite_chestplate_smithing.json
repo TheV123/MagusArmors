@@ -7,7 +7,7 @@
     "item": "minecraft:netherite_chestplate"
   },
   "result": {
-    "item": "minecraft:netherite_chestplate"
+    "item": "minecraft:plated_netherite_chestplate"
   },
   "template": {
     "item": "minecraft:plated_netherite_upgrade"

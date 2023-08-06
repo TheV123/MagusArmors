@@ -7,7 +7,7 @@
     "item": "minecraft:netherite_boots"
   },
   "result": {
-    "item": "minecraft:netherite_boots"
+    "item": "minecraft:plated_netherite_boots"
   },
   "template": {
     "item": "minecraft:plated_netherite_upgrade"

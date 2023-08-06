@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:diamond"
+  },
+  "base": {
+    "item": "minecraft:diamond_helmet"
+  },
+  "result": {
+    "item": "awesomearmaments:beserk_diamond_helmet"
+  },
+  "template": {
+    "item": "awesomearmaments:beserk_diamond_upgrade"
+  }
+}
