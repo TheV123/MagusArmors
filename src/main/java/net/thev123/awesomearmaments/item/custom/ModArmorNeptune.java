@@ -93,7 +93,7 @@ public class ModArmorNeptune extends ArmorItem {
         }
         if(hasCorrectArmorOn(mapArmorMaterial, player) && !hasPlayerEffect) {
             player.addStatusEffect(new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE,
-                    effectDuration, amplifier, false, false, false));
+                    effectDuration, 1, false, false, false));
         }
 
         // effect repeat issue fix

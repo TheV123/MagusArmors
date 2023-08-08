@@ -22,7 +22,7 @@ public class InfiniteSightEffect extends StatusEffect {
             World world = player.getWorld();
             if (player.hasStatusEffect(this)) {
                 if (!world.isClient && world.getTime() % COOLDOWN == 0) {
-                    int effect = player.getWorld().random.nextInt(6);
+                    int effect = player.getWorld().random.nextInt(7);
                     //effect lasts for 600 ticks
                     int duration = 600;
                     switch (effect) {
@@ -43,6 +43,9 @@ public class InfiniteSightEffect extends StatusEffect {
                             break;
                         case 5:
                             player.addStatusEffect(new StatusEffectInstance(StatusEffects.HASTE, duration, 1));
+                            break;
+                        case 7:
+                            player.addStatusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, duration, 1));
                             break;
                     }
                 }

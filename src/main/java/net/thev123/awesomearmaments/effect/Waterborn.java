@@ -60,7 +60,7 @@ public class Waterborn extends StatusEffect {
                 }
             }
             else{
-                if (attributeInstance != null && !attributeInstance.hasModifier(healthModifier)) {
+                if (attributeInstance != null && attributeInstance.hasModifier(healthModifier)) {
                     attributeInstance.removeModifier(healthModifier);
                     attributeInstance.removeModifier(HEALTH_MODIFIER_ID);
                 }
