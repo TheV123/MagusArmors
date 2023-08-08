@@ -7,9 +7,9 @@
     "item": "minecraft:diamond_boots"
   },
   "result": {
-    "item": "awesomearmaments:beserk_diamond_boots"
+    "item": "awesomearmaments:berserk_diamond_boots"
   },
   "template": {
-    "item": "awesomearmaments:beserk_diamond_upgrade"
+    "item": "awesomearmaments:berserk_diamond_upgrade"
   }
 }

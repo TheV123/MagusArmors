@@ -4,12 +4,12 @@
     "item": "minecraft:diamond"
   },
   "base": {
-    "item": "minecraft:diamond_chestplate"
+    "item": "minecraft:diamond_helmet"
   },
   "result": {
-    "item": "awesomearmaments:beserk_diamond_chestplate"
+    "item": "awesomearmaments:berserk_diamond_helmet"
   },
   "template": {
-    "item": "awesomearmaments:beserk_diamond_upgrade"
+    "item": "awesomearmaments:berserk_diamond_upgrade"
   }
 }

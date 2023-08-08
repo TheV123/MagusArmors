@@ -7,9 +7,9 @@
     "item": "minecraft:diamond_leggings"
   },
   "result": {
-    "item": "awesomearmaments:beserk_diamond_leggings"
+    "item": "awesomearmaments:berserk_diamond_leggings"
   },
   "template": {
-    "item": "awesomearmaments:beserk_diamond_upgrade"
+    "item": "awesomearmaments:berserk_diamond_upgrade"
   }
 }

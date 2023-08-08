@@ -4,12 +4,12 @@
     "item": "minecraft:netherite_scrap"
   },
   "base": {
-    "item": "minecraft:netherite_boots"
+    "item": "minecraft:netherite_leggings"
   },
   "result": {
-    "item": "awesomearmaments:beserk_netherite_boots"
+    "item": "awesomearmaments:berserk_netherite_leggings"
   },
   "template": {
-    "item": "awesomearmaments:beserk_netherite_upgrade"
+    "item": "awesomearmaments:berserk_netherite_upgrade"
   }
 }

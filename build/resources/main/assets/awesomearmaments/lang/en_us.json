@@ -43,6 +43,16 @@
   "item.awesomearmaments.bulwark_chestplate": "Bulwark Chestplate",
   "item.awesomearmaments.bulwark_leggings": "Bulwark Leggings",
   "item.awesomearmaments.bulwark_boots": "Bulwark Boots",
+
+  "item.awesomearmaments.berserk_diamond_helmet": "Berserk Diamond Helmet",
+  "item.awesomearmaments.berserk_diamond_chestplate": "Berserk Diamond Chestplate",
+  "item.awesomearmaments.berserk_diamond_leggings": "Berserk Diamond Leggings",
+  "item.awesomearmaments.berserk_diamond_boots": "Berserk Diamond Boots",
+
+  "item.awesomearmaments.berserk_netherite_helmet": "Berserk Netherite Helmet",
+  "item.awesomearmaments.berserk_netherite_chestplate": "Berserk Netherite Chestplate",
+  "item.awesomearmaments.berserk_netherite_leggings": "Berserk Netherite Leggings",
+  "item.awesomearmaments.berserk_netherite_boots": "Berserk Netherite Boots",
   
   "item.awesomearmaments.plated_iron_upgrade": "Plated Iron Upgrade",
   "item.awesomearmaments.plated_diamond_upgrade": "Plated Diamond Upgrade",
@@ -51,6 +61,9 @@
   "item.awesomearmaments.wise_iron_upgrade": "Wise Iron Upgrade",
   "item.awesomearmaments.wise_diamond_upgrade": "Wise Diamond Upgrade",
   "item.awesomearmaments.wise_netherite_upgrade": "Wise Netherite Upgrade",
+
+  "item.awesomearmaments.berserk_diamond_upgrade": "Berserk Diamond Upgrade",
+  "item.awesomearmaments.berserk_netherite_upgrade": "Berserk Netherite Upgrade",
 
   "item.awesomearmaments.aqua_diamond_upgrade": "Aqua Diamond Upgrade",
   "item.awesomearmaments.aqua_netherite_upgrade": "Aqua Netherite Upgrade",
