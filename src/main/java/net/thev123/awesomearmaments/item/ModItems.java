@@ -34,6 +34,15 @@ public class ModItems {
     public static final Item BERSERK_NETHERITE_UPGRADE = registerItem("berserk_netherite_upgrade",
             new Item(new FabricItemSettings()));
 
+    public static final Item BLOODLUST_UPGRADE = registerItem("bloodlust_upgrade",
+            new Item(new FabricItemSettings()));
+    public static final Item INFINITE_SIGHT_UPGRADE = registerItem("infinite_sight_upgrade",
+            new Item(new FabricItemSettings()));
+    public static final Item BULWARK_UPGRADE = registerItem("bulwark_upgrade",
+            new Item(new FabricItemSettings()));
+    public static final Item NEPTUNE_UPGRADE = registerItem("neptune_upgrade",
+            new Item(new FabricItemSettings()));
+
     public static final Item PLATED_IRON_HELMET = registerItem("plated_iron_helmet",
             new ArmorItem(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.HELMET,
                     new FabricItemSettings()));
