@@ -25,6 +25,9 @@ public class ModItemGroups {
                         entries.add(ModItems.AQUA_DIAMOND_UPGRADE);
                         entries.add(ModItems.AQUA_NETHERITE_UPGRADE);
 
+                        entries.add(ModItems.BERSERK_DIAMOND_UPGRADE);
+                        entries.add(ModItems.BERSERK_NETHERITE_UPGRADE);
+
                         entries.add(ModItems.PLATED_IRON_HELMET);
                         entries.add(ModItems.PLATED_IRON_CHESTPLATE);
                         entries.add(ModItems.PLATED_IRON_LEGGINGS);
