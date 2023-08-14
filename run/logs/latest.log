@@ -1,5 +1,5 @@
-[17:55:46] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.14.21
-[17:55:47] [main/INFO] (FabricLoader) Loading 46 mods:
+[18:06:33] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.14.21
+[18:06:33] [main/INFO] (FabricLoader) Loading 46 mods:
 	- awesomearmaments 1.0.0
 	- fabric-api 0.85.0+1.20.1
 	- fabric-api-base 0.4.29+b04edc7a77
@@ -46,12 +46,13 @@
 	- fabricloader 0.14.21
 	- java 17
 	- minecraft 1.20.1
-[17:55:47] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Vishal/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[17:55:47] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[17:55:47] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[17:55:52] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 128 milliseconds
-[17:55:54] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:55:55] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+[18:06:34] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Vishal/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[18:06:34] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[18:06:34] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[18:06:34] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[18:06:39] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 128 milliseconds
+[18:06:41] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:06:41] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar:?]
@@ -69,42 +70,42 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar:?]
 	... 9 more
-[17:55:55] [Render thread/INFO] (Minecraft) Setting user: Player833
-[17:55:55] [Render thread/INFO] (awesomearmaments) Hello Fabric world!
-[17:55:55] [Render thread/INFO] (awesomearmaments) Registering Mod Items for awesomearmaments
-[17:55:55] [Render thread/INFO] (awesomearmaments) Registering Item Groups for awesomearmaments
-[17:55:55] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[17:55:55] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
-[17:55:57] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-loot-api-v2, fabricloader, awesomearmaments, fabric-registry-sync-v0, fabric-resource-loader-v0, fabric-renderer-indigo, fabric-gametest-api-v1, fabric-screen-handler-api-v1, fabric-renderer-api-v1, fabric-dimensions-v1, fabric-item-group-api-v1, fabric-entity-events-v1, fabric-message-api-v1, fabric-transfer-api-v1, fabric-sound-api-v1, fabric-biome-api-v1, fabric-key-binding-api-v1, fabric-item-api-v1, fabric-transitive-access-wideners-v1, fabric-recipe-api-v1, fabric-resource-conditions-api-v1, fabric-content-registries-v0, fabric-events-interaction-v0, fabric-api, fabric-screen-api-v1, fabric-blockrenderlayer-v1, fabric-networking-api-v1, fabric-rendering-data-attachment-v1, fabric-data-generation-api-v1, fabric-rendering-v1, fabric-game-rule-api-v1, fabric-mining-level-api-v1, fabric-convention-tags-v1, fabric-models-v0, fabric-crash-report-info-v1, fabric-client-tags-api-v1, fabric-api-lookup-api-v1, fabric-rendering-fluids-v1, fabric-block-api-v1, fabric-api-base, fabric-particles-v1, fabric-object-builder-api-v1, fabric-command-api-v2, fabric-lifecycle-events-v1)
-[17:55:57] [Worker-Main-5/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
-[17:55:57] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[17:55:58] [Worker-Main-3/WARN] (Minecraft) Missing textures in model awesomearmaments:infinite_sight_leggings#inventory:
+[18:06:41] [Render thread/INFO] (Minecraft) Setting user: Player474
+[18:06:41] [Render thread/INFO] (awesomearmaments) Hello Fabric world!
+[18:06:41] [Render thread/INFO] (awesomearmaments) Registering Mod Items for awesomearmaments
+[18:06:41] [Render thread/INFO] (awesomearmaments) Registering Item Groups for awesomearmaments
+[18:06:41] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[18:06:42] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
+[18:06:43] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-client-tags-api-v1, fabric-object-builder-api-v1, fabric-biome-api-v1, fabric-resource-loader-v0, fabric-data-generation-api-v1, fabric-loot-api-v2, fabric-api-base, fabric-registry-sync-v0, fabric-mining-level-api-v1, fabric-entity-events-v1, fabric-api, fabric-game-rule-api-v1, fabric-api-lookup-api-v1, fabric-gametest-api-v1, fabric-screen-handler-api-v1, fabric-models-v0, fabric-renderer-indigo, fabric-sound-api-v1, fabric-blockrenderlayer-v1, fabric-content-registries-v0, fabric-resource-conditions-api-v1, fabric-key-binding-api-v1, fabric-rendering-data-attachment-v1, fabric-lifecycle-events-v1, fabric-crash-report-info-v1, fabric-particles-v1, fabric-command-api-v2, fabric-item-group-api-v1, fabric-transfer-api-v1, fabric-item-api-v1, fabric-events-interaction-v0, fabric-dimensions-v1, awesomearmaments, fabric-transitive-access-wideners-v1, fabric-recipe-api-v1, fabric-renderer-api-v1, fabricloader, fabric-block-api-v1, fabric-networking-api-v1, fabric-message-api-v1, fabric-rendering-fluids-v1, fabric-convention-tags-v1, fabric-screen-api-v1, fabric-rendering-v1)
+[18:06:43] [Worker-Main-3/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
+[18:06:43] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[18:06:44] [Worker-Main-5/WARN] (Minecraft) Missing textures in model awesomearmaments:infinite_sight_leggings#inventory:
     minecraft:textures/atlas/blocks.png:awesomearmaments:item/infinite_sight_leggings
-[17:55:58] [Worker-Main-3/WARN] (Minecraft) Missing textures in model awesomearmaments:infinite_sight_boots#inventory:
+[18:06:44] [Worker-Main-5/WARN] (Minecraft) Missing textures in model awesomearmaments:infinite_sight_boots#inventory:
     minecraft:textures/atlas/blocks.png:awesomearmaments:item/infinite_sight_boots
-[17:55:58] [Worker-Main-3/WARN] (Minecraft) Missing textures in model awesomearmaments:infinite_sight_helmet#inventory:
+[18:06:44] [Worker-Main-5/WARN] (Minecraft) Missing textures in model awesomearmaments:infinite_sight_helmet#inventory:
     minecraft:textures/atlas/blocks.png:awesomearmaments:item/infinite_sight_helmet
-[17:55:58] [Worker-Main-3/WARN] (Minecraft) Missing textures in model awesomearmaments:infinite_sight_chestplate#inventory:
+[18:06:44] [Worker-Main-5/WARN] (Minecraft) Missing textures in model awesomearmaments:infinite_sight_chestplate#inventory:
     minecraft:textures/atlas/blocks.png:awesomearmaments:item/infinite_sight_chestplate
-[17:55:58] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[17:55:58] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[17:55:58] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
-[17:55:58] [Render thread/INFO] (Minecraft) Sound engine started
-[17:55:58] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[17:55:58] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[17:55:58] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[17:55:58] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[17:55:58] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[17:55:58] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[17:55:58] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[17:55:58] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[17:55:58] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[17:55:58] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[17:55:58] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[17:55:58] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[17:55:58] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[17:56:02] [Render thread/INFO] (FabricRegistrySync) [fabric-registry-sync] Loaded registry data [file 1/4]
-[17:56:03] [Worker-Main-10/ERROR] (Minecraft) Couldn't parse data file awesomearmaments:bulwark_upgrade from awesomearmaments:recipes/bulwark_upgrade.json
+[18:06:44] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[18:06:44] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[18:06:45] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[18:06:45] [Render thread/INFO] (Minecraft) Sound engine started
+[18:06:45] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[18:06:45] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[18:06:45] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[18:06:45] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[18:06:45] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[18:06:45] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[18:06:45] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[18:06:45] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[18:06:45] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[18:06:45] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[18:06:45] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[18:06:45] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[18:06:45] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[18:06:49] [Render thread/INFO] (FabricRegistrySync) [fabric-registry-sync] Loaded registry data [file 1/4]
+[18:06:49] [Worker-Main-1/ERROR] (Minecraft) Couldn't parse data file awesomearmaments:bulwark_upgrade from awesomearmaments:recipes/bulwark_upgrade.json
 com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 14 column 7 path $.key.n
 	at net.minecraft.util.JsonHelper.deserializeNullable(JsonHelper.java:526) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:531) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
@@ -129,7 +130,7 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at
 	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar:?]
 	at net.minecraft.util.JsonHelper.deserializeNullable(JsonHelper.java:524) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	... 13 more
-[17:56:03] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:infinite_sight_upgrade
+[18:06:50] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:infinite_sight_upgrade
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:infinite_sight_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -177,7 +178,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:infinite_sig
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:56:03] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bulwark_leggings_smithing
+[18:06:50] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bulwark_leggings_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bulwark_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -227,7 +228,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bulwark_upgr
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:56:03] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:plated_netherite_leggings_smithing
+[18:06:50] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:plated_netherite_leggings_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'minecraft:plated_netherite_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -277,7 +278,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:plated_netherite_up
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:56:03] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:plated_netherite_helmet_smithing
+[18:06:50] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:plated_netherite_helmet_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'minecraft:plated_netherite_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -327,7 +328,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:plated_netherite_up
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:56:03] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:infinite_sight_boots_smithing
+[18:06:50] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:infinite_sight_boots_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:infinite_sight_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -377,7 +378,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:infinite_sig
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:56:03] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:infinite_sight_leggings_smithing
+[18:06:50] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:infinite_sight_leggings_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:infinite_sight_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -427,7 +428,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:infinite_sig
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:56:03] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:plated_netherite_chestplate_smithing
+[18:06:50] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:plated_netherite_chestplate_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'minecraft:plated_netherite_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -477,7 +478,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:plated_netherite_up
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:56:03] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:neptune_helmet_smithing
+[18:06:50] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:neptune_helmet_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:neptune_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -527,7 +528,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:neptune_upgr
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:56:03] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:neptune_upgrade
+[18:06:50] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:neptune_upgrade
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:neptune_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -575,7 +576,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:neptune_upgr
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:56:03] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bloodlust_chestplate_smithing
+[18:06:50] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bloodlust_chestplate_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bloodlust_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -625,7 +626,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bloodlust_up
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:56:03] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bloodlust_upgrade
+[18:06:50] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bloodlust_upgrade
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bloodlust_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -673,7 +674,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bloodlust_up
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:56:03] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:neptune_leggings_smithing
+[18:06:50] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:neptune_leggings_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:neptune_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -723,7 +724,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:neptune_upgr
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:56:03] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:neptune_boots_smithing
+[18:06:50] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:neptune_boots_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:neptune_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -773,7 +774,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:neptune_upgr
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:56:03] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bloodlust_helmet_smithing
+[18:06:50] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bloodlust_helmet_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bloodlust_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -823,7 +824,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bloodlust_up
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:56:03] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bulwark_helmet_smithing
+[18:06:50] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bulwark_helmet_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bulwark_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -873,7 +874,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bulwark_upgr
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:56:03] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:infinite_sight_helmet_smithing
+[18:06:50] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:infinite_sight_helmet_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:infinite_sight_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -923,7 +924,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:infinite_sig
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:56:03] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:neptune_chestplate_smithing
+[18:06:50] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:neptune_chestplate_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:neptune_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -973,7 +974,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:neptune_upgr
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:56:03] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bloodlust_leggings_smithing
+[18:06:50] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bloodlust_leggings_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bloodlust_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1023,7 +1024,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bloodlust_up
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:56:03] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bulwark_chestplate_smithing
+[18:06:50] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bulwark_chestplate_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bulwark_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1073,7 +1074,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bulwark_upgr
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:56:03] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bloodlust_boots_smithing
+[18:06:50] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bloodlust_boots_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bloodlust_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1123,7 +1124,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bloodlust_up
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:56:03] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:infinite_sight_chestplate_smithing
+[18:06:50] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:infinite_sight_chestplate_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:infinite_sight_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1173,7 +1174,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:infinite_sig
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:56:03] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:plated_netherite_boots_smithing
+[18:06:50] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:plated_netherite_boots_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'minecraft:plated_netherite_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1223,7 +1224,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:plated_netherite_up
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:56:03] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bulwark_boots_smithing
+[18:06:50] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bulwark_boots_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bulwark_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1273,40 +1274,39 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bulwark_upgr
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:56:03] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[17:56:03] [Render thread/INFO] (Minecraft) Loaded 1271 advancements
-[17:56:04] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 1.501 ms
-[17:56:04] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
-[17:56:04] [Server thread/INFO] (Minecraft) Generating keypair
-[17:56:05] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[17:56:07] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:56:07] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:56:07] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:56:07] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:56:07] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:56:07] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:56:08] [Render thread/INFO] (Minecraft) Preparing spawn area: 59%
-[17:56:08] [Render thread/INFO] (Minecraft) Time elapsed: 3225 ms
-[17:56:08] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
-[17:56:08] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
-[17:56:09] [Server thread/INFO] (Minecraft) Player833[local:E:3bec1c21] logged in with entity id 159 at (202.69291562289828, 64.0, 58.20908107895895)
-[17:56:09] [Server thread/INFO] (Minecraft) Player833 joined the game
-[17:56:09] [Render thread/INFO] (Minecraft) Loaded 3 advancements
-[17:57:53] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[17:57:53] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:overworld
-[17:57:53] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_end
-[17:57:53] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_nether
-[17:57:53] [Server thread/INFO] (Minecraft) Player833 lost connection: Disconnected
-[17:57:53] [Server thread/INFO] (Minecraft) Player833 left the game
-[17:57:53] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[17:57:53] [Server thread/INFO] (Minecraft) Stopping server
-[17:57:53] [Server thread/INFO] (Minecraft) Saving players
-[17:57:53] [Server thread/INFO] (Minecraft) Saving worlds
-[17:57:53] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:overworld
-[17:57:54] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_end
-[17:57:54] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_nether
-[17:57:54] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World2): All chunks are saved
-[17:57:54] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:57:54] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:57:54] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
-[17:57:54] [Render thread/INFO] (Minecraft) Stopping!
+[18:06:50] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[18:06:50] [Render thread/INFO] (Minecraft) Loaded 1271 advancements
+[18:06:50] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 1.740 ms
+[18:06:50] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
+[18:06:50] [Server thread/INFO] (Minecraft) Generating keypair
+[18:06:52] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[18:06:53] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:06:53] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:06:53] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:06:53] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:06:54] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:06:54] [Render thread/INFO] (Minecraft) Preparing spawn area: 78%
+[18:06:54] [Render thread/INFO] (Minecraft) Time elapsed: 2608 ms
+[18:06:54] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[18:06:54] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[18:06:55] [Server thread/INFO] (Minecraft) Player474[local:E:8931e75c] logged in with entity id 164 at (191.68266401011263, 64.0, 50.531845880888454)
+[18:06:55] [Server thread/INFO] (Minecraft) Player474 joined the game
+[18:06:56] [Render thread/INFO] (Minecraft) Loaded 3 advancements
+[18:08:07] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[18:08:07] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:overworld
+[18:08:07] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_nether
+[18:08:07] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_end
+[18:08:08] [Server thread/INFO] (Minecraft) Player474 lost connection: Disconnected
+[18:08:08] [Server thread/INFO] (Minecraft) Player474 left the game
+[18:08:08] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[18:08:08] [Server thread/INFO] (Minecraft) Stopping server
+[18:08:08] [Server thread/INFO] (Minecraft) Saving players
+[18:08:08] [Server thread/INFO] (Minecraft) Saving worlds
+[18:08:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:overworld
+[18:08:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_nether
+[18:08:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_end
+[18:08:08] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World2): All chunks are saved
+[18:08:08] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:08:08] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:08:08] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[18:08:09] [Render thread/INFO] (Minecraft) Stopping!
