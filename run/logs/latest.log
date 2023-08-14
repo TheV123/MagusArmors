@@ -1,5 +1,5 @@
-[15:02:09] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.14.21
-[15:02:09] [main/INFO] (FabricLoader) Loading 46 mods:
+[15:09:20] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.14.21
+[15:09:20] [main/INFO] (FabricLoader) Loading 46 mods:
 	- awesomearmaments 1.0.0
 	- fabric-api 0.85.0+1.20.1
 	- fabric-api-base 0.4.29+b04edc7a77
@@ -46,13 +46,12 @@
 	- fabricloader 0.14.21
 	- java 17
 	- minecraft 1.20.1
-[15:02:09] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Vishal/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[15:02:10] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[15:02:10] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[15:02:10] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[15:02:15] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 133 milliseconds
-[15:02:17] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15:02:17] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+[15:09:21] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Vishal/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[15:09:21] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[15:09:21] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[15:09:26] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 152 milliseconds
+[15:09:28] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:09:29] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar:?]
@@ -70,46 +69,46 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar:?]
 	... 9 more
-[15:02:17] [Render thread/INFO] (Minecraft) Setting user: Player265
-[15:02:17] [Render thread/INFO] (awesomearmaments) Hello Fabric world!
-[15:02:17] [Render thread/INFO] (awesomearmaments) Registering Mod Items for awesomearmaments
-[15:02:17] [Render thread/INFO] (awesomearmaments) Registering Item Groups for awesomearmaments
-[15:02:17] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[15:02:17] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
-[15:02:19] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-object-builder-api-v1, fabric-content-registries-v0, fabric-transitive-access-wideners-v1, fabric-renderer-indigo, fabric-blockrenderlayer-v1, fabric-networking-api-v1, fabric-renderer-api-v1, fabric-biome-api-v1, fabric-particles-v1, fabric-resource-conditions-api-v1, fabric-block-api-v1, fabric-data-generation-api-v1, fabric-screen-handler-api-v1, fabric-key-binding-api-v1, fabric-convention-tags-v1, fabric-screen-api-v1, fabric-rendering-data-attachment-v1, fabric-registry-sync-v0, fabric-command-api-v2, fabric-loot-api-v2, fabric-game-rule-api-v1, fabric-lifecycle-events-v1, fabric-client-tags-api-v1, fabric-entity-events-v1, fabric-api, fabric-message-api-v1, awesomearmaments, fabric-dimensions-v1, fabricloader, fabric-recipe-api-v1, fabric-rendering-fluids-v1, fabric-item-api-v1, fabric-api-lookup-api-v1, fabric-events-interaction-v0, fabric-transfer-api-v1, fabric-crash-report-info-v1, fabric-api-base, fabric-sound-api-v1, fabric-models-v0, fabric-item-group-api-v1, fabric-gametest-api-v1, fabric-resource-loader-v0, fabric-mining-level-api-v1, fabric-rendering-v1)
-[15:02:19] [Worker-Main-4/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
-[15:02:19] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[15:02:20] [Worker-Main-2/WARN] (Minecraft) Unable to load model: 'awesomearmaments:neptune_helmet#inventory' referenced from: awesomearmaments:neptune_helmet#inventory: java.io.FileNotFoundException: awesomearmaments:models/item/neptune_helmet.json
-[15:02:20] [Worker-Main-2/WARN] (Minecraft) Unable to load model: 'awesomearmaments:infinite_sight_boots#inventory' referenced from: awesomearmaments:infinite_sight_boots#inventory: java.io.FileNotFoundException: awesomearmaments:models/item/infinite_sight_boots.json
-[15:02:20] [Worker-Main-2/WARN] (Minecraft) Unable to load model: 'awesomearmaments:neptune_boots#inventory' referenced from: awesomearmaments:neptune_boots#inventory: java.io.FileNotFoundException: awesomearmaments:models/item/neptune_boots.json
-[15:02:20] [Worker-Main-2/WARN] (Minecraft) Unable to load model: 'awesomearmaments:bloodlust_helmet#inventory' referenced from: awesomearmaments:bloodlust_helmet#inventory: java.io.FileNotFoundException: awesomearmaments:models/item/bloodlust_helmet.json
-[15:02:20] [Worker-Main-2/WARN] (Minecraft) Unable to load model: 'awesomearmaments:infinite_sight_helmet#inventory' referenced from: awesomearmaments:infinite_sight_helmet#inventory: java.io.FileNotFoundException: awesomearmaments:models/item/infinite_sight_helmet.json
-[15:02:20] [Worker-Main-2/WARN] (Minecraft) Unable to load model: 'awesomearmaments:neptune_leggings#inventory' referenced from: awesomearmaments:neptune_leggings#inventory: java.io.FileNotFoundException: awesomearmaments:models/item/neptune_leggings.json
-[15:02:20] [Worker-Main-2/WARN] (Minecraft) Unable to load model: 'awesomearmaments:neptune_chestplate#inventory' referenced from: awesomearmaments:neptune_chestplate#inventory: java.io.FileNotFoundException: awesomearmaments:models/item/neptune_chestplate.json
-[15:02:20] [Worker-Main-2/WARN] (Minecraft) Unable to load model: 'awesomearmaments:infinite_sight_leggings#inventory' referenced from: awesomearmaments:infinite_sight_leggings#inventory: java.io.FileNotFoundException: awesomearmaments:models/item/infinite_sight_leggings.json
-[15:02:20] [Worker-Main-2/WARN] (Minecraft) Unable to load model: 'awesomearmaments:bloodlust_chestplate#inventory' referenced from: awesomearmaments:bloodlust_chestplate#inventory: java.io.FileNotFoundException: awesomearmaments:models/item/bloodlust_chestplate.json
-[15:02:20] [Worker-Main-2/WARN] (Minecraft) Unable to load model: 'awesomearmaments:infinite_sight_chestplate#inventory' referenced from: awesomearmaments:infinite_sight_chestplate#inventory: java.io.FileNotFoundException: awesomearmaments:models/item/infinite_sight_chestplate.json
-[15:02:20] [Worker-Main-2/WARN] (Minecraft) Unable to load model: 'awesomearmaments:bloodlust_leggings#inventory' referenced from: awesomearmaments:bloodlust_leggings#inventory: java.io.FileNotFoundException: awesomearmaments:models/item/bloodlust_leggings.json
-[15:02:20] [Worker-Main-2/WARN] (Minecraft) Unable to load model: 'awesomearmaments:bloodlust_boots#inventory' referenced from: awesomearmaments:bloodlust_boots#inventory: java.io.FileNotFoundException: awesomearmaments:models/item/bloodlust_boots.json
-[15:02:20] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[15:02:20] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[15:02:20] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
-[15:02:20] [Render thread/INFO] (Minecraft) Sound engine started
-[15:02:20] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[15:02:20] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[15:02:20] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[15:02:20] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[15:02:20] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[15:02:20] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[15:02:20] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[15:02:20] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[15:02:20] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[15:02:21] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[15:02:21] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[15:02:21] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[15:02:21] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[15:02:25] [Render thread/INFO] (FabricRegistrySync) [fabric-registry-sync] Loaded registry data [file 1/4]
-[15:02:26] [Worker-Main-4/ERROR] (Minecraft) Couldn't parse data file awesomearmaments:bulwark_upgrade from awesomearmaments:recipes/bulwark_upgrade.json
+[15:09:29] [Render thread/INFO] (Minecraft) Setting user: Player586
+[15:09:29] [Render thread/INFO] (awesomearmaments) Hello Fabric world!
+[15:09:29] [Render thread/INFO] (awesomearmaments) Registering Mod Items for awesomearmaments
+[15:09:29] [Render thread/INFO] (awesomearmaments) Registering Item Groups for awesomearmaments
+[15:09:29] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[15:09:29] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
+[15:09:31] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-sound-api-v1, fabric-block-api-v1, fabric-lifecycle-events-v1, fabric-renderer-indigo, fabric-rendering-data-attachment-v1, fabric-resource-loader-v0, fabric-game-rule-api-v1, fabric-models-v0, fabric-particles-v1, fabric-api-base, fabric-api-lookup-api-v1, fabric-mining-level-api-v1, fabric-object-builder-api-v1, fabric-renderer-api-v1, fabric-key-binding-api-v1, fabricloader, fabric-transitive-access-wideners-v1, fabric-dimensions-v1, fabric-convention-tags-v1, fabric-data-generation-api-v1, fabric-registry-sync-v0, fabric-gametest-api-v1, fabric-screen-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-blockrenderlayer-v1, fabric-biome-api-v1, fabric-content-registries-v0, fabric-command-api-v2, fabric-events-interaction-v0, fabric-api, fabric-recipe-api-v1, fabric-crash-report-info-v1, fabric-client-tags-api-v1, fabric-loot-api-v2, awesomearmaments, fabric-networking-api-v1, fabric-screen-handler-api-v1, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-transfer-api-v1, fabric-resource-conditions-api-v1, fabric-entity-events-v1, fabric-message-api-v1)
+[15:09:31] [Worker-Main-10/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
+[15:09:31] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[15:09:32] [Worker-Main-11/WARN] (Minecraft) Unable to load model: 'awesomearmaments:neptune_helmet#inventory' referenced from: awesomearmaments:neptune_helmet#inventory: java.io.FileNotFoundException: awesomearmaments:models/item/neptune_helmet.json
+[15:09:32] [Worker-Main-11/WARN] (Minecraft) Unable to load model: 'awesomearmaments:infinite_sight_boots#inventory' referenced from: awesomearmaments:infinite_sight_boots#inventory: java.io.FileNotFoundException: awesomearmaments:models/item/infinite_sight_boots.json
+[15:09:32] [Worker-Main-11/WARN] (Minecraft) Unable to load model: 'awesomearmaments:neptune_boots#inventory' referenced from: awesomearmaments:neptune_boots#inventory: java.io.FileNotFoundException: awesomearmaments:models/item/neptune_boots.json
+[15:09:32] [Worker-Main-11/WARN] (Minecraft) Unable to load model: 'awesomearmaments:bloodlust_helmet#inventory' referenced from: awesomearmaments:bloodlust_helmet#inventory: java.io.FileNotFoundException: awesomearmaments:models/item/bloodlust_helmet.json
+[15:09:32] [Worker-Main-11/WARN] (Minecraft) Unable to load model: 'awesomearmaments:infinite_sight_helmet#inventory' referenced from: awesomearmaments:infinite_sight_helmet#inventory: java.io.FileNotFoundException: awesomearmaments:models/item/infinite_sight_helmet.json
+[15:09:32] [Worker-Main-11/WARN] (Minecraft) Unable to load model: 'awesomearmaments:neptune_leggings#inventory' referenced from: awesomearmaments:neptune_leggings#inventory: java.io.FileNotFoundException: awesomearmaments:models/item/neptune_leggings.json
+[15:09:32] [Worker-Main-11/WARN] (Minecraft) Unable to load model: 'awesomearmaments:neptune_chestplate#inventory' referenced from: awesomearmaments:neptune_chestplate#inventory: java.io.FileNotFoundException: awesomearmaments:models/item/neptune_chestplate.json
+[15:09:32] [Worker-Main-11/WARN] (Minecraft) Unable to load model: 'awesomearmaments:infinite_sight_leggings#inventory' referenced from: awesomearmaments:infinite_sight_leggings#inventory: java.io.FileNotFoundException: awesomearmaments:models/item/infinite_sight_leggings.json
+[15:09:32] [Worker-Main-11/WARN] (Minecraft) Unable to load model: 'awesomearmaments:bloodlust_chestplate#inventory' referenced from: awesomearmaments:bloodlust_chestplate#inventory: java.io.FileNotFoundException: awesomearmaments:models/item/bloodlust_chestplate.json
+[15:09:32] [Worker-Main-11/WARN] (Minecraft) Unable to load model: 'awesomearmaments:infinite_sight_chestplate#inventory' referenced from: awesomearmaments:infinite_sight_chestplate#inventory: java.io.FileNotFoundException: awesomearmaments:models/item/infinite_sight_chestplate.json
+[15:09:32] [Worker-Main-11/WARN] (Minecraft) Unable to load model: 'awesomearmaments:bloodlust_leggings#inventory' referenced from: awesomearmaments:bloodlust_leggings#inventory: java.io.FileNotFoundException: awesomearmaments:models/item/bloodlust_leggings.json
+[15:09:32] [Worker-Main-11/WARN] (Minecraft) Unable to load model: 'awesomearmaments:bloodlust_boots#inventory' referenced from: awesomearmaments:bloodlust_boots#inventory: java.io.FileNotFoundException: awesomearmaments:models/item/bloodlust_boots.json
+[15:09:32] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[15:09:32] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[15:09:32] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[15:09:32] [Render thread/INFO] (Minecraft) Sound engine started
+[15:09:32] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[15:09:32] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[15:09:32] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[15:09:32] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[15:09:32] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[15:09:32] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[15:09:32] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[15:09:32] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[15:09:32] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[15:09:33] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[15:09:33] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[15:09:33] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[15:09:33] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[15:09:37] [Render thread/INFO] (FabricRegistrySync) [fabric-registry-sync] Loaded registry data [file 1/4]
+[15:09:37] [Worker-Main-10/ERROR] (Minecraft) Couldn't parse data file awesomearmaments:bulwark_upgrade from awesomearmaments:recipes/bulwark_upgrade.json
 com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 14 column 7 path $.key.n
 	at net.minecraft.util.JsonHelper.deserializeNullable(JsonHelper.java:526) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:531) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
@@ -134,7 +133,7 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at
 	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar:?]
 	at net.minecraft.util.JsonHelper.deserializeNullable(JsonHelper.java:524) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	... 13 more
-[15:02:26] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:infinite_sight_upgrade
+[15:09:38] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:infinite_sight_upgrade
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:infinite_sight_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -173,18 +172,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:infinite_sig
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:02:26] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bulwark_leggings_smithing
+[15:09:38] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bulwark_leggings_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bulwark_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -225,18 +222,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bulwark_upgr
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:02:26] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:plated_netherite_leggings_smithing
+[15:09:38] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:plated_netherite_leggings_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'minecraft:plated_netherite_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -277,18 +272,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:plated_netherite_up
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:02:26] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:plated_netherite_helmet_smithing
+[15:09:38] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:plated_netherite_helmet_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'minecraft:plated_netherite_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -329,18 +322,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:plated_netherite_up
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:02:26] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:infinite_sight_boots_smithing
+[15:09:38] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:infinite_sight_boots_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:infinite_sight_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -381,18 +372,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:infinite_sig
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:02:26] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:infinite_sight_leggings_smithing
+[15:09:38] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:infinite_sight_leggings_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:infinite_sight_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -433,18 +422,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:infinite_sig
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:02:26] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:plated_netherite_chestplate_smithing
+[15:09:38] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:plated_netherite_chestplate_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'minecraft:plated_netherite_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -485,18 +472,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:plated_netherite_up
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:02:26] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:neptune_helmet_smithing
+[15:09:38] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:neptune_helmet_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:neptune_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -537,18 +522,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:neptune_upgr
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:02:26] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:neptune_upgrade
+[15:09:38] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:neptune_upgrade
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:neptune_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -587,18 +570,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:neptune_upgr
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:02:26] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bloodlust_chestplate_smithing
+[15:09:38] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bloodlust_chestplate_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bloodlust_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -639,18 +620,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bloodlust_up
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:02:26] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bloodlust_upgrade
+[15:09:38] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bloodlust_upgrade
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bloodlust_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -689,18 +668,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bloodlust_up
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:02:26] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:neptune_leggings_smithing
+[15:09:38] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:neptune_leggings_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:neptune_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -741,18 +718,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:neptune_upgr
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:02:26] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:neptune_boots_smithing
+[15:09:38] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:neptune_boots_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:neptune_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -793,18 +768,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:neptune_upgr
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:02:26] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bloodlust_helmet_smithing
+[15:09:38] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bloodlust_helmet_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bloodlust_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -845,18 +818,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bloodlust_up
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:02:26] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bulwark_helmet_smithing
+[15:09:38] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bulwark_helmet_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bulwark_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -897,18 +868,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bulwark_upgr
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:02:26] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:infinite_sight_helmet_smithing
+[15:09:38] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:infinite_sight_helmet_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:infinite_sight_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -949,18 +918,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:infinite_sig
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:02:26] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:neptune_chestplate_smithing
+[15:09:38] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:neptune_chestplate_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:neptune_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1001,18 +968,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:neptune_upgr
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:02:26] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bloodlust_leggings_smithing
+[15:09:38] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bloodlust_leggings_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bloodlust_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1053,18 +1018,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bloodlust_up
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:02:26] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bulwark_chestplate_smithing
+[15:09:38] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bulwark_chestplate_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bulwark_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1105,18 +1068,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bulwark_upgr
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:02:26] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bloodlust_boots_smithing
+[15:09:38] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bloodlust_boots_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bloodlust_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1157,18 +1118,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bloodlust_up
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:02:26] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:infinite_sight_chestplate_smithing
+[15:09:38] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:infinite_sight_chestplate_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:infinite_sight_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1209,18 +1168,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:infinite_sig
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:02:26] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:plated_netherite_boots_smithing
+[15:09:38] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:plated_netherite_boots_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'minecraft:plated_netherite_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1261,18 +1218,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:plated_netherite_up
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:02:26] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bulwark_boots_smithing
+[15:09:38] [Render thread/ERROR] (Minecraft) Parsing error loading recipe awesomearmaments:bulwark_boots_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bulwark_upgrade'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1313,53 +1268,48 @@ com.google.gson.JsonSyntaxException: Unknown item 'awesomearmaments:bulwark_upgr
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.9-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:02:26] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[15:02:26] [Render thread/INFO] (Minecraft) Loaded 1271 advancements
-[15:02:26] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 1.188 ms
-[15:02:26] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
-[15:02:26] [Server thread/INFO] (Minecraft) Generating keypair
-[15:02:28] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[15:02:30] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[15:02:30] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[15:02:30] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[15:02:30] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[15:02:30] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[15:02:30] [Render thread/INFO] (Minecraft) Preparing spawn area: 4%
-[15:02:31] [Render thread/INFO] (Minecraft) Time elapsed: 2875 ms
-[15:02:31] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
-[15:02:31] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
-[15:02:31] [Server thread/INFO] (Minecraft) Player265[local:E:67d3e4ff] logged in with entity id 196 at (141.210369551659, 69.0, 17.983543246631967)
-[15:02:32] [Server thread/INFO] (Minecraft) Player265 joined the game
-[15:02:32] [Render thread/INFO] (Minecraft) Loaded 2 advancements
-[15:03:22] [Render thread/INFO] (Minecraft) Loaded 11 advancements
-[15:03:37] [Render thread/WARN] (Minecraft) Unable to play empty soundEvent: minecraft:entity.cod.ambient
-[15:03:43] [Render thread/WARN] (Minecraft) Unable to play empty soundEvent: minecraft:entity.salmon.ambient
-[15:04:23] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[15:04:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:overworld
-[15:04:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_end
-[15:04:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_nether
-[15:04:23] [Server thread/INFO] (Minecraft) Player265 lost connection: Disconnected
-[15:04:23] [Server thread/INFO] (Minecraft) Player265 left the game
-[15:04:23] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[15:04:23] [Server thread/INFO] (Minecraft) Stopping server
-[15:04:23] [Server thread/INFO] (Minecraft) Saving players
-[15:04:23] [Server thread/INFO] (Minecraft) Saving worlds
-[15:04:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:overworld
-[15:04:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_end
-[15:04:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_nether
-[15:04:24] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World2): All chunks are saved
-[15:04:24] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:04:24] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:04:24] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
-[15:04:25] [Render thread/INFO] (Minecraft) Stopping!
+[15:09:38] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[15:09:38] [Render thread/INFO] (Minecraft) Loaded 1271 advancements
+[15:09:38] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 1.328 ms
+[15:09:38] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
+[15:09:38] [Server thread/INFO] (Minecraft) Generating keypair
+[15:09:39] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[15:09:42] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:09:42] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:09:42] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:09:42] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:09:42] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:09:42] [Render thread/INFO] (Minecraft) Preparing spawn area: 34%
+[15:09:42] [Render thread/INFO] (Minecraft) Time elapsed: 2756 ms
+[15:09:42] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[15:09:42] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[15:09:43] [Server thread/INFO] (Minecraft) Player586[local:E:524a1f7a] logged in with entity id 157 at (191.82842056397442, 65.0, 38.08206837037925)
+[15:09:43] [Server thread/INFO] (Minecraft) Player586 joined the game
+[15:09:44] [Render thread/INFO] (Minecraft) Loaded 2 advancements
+[15:10:15] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[15:10:15] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:overworld
+[15:10:15] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_nether
+[15:10:15] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_end
+[15:10:15] [Server thread/INFO] (Minecraft) Player586 lost connection: Disconnected
+[15:10:15] [Server thread/INFO] (Minecraft) Player586 left the game
+[15:10:15] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[15:10:15] [Server thread/INFO] (Minecraft) Stopping server
+[15:10:15] [Server thread/INFO] (Minecraft) Saving players
+[15:10:15] [Server thread/INFO] (Minecraft) Saving worlds
+[15:10:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:overworld
+[15:10:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_nether
+[15:10:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_end
+[15:10:16] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World2): All chunks are saved
+[15:10:16] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:10:16] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:10:16] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[15:10:16] [Render thread/INFO] (Minecraft) Stopping!

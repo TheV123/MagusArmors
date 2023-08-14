@@ -140,7 +140,7 @@ public class ModItems {
 
     public static final Item INFINITE_SIGHT_HELMET = registerItem("infinite_sight_helmet",
             new ModArmorInfiniteSight(ModArmorMaterials.INFINITE_SIGHT, ArmorItem.Type.HELMET, new FabricItemSettings()));
-    public static final Item INFINTIE_SIGHT_CHESTPLATE = registerItem("infinite_sight_chestplate",
+    public static final Item INFINITE_SIGHT_CHESTPLATE = registerItem("infinite_sight_chestplate",
             new ModArmorInfiniteSight(ModArmorMaterials.INFINITE_SIGHT, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item INFINITE_SIGHT_LEGGINGS = registerItem("infinite_sight_leggings",
             new ModArmorInfiniteSight(ModArmorMaterials.INFINITE_SIGHT, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
