@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C#",
+    "C C",
+    "#C#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:trident"
+    },
+    "C": {
+      "item": "minecraft:conduit"
+    }
+  },
+  "result": {
+    "item": "awesomearmaments:neptune_upgrade"
+  }
+}

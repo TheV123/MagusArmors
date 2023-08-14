@@ -29,6 +29,11 @@ public class ModItems {
     public static final Item AQUA_NETHERITE_UPGRADE = registerItem("aqua_netherite_upgrade",
             new Item(new FabricItemSettings()));
 
+    public static final Item BERSERK_DIAMOND_UPGRADE = registerItem("berserk_diamond_upgrade",
+            new Item(new FabricItemSettings()));
+    public static final Item BERSERK_NETHERITE_UPGRADE = registerItem("berserk_netherite_upgrade",
+            new Item(new FabricItemSettings()));
+
     public static final Item PLATED_IRON_HELMET = registerItem("plated_iron_helmet",
             new ArmorItem(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.HELMET,
                     new FabricItemSettings()));

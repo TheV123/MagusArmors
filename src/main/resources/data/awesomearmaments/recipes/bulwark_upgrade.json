@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#n#",
+    "n n",
+    "#n#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:obsidian"
+    },
+    "n": {
+      "item": "minecraft:netherite_ingot"
+    }v
+  },
+  "result": {
+    "item": "awesomearmaments:bulwark_upgrade"
+  }
+}

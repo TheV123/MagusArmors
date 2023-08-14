@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#N#",
+    "E E",
+    "#E#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:experience_bottle"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "E": {
+      "item": "minecraft:emerald_block"
+    }
+  },
+  "result": {
+    "item": "awesomearmaments:infinite_sight_upgrade"
+  }
+}

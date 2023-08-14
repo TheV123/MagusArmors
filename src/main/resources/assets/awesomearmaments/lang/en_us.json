@@ -53,6 +53,21 @@
   "item.awesomearmaments.berserk_netherite_chestplate": "Berserk Netherite Chestplate",
   "item.awesomearmaments.berserk_netherite_leggings": "Berserk Netherite Leggings",
   "item.awesomearmaments.berserk_netherite_boots": "Berserk Netherite Boots",
+
+  "item.awesomearmaments.bloodlust_helmet": "Bloodlust Helmet",
+  "item.awesomearmaments.bloodlust_chestplate": "Bloodlust Chestplate",
+  "item.awesomearmaments.bloodlust_leggings": "Bloodlust Leggings",
+  "item.awesomearmaments.bloodlust_boots": "Bloodlust Boots",
+
+  "item.awesomearmaments.neptune_helmet": "Neptune Helmet",
+  "item.awesomearmaments.neptune_chestplate": "Neptune Chestplate",
+  "item.awesomearmaments.neptune_leggings": "Neptune Leggings",
+  "item.awesomearmaments.neptune_boots": "Neptune Boots",
+
+  "item.awesomearmaments.infinite_sight_helmet": "Infinite Sight Helmet",
+  "item.awesomearmaments.infinite_sight_chestplate": "Infinite Sight Chestplate",
+  "item.awesomearmaments.infinite_sight_leggings": "Infinite Sight Leggings",
+  "item.awesomearmaments.infinite_sight_boots": "Infinite Sight Boots",
   
   "item.awesomearmaments.plated_iron_upgrade": "Plated Iron Upgrade",
   "item.awesomearmaments.plated_diamond_upgrade": "Plated Diamond Upgrade",
@@ -67,6 +82,11 @@
 
   "item.awesomearmaments.aqua_diamond_upgrade": "Aqua Diamond Upgrade",
   "item.awesomearmaments.aqua_netherite_upgrade": "Aqua Netherite Upgrade",
+
+  "item.awesomearmaments.bulwark_upgrade": "Bulwark Upgrade",
+  "item.awesomearmaments.neptune_upgrade": "Neptune Upgrade",
+  "item.awesomearmaments.infinite_sight_upgrade": "Infinite Sight Upgrade",
+  "item.awesomearmaments.bloodlust_upgrade": "Bloodlust Upgrade",
 
   "itemgroup.awesomearmaments": "Awesome Armaments",
 
