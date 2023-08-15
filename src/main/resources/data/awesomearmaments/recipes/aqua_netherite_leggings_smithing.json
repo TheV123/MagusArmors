@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherite_scrap"
+  },
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "result": {
+    "item": "awesomearmaments:aqua_netherite_leggings"
+  },
+  "template": {
+    "item": "awesomearmaments:aqua_netherite_upgrade"
+  }
+}
