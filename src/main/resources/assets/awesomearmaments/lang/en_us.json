@@ -54,20 +54,20 @@
   "item.awesomearmaments.berserk_netherite_leggings": "Berserk Netherite Leggings",
   "item.awesomearmaments.berserk_netherite_boots": "Berserk Netherite Boots",
 
-  "item.awesomearmaments.bloodlust_helmet": "Bloodlust Helmet",
-  "item.awesomearmaments.bloodlust_chestplate": "Bloodlust Chestplate",
-  "item.awesomearmaments.bloodlust_leggings": "Bloodlust Leggings",
-  "item.awesomearmaments.bloodlust_boots": "Bloodlust Boots",
+  "item.awesomearmaments.bloodlust_helmet": "§4Bloodlust Helmet",
+  "item.awesomearmaments.bloodlust_chestplate": "§4Bloodlust Chestplate",
+  "item.awesomearmaments.bloodlust_leggings": "§4Bloodlust Leggings",
+  "item.awesomearmaments.bloodlust_boots": "§4Bloodlust Boots",
 
-  "item.awesomearmaments.neptune_helmet": "Neptune Helmet",
-  "item.awesomearmaments.neptune_chestplate": "Neptune Chestplate",
-  "item.awesomearmaments.neptune_leggings": "Neptune Leggings",
-  "item.awesomearmaments.neptune_boots": "Neptune Boots",
+  "item.awesomearmaments.neptune_helmet": "§1Neptune Helmet",
+  "item.awesomearmaments.neptune_chestplate": "§1Neptune Chestplate",
+  "item.awesomearmaments.neptune_leggings": "§1Neptune Leggings",
+  "item.awesomearmaments.neptune_boots": "§1Neptune Boots",
 
-  "item.awesomearmaments.infinite_sight_helmet": "Infinite Sight Helmet",
-  "item.awesomearmaments.infinite_sight_chestplate": "Infinite Sight Chestplate",
-  "item.awesomearmaments.infinite_sight_leggings": "Infinite Sight Leggings",
-  "item.awesomearmaments.infinite_sight_boots": "Infinite Sight Boots",
+  "item.awesomearmaments.infinite_sight_helmet": "§lInfinite Sight Helmet",
+  "item.awesomearmaments.infinite_sight_chestplate": "§lInfinite Sight Chestplate",
+  "item.awesomearmaments.infinite_sight_leggings": "§lInfinite Sight Leggings",
+  "item.awesomearmaments.infinite_sight_boots": "§lInfinite Sight Boots",
   
   "item.awesomearmaments.plated_iron_upgrade": "Plated Iron Upgrade",
   "item.awesomearmaments.plated_diamond_upgrade": "Plated Diamond Upgrade",
@@ -90,5 +90,8 @@
 
   "itemgroup.awesomearmaments": "Awesome Armaments",
 
-  "effect.awesomearmaments.experience_empower": "Exp Empower"
+  "effect.awesomearmaments.experience_empower": "Exp Empower",
+  "effect.awesomearmaments.experience_empower2": "Exp Empower 2",
+  "effect.awesomearmaments.infinite_sight": "Infinite Sight",
+  "effect.awesomearmaments.bloodlust": "Bloodlust"
 }
