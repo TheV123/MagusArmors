@@ -39,10 +39,10 @@
   "item.awesomearmaments.aqua_netherite_leggings": "Aqua Netherite Leggings",
   "item.awesomearmaments.aqua_netherite_boots": "Aqua Netherite Boots",
 
-  "item.awesomearmaments.bulwark_helmet": "§8Bulwark Helmet",
-  "item.awesomearmaments.bulwark_chestplate": "§8Bulwark Chestplate",
-  "item.awesomearmaments.bulwark_leggings": "§8Bulwark Leggings",
-  "item.awesomearmaments.bulwark_boots": "§8Bulwark Boots",
+  "item.awesomearmaments.bulwark_helmet": "§8§lBulwark Helmet",
+  "item.awesomearmaments.bulwark_chestplate": "§8§lBulwark Chestplate",
+  "item.awesomearmaments.bulwark_leggings": "§8§lBulwark Leggings",
+  "item.awesomearmaments.bulwark_boots": "§8§lBulwark Boots",
 
   "item.awesomearmaments.berserk_diamond_helmet": "Berserk Diamond Helmet",
   "item.awesomearmaments.berserk_diamond_chestplate": "Berserk Diamond Chestplate",
@@ -54,20 +54,20 @@
   "item.awesomearmaments.berserk_netherite_leggings": "Berserk Netherite Leggings",
   "item.awesomearmaments.berserk_netherite_boots": "Berserk Netherite Boots",
 
-  "item.awesomearmaments.bloodlust_helmet": "Bloodlust Helmet",
-  "item.awesomearmaments.bloodlust_chestplate": "Bloodlust Chestplate",
-  "item.awesomearmaments.bloodlust_leggings": "Bloodlust Leggings",
-  "item.awesomearmaments.bloodlust_boots": "Bloodlust Boots",
+  "item.awesomearmaments.bloodlust_helmet": "§4§lBloodlust Helmet",
+  "item.awesomearmaments.bloodlust_chestplate": "§4§lBloodlust Chestplate",
+  "item.awesomearmaments.bloodlust_leggings": "§4§lBloodlust Leggings",
+  "item.awesomearmaments.bloodlust_boots": "§4§lBloodlust Boots",
 
-  "item.awesomearmaments.neptune_helmet": "Neptune Helmet",
-  "item.awesomearmaments.neptune_chestplate": "Neptune Chestplate",
-  "item.awesomearmaments.neptune_leggings": "Neptune Leggings",
-  "item.awesomearmaments.neptune_boots": "Neptune Boots",
+  "item.awesomearmaments.neptune_helmet": "§1§lNeptune Helmet",
+  "item.awesomearmaments.neptune_chestplate": "§1§lNeptune Chestplate",
+  "item.awesomearmaments.neptune_leggings": "§1§lNeptune Leggings",
+  "item.awesomearmaments.neptune_boots": "§1§lNeptune Boots",
 
-  "item.awesomearmaments.infinite_sight_helmet": "Infinite Sight Helmet",
-  "item.awesomearmaments.infinite_sight_chestplate": "Infinite Sight Chestplate",
-  "item.awesomearmaments.infinite_sight_leggings": "Infinite Sight Leggings",
-  "item.awesomearmaments.infinite_sight_boots": "Infinite Sight Boots",
+  "item.awesomearmaments.infinite_sight_helmet": "§lInfinite Sight Helmet",
+  "item.awesomearmaments.infinite_sight_chestplate": "§lInfinite Sight Chestplate",
+  "item.awesomearmaments.infinite_sight_leggings": "§lInfinite Sight Leggings",
+  "item.awesomearmaments.infinite_sight_boots": "§lInfinite Sight Boots",
   
   "item.awesomearmaments.plated_iron_upgrade": "Plated Iron Upgrade",
   "item.awesomearmaments.plated_diamond_upgrade": "Plated Diamond Upgrade",
@@ -90,5 +90,9 @@
 
   "itemgroup.awesomearmaments": "Awesome Armaments",
 
-  "effect.awesomearmaments.experience_empower": "Exp Empower"
+  "effect.awesomearmaments.experience_empower": "Exp Empower",
+  "effect.awesomearmaments.experience_empower2": "Exp Empower 2",
+  "effect.awesomearmaments.infinite_sight": "Infinite Sight",
+  "effect.awesomearmaments.bloodlust": "Bloodlust",
+  "effect.awesomearmaments.waterborn": "Waterborn"
 }
