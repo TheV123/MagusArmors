@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "#N#",
-    "E E",
+    "ETE",
     "#E#"
   ],
   "key": {
@@ -14,6 +14,9 @@
     },
     "E": {
       "item": "minecraft:emerald_block"
+    },
+    "T": {
+      "item": "awesomearmaments:wise_netherite_upgrade"
     }
   },
   "result": {

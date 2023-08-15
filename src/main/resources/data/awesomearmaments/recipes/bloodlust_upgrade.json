@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "/D/",
-    "R R",
+    "RTR",
     "KnK"
   ],
   "key": {
@@ -20,6 +20,9 @@
     },
     "n": {
       "item": "minecraft:netherite_ingot"
+    },
+    "T": {
+      "item": "awesomearmaments:berserk_netherite_upgrade"
     }
   },
   "result": {
