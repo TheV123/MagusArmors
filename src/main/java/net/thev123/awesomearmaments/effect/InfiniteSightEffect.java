@@ -22,30 +22,27 @@ public class InfiniteSightEffect extends StatusEffect {
             World world = player.getWorld();
             if (player.hasStatusEffect(this)) {
                 if (!world.isClient && world.getTime() % COOLDOWN == 0) {
-                    int effect = player.getWorld().random.nextInt(7);
+                    int effect = player.getWorld().random.nextInt(6);
                     //effect lasts for 600 ticks
                     int duration = 600;
                     switch (effect) {
                         case 0:
-                            player.addStatusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, duration, 1));
+                            player.addStatusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, duration, 2));
                             break;
                         case 1:
-                            player.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, duration, 1));
+                            player.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, duration, 2));
                             break;
                         case 2:
                             player.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, duration, 0));
                             break;
                         case 3:
-                            player.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, duration, 1));
+                            player.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, duration, 2));
                             break;
                         case 4:
                             player.addStatusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, duration, 1));
                             break;
                         case 5:
-                            player.addStatusEffect(new StatusEffectInstance(StatusEffects.HASTE, duration, 1));
-                            break;
-                        case 7:
-                            player.addStatusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, duration, 1));
+                            player.addStatusEffect(new StatusEffectInstance(StatusEffects.HASTE, duration, 2));
                             break;
                     }
                 }
