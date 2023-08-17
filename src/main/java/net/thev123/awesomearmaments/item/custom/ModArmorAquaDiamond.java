@@ -22,7 +22,7 @@ public class ModArmorAquaDiamond extends ArmorItem{
     //effects
     private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP1 =
             new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>()
-                    .put(ModArmorMaterials.AQUA_DIAMOND, new StatusEffectInstance(StatusEffects.CONDUIT_POWER, effectDuration, amplifier))
+                    .put(ModArmorMaterials.AQUA_DIAMOND, new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE, effectDuration, amplifier))
                     .build();
     @Override
     public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {
