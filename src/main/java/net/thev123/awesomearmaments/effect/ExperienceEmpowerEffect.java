@@ -16,10 +16,11 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class ExperienceEmpowerEffect extends StatusEffect {
     private static boolean flag = true;
-    private final float HEAL_CHANCE =  0.15f; // 15% chance to heal
+    private final float HEAL_CHANCE =  0.10f; // 10% chance to heal
     private final float HEAL_AMOUNT = 1;  //heals .5 hearts
     protected ExperienceEmpowerEffect(StatusEffectCategory category, int color) {
         super(category, color);
@@ -29,14 +30,13 @@ public class ExperienceEmpowerEffect extends StatusEffect {
     public void applyUpdateEffect(LivingEntity pLivingEntity, int pAmplifier) {
         if (!pLivingEntity.getWorld().isClient()) {
             PlayerEntity player = (PlayerEntity) pLivingEntity;
-            Box box = player.hasVehicle() && !player.getVehicle().isRemoved() ? player.getBoundingBox().union(player.getVehicle().getBoundingBox()).expand(1.0, 0.0, 1.0) : player.getBoundingBox().expand(1.0, 0.5, 1.0);
+            Box box = player.hasVehicle() && !Objects.requireNonNull(player.getVehicle()).isRemoved() ? player.getBoundingBox().union(player.getVehicle().getBoundingBox()).expand(1.0, 0.0, 1.0) : player.getBoundingBox().expand(1.0, 0.5, 1.0);
             List<Entity> list = player.getWorld().getOtherEntities(player, box);
-            ArrayList<Entity> list2 = Lists.newArrayList();
             for (int i = 0; i < list.size(); ++i) {
                 Entity entity = list.get(i);
                 if (entity.getType() == EntityType.EXPERIENCE_ORB) {
-                    list2.add(entity);
                     Random random = player.getWorld().random;
+                    entity.onPlayerCollision(player);
                     if(flag){
                         if(random.nextDouble() < HEAL_CHANCE){
                             player.heal(HEAL_AMOUNT);
@@ -49,10 +49,7 @@ public class ExperienceEmpowerEffect extends StatusEffect {
                         }
                         flag = true;
                     }
-                    continue;
                 }
-                if (entity.isRemoved()) continue;
-                entity.onPlayerCollision(player);
             }
         }
         super.applyUpdateEffect(pLivingEntity, pAmplifier);
