@@ -48,7 +48,7 @@ public class Waterborn extends StatusEffect {
                     DAMAGE_REDUCTION_AMOUNT,
                     EntityAttributeModifier.Operation.ADDITION
             );
-            if(player.isSubmergedInWater() || player.isSwimming() || player.isTouchingWater()){
+            if(player.isSubmergedInWater() || player.isSwimming() || player.isTouchingWater() || player.isInsideWaterOrBubbleColumn()){
                 timeOutsideWater = 0;
                 player.removeStatusEffect(StatusEffects.POISON);
                 if (attributeInstance != null && !attributeInstance.hasModifier(healthModifier)) {

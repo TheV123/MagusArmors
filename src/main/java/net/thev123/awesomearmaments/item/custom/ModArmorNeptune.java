@@ -16,6 +16,9 @@ import java.util.Map;
 public class ModArmorNeptune extends ArmorItem {
     public static final int effectDuration = 200;
     public static final int amplifier = 0;
+
+    private static final int REPAIR_TICKS = 200;  // Number of ticks between repairs
+    private static final int REPAIR_AMOUNT = 3;   // Amount of durability to repair per tick
     private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>())
                     .put(ModArmorMaterials.NEPTUNE,
@@ -43,6 +46,13 @@ public class ModArmorNeptune extends ArmorItem {
 
                 if(hasFullSuitOfArmorOn(player)) {
                     evaluateArmorEffects(player);
+                }
+
+                if(player.isSwimming() || player.isTouchingWater() || player.isSubmergedInWater() || player.isInsideWaterOrBubbleColumn())
+                if (world.getTime() % REPAIR_TICKS == 0) {
+                    if (stack.getDamage() > 0) {
+                        stack.setDamage(stack.getDamage() - REPAIR_AMOUNT);
+                    }
                 }
             }
         }
