@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "#C#",
-    "C C",
+    "CTC",
     "#C#"
   ],
   "key": {
@@ -11,6 +11,9 @@
     },
     "C": {
       "item": "minecraft:conduit"
+    },
+    "T": {
+      "item": "awesomearmaments:aqua_netherite_upgrade"
     }
   },
   "result": {

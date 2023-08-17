@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "#n#",
-    "n n",
+    "nTn",
     "#n#"
   ],
   "key": {
@@ -11,7 +11,10 @@
     },
     "n": {
       "item": "minecraft:netherite_ingot"
-    }v
+    },
+    "T": {
+      "item": "awesomearmaments:plated_netherite_template"
+    }
   },
   "result": {
     "item": "awesomearmaments:bulwark_upgrade"
