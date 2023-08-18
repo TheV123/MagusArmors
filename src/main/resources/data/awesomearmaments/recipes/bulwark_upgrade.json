@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#n#",
+    "#k#",
     "nTn",
-    "#n#"
+    "#k#"
   ],
   "key": {
     "#": {
@@ -14,6 +14,9 @@
     },
     "T": {
       "item": "awesomearmaments:plated_netherite_template"
+    },
+    "k": {
+      "item": "minecraft:iron_block"
     }
   },
   "result": {
