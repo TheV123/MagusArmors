@@ -15,11 +15,14 @@
     },
     "W": {
       "item": "minecraft:wither_skeleton_skull"
+    },
+    "T": {
+      "item": "awesomearmaments:berserk_diamond_upgrade"
     }
   },
   "pattern": [
     "#B#",
-    "N N",
+    "NTN",
     "RWR"
   ],
   "result": {
