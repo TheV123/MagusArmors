@@ -3,13 +3,13 @@
 	"id": "awesomearmaments",
 	"version": "1.0.0",
 	"name": "Awesome Armaments",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A mod which adds awesome armors and weapons to the game based on unique archetypes",
 	"authors": [
 		"Me!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/TheV123/AwesomeArmaments"
 	},
 	"license": "MIT",
 	"icon": "assets/awesomearmaments/icon.png",
