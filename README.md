@@ -24,6 +24,13 @@ Awesome armor and weapons mod for Minecraft
   - Aqua Netherite - conduit power, dolphins grace
 
 #### Berserk - speed and damage
+  - Berserk Diamond - each piece makes you 5% faster
+  - Berserk Netherite - each piece makes you 5% faster & increases damage by .5
+  - Armor Of The Bloody
+    - Full set: if your heath drops below 4 hearts get strength effect
+    - Each piece increases damage by 1
+    - You lose .5 hearts per piece
+
 
 #### Armor Of The Bulwark - great protection, each piece reduces speed by 5%
   - Full set: resistance, hunger
