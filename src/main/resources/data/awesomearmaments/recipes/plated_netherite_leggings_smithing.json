@@ -10,6 +10,6 @@
     "item": "awesomearmaments:plated_netherite_leggings"
   },
   "template": {
-    "item": "minecraft:plated_netherite_upgrade"
+    "item": "awesomearmaments:plated_netherite_upgrade"
   }
 }

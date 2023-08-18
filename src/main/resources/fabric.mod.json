@@ -11,7 +11,7 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/TheV123/AwesomeArmaments"
 	},
-	"license": "GNU",
+	"license": "MIT",
 	"icon": "assets/awesomearmaments/icon.png",
 	"environment": "*",
 	"entrypoints": {
