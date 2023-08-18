@@ -83,10 +83,10 @@
   "item.awesomearmaments.aqua_diamond_upgrade": "Aqua Diamond Upgrade",
   "item.awesomearmaments.aqua_netherite_upgrade": "Aqua Netherite Upgrade",
 
-  "item.awesomearmaments.bulwark_upgrade": "Bulwark Upgrade",
-  "item.awesomearmaments.neptune_upgrade": "Neptune Upgrade",
-  "item.awesomearmaments.infinite_sight_upgrade": "Infinite Sight Upgrade",
-  "item.awesomearmaments.bloodlust_upgrade": "Bloodlust Upgrade",
+  "item.awesomearmaments.bulwark_upgrade": "§8Bulwark Upgrade",
+  "item.awesomearmaments.neptune_upgrade": "§1Neptune Upgrade",
+  "item.awesomearmaments.infinite_sight_upgrade": "§lInfinite Sight Upgrade",
+  "item.awesomearmaments.bloodlust_upgrade": "§4Bloodlust Upgrade",
 
   "itemgroup.awesomearmaments": "Awesome Armaments",
 

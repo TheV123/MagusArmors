@@ -28,10 +28,10 @@ public class ModItemGroups {
                         entries.add(ModItems.BERSERK_DIAMOND_UPGRADE);
                         entries.add(ModItems.BERSERK_NETHERITE_UPGRADE);
 
+                        entries.add(ModItems.BULWARK_UPGRADE);
                         entries.add(ModItems.BLOODLUST_UPGRADE);
                         entries.add(ModItems.INFINITE_SIGHT_UPGRADE);
                         entries.add(ModItems.NEPTUNE_UPGRADE);
-                        entries.add(ModItems.BULWARK_UPGRADE);
 
                         entries.add(ModItems.PLATED_IRON_HELMET);
                         entries.add(ModItems.PLATED_IRON_CHESTPLATE);
