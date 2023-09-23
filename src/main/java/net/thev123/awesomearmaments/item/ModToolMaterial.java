@@ -11,7 +11,9 @@ public enum  ModToolMaterial implements ToolMaterial {
     //enum format credits = https://github.com/Tutorials-By-Kaupenjoe/Fabric-Tutorial-1.20.X/blob/15-tools/src/main/java/net/kaupenjoe/tutorialmod/item/ModToolMaterial.java
     WINDCALLER(MiningLevels.NETHERITE, 1562, 11f, 2.5f, 10, () -> Ingredient.ofItems(Items.DIAMOND)),
 
-    STORMCALLER(5, 2031, 13f, 3.0f, 15, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
+    STORMCALLER(5, 2031, 13f, 3.0f, 15, () -> Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    VENOMOUS(MiningLevels.DIAMOND, 1562, 8f, 3.0f, 8, () -> Ingredient.ofItems(Items.DIAMOND)),
+    WITHERING(5, 2031, 10f, 3.0f, 12, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
 
     private final int miningLevel;
     private final int itemDurability;

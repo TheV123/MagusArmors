@@ -35,6 +35,8 @@ public class ModItemGroups {
 
                         entries.add(ModItems.WINDCALLER_SWORD);
                         entries.add(ModItems.STORMCALLER_SWORD);
+                        entries.add(ModItems.VENOMOUS_SWORD);
+                        entries.add(ModItems.WITHERING_SWORD);
 
                         entries.add(ModItems.PLATED_IRON_HELMET);
                         entries.add(ModItems.PLATED_IRON_CHESTPLATE);
