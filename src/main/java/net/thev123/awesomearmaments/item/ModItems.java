@@ -46,8 +46,14 @@ public class ModItems {
 
     public static final Item WINDCALLER_SWORD = registerItem("windcaller_sword",
             new ModItemWindCallerSword(ModToolMaterial.WINDCALLER, 0, 0f, new Item.Settings()));
+    public static final Item WINDCALLER_AXE = registerItem("windcaller_axe",
+            new ModItemWindCallerAxe(ModToolMaterial.WINDCALLER, 0, 0f, new Item.Settings()));
+
     public static final Item STORMCALLER_SWORD = registerItem("stormcaller_sword",
             new ModItemStormCallerSword(ModToolMaterial.STORMCALLER, 0, 0f, new Item.Settings()));
+    public static final Item STORMCALLER_AXE = registerItem("stormcaller_axe",
+            new ModItemStormCallerAxe(ModToolMaterial.STORMCALLER, 0, 0f, new Item.Settings()));
+
     public static final Item VENOMOUS_SWORD = registerItem("venomous_sword",
             new ModItemVenomousSword(ModToolMaterial.VENOMOUS, 3, -2.4f, new Item.Settings()));
     public static final Item WITHERING_SWORD = registerItem("withering_sword",
