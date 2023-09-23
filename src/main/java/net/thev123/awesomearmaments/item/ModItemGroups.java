@@ -34,6 +34,7 @@ public class ModItemGroups {
                         entries.add(ModItems.NEPTUNE_UPGRADE);
 
                         entries.add(ModItems.WINDCALLER_SWORD);
+                        entries.add(ModItems.STORMCALLER_SWORD);
 
                         entries.add(ModItems.PLATED_IRON_HELMET);
                         entries.add(ModItems.PLATED_IRON_CHESTPLATE);

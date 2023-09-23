@@ -46,7 +46,8 @@ public class ModItems {
 
     public static final Item WINDCALLER_SWORD = registerItem("windcaller_sword",
             new ModItemWindCallerSword(ModToolMaterial.WINDCALLER, 0, 0f, new Item.Settings()));
-
+    public static final Item STORMCALLER_SWORD = registerItem("stormcaller_sword",
+            new ModItemStormCallerSword(ModToolMaterial.STORMCALLER, 0, 0f, new Item.Settings()));
     public static final Item PLATED_IRON_HELMET = registerItem("plated_iron_helmet",
             new ArmorItem(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.HELMET,
                     new FabricItemSettings()));
