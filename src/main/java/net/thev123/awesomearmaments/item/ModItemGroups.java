@@ -40,7 +40,10 @@ public class ModItemGroups {
                         entries.add(ModItems.STORMCALLER_AXE);
 
                         entries.add(ModItems.VENOMOUS_SWORD);
+                        entries.add(ModItems.VENOMOUS_AXE);
+
                         entries.add(ModItems.WITHERING_SWORD);
+                        entries.add(ModItems.WITHERING_AXE);
 
                         entries.add(ModItems.PLATED_IRON_HELMET);
                         entries.add(ModItems.PLATED_IRON_CHESTPLATE);

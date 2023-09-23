@@ -56,8 +56,13 @@ public class ModItems {
 
     public static final Item VENOMOUS_SWORD = registerItem("venomous_sword",
             new ModItemVenomousSword(ModToolMaterial.VENOMOUS, 3, -2.4f, new Item.Settings()));
+    public static final Item VENOMOUS_AXE = registerItem("venomous_axe",
+            new ModItemVenomousAxe(ModToolMaterial.VENOMOUS, 4, -3.0f, new Item.Settings()));
+
     public static final Item WITHERING_SWORD = registerItem("withering_sword",
             new ModItemWitheringSword(ModToolMaterial.WITHERING, 4, -2.4f, new Item.Settings()));
+    public static final Item WITHERING_AXE = registerItem("withering_axe",
+            new ModItemWitheringAxe(ModToolMaterial.WITHERING, 4, -3.0f, new Item.Settings()));
 
     public static final Item PLATED_IRON_HELMET = registerItem("plated_iron_helmet",
             new ArmorItem(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.HELMET,

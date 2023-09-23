@@ -25,6 +25,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.STORMCALLER_AXE, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.VENOMOUS_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.VENOMOUS_AXE, Models.HANDHELD);
+
         itemModelGenerator.register(ModItems.WITHERING_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.WITHERING_AXE, Models.HANDHELD);
     }
 }
