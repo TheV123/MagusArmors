@@ -2,6 +2,7 @@ package net.thev123.awesomearmaments;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.thev123.awesomearmaments.datagen.ModModelProvider;
 import net.thev123.awesomearmaments.effect.ModEffects;
 import net.thev123.awesomearmaments.item.ModItemGroups;
 import net.thev123.awesomearmaments.item.ModItems;
