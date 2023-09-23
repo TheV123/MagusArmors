@@ -33,6 +33,8 @@ public class ModItemGroups {
                         entries.add(ModItems.INFINITE_SIGHT_UPGRADE);
                         entries.add(ModItems.NEPTUNE_UPGRADE);
 
+                        entries.add(ModItems.WINDCALLER_SWORD);
+
                         entries.add(ModItems.PLATED_IRON_HELMET);
                         entries.add(ModItems.PLATED_IRON_CHESTPLATE);
                         entries.add(ModItems.PLATED_IRON_LEGGINGS);

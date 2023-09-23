@@ -3,6 +3,7 @@ package net.thev123.awesomearmaments.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.SwordItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -42,6 +43,9 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item NEPTUNE_UPGRADE = registerItem("neptune_upgrade",
             new Item(new FabricItemSettings()));
+
+    public static final Item WINDCALLER_SWORD = registerItem("windcaller_sword",
+            new ModItemWindCallerSword(ModToolMaterial.WINDCALLER, 0, 0f, new Item.Settings()));
 
     public static final Item PLATED_IRON_HELMET = registerItem("plated_iron_helmet",
             new ArmorItem(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.HELMET,
