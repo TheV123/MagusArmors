@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#L#",
+        "FnF",
+        "P/P"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:netherite_scrap"
+        },
+        "L": {
+            "item": "minecraft:lightning_rod"
+        },
+        "F": {
+            "item": "minecraft:feather"
+        },
+        "n": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "P": {
+            "item": "minecraft:phantom_membrane"
+        },
+        "/": {
+            "item": "minecraft:blaze_rod"
+        }
+    },
+    "result": {
+        "item": "awesomearmaments:stormcaller_upgrade",
+        "count": 1
+    }
+}

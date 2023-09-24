@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:diamond"
+  },
+  "base": {
+    "item": "minecraft:diamond_axe"
+  },
+  "result": {
+    "item": "awesomearmaments:windcaller_axe"
+  },
+  "template": {
+    "item": "awesomearmaments:windcaller_upgrade"
+  }
+}

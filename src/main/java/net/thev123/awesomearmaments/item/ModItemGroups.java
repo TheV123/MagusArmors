@@ -33,9 +33,11 @@ public class ModItemGroups {
                         entries.add(ModItems.INFINITE_SIGHT_UPGRADE);
                         entries.add(ModItems.NEPTUNE_UPGRADE);
 
+                        entries.add(ModItems.WINDCALLER_UPGRADE);
                         entries.add(ModItems.WINDCALLER_SWORD);
                         entries.add(ModItems.WINDCALLER_AXE);
 
+                        entries.add(ModItems.STORMCALLER_UPGRADE);
                         entries.add(ModItems.STORMCALLER_SWORD);
                         entries.add(ModItems.STORMCALLER_AXE);
 

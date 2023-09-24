@@ -44,6 +44,12 @@ public class ModItems {
     public static final Item NEPTUNE_UPGRADE = registerItem("neptune_upgrade",
             new Item(new FabricItemSettings()));
 
+    public static final Item WINDCALLER_UPGRADE = registerItem("windcaller_upgrade",
+            new Item(new FabricItemSettings()));
+
+    public static final Item STORMCALLER_UPGRADE = registerItem("stormcaller_upgrade",
+            new Item(new FabricItemSettings()));
+
     public static final Item WINDCALLER_SWORD = registerItem("windcaller_sword",
             new ModItemWindCallerSword(ModToolMaterial.WINDCALLER, 0, 0f, new Item.Settings()));
     public static final Item WINDCALLER_AXE = registerItem("windcaller_axe",
