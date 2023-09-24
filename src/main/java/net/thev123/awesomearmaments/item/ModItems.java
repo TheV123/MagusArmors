@@ -60,11 +60,15 @@ public class ModItems {
     public static final Item STORMCALLER_AXE = registerItem("stormcaller_axe",
             new ModItemStormCallerAxe(ModToolMaterial.STORMCALLER, 0, 0f, new Item.Settings()));
 
+    public static final Item VENOMOUS_UPGRADE = registerItem("venomous_upgrade",
+            new Item(new FabricItemSettings()));
     public static final Item VENOMOUS_SWORD = registerItem("venomous_sword",
             new ModItemVenomousSword(ModToolMaterial.VENOMOUS, 3, -2.4f, new Item.Settings()));
     public static final Item VENOMOUS_AXE = registerItem("venomous_axe",
             new ModItemVenomousAxe(ModToolMaterial.VENOMOUS, 4, -3.0f, new Item.Settings()));
 
+    public static final Item WITHERING_UPGRADE = registerItem("withering_upgrade",
+            new Item(new FabricItemSettings()));
     public static final Item WITHERING_SWORD = registerItem("withering_sword",
             new ModItemWitheringSword(ModToolMaterial.WITHERING, 4, -2.4f, new Item.Settings()));
     public static final Item WITHERING_AXE = registerItem("withering_axe",

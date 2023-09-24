@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#n#",
+        "FCF",
+        "WNW"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:wither_rose"
+        },
+        "n": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "F": {
+            "item": "minecraft:fermented_spider_eye"
+        },
+        "C": {
+            "item": "awesomearmaments:venomous_upgrade"
+        },
+        "W": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "N": {
+            "item": "minecraft:netherite_scrap"
+        }
+    },
+    "result": {
+        "item": "awesomearmaments:withering_upgrade",
+        "count": 1
+    }
+}

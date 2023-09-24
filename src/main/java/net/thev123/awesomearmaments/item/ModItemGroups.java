@@ -41,9 +41,11 @@ public class ModItemGroups {
                         entries.add(ModItems.STORMCALLER_SWORD);
                         entries.add(ModItems.STORMCALLER_AXE);
 
+                        entries.add(ModItems.VENOMOUS_UPGRADE);
                         entries.add(ModItems.VENOMOUS_SWORD);
                         entries.add(ModItems.VENOMOUS_AXE);
 
+                        entries.add(ModItems.WITHERING_UPGRADE);
                         entries.add(ModItems.WITHERING_SWORD);
                         entries.add(ModItems.WITHERING_AXE);
 

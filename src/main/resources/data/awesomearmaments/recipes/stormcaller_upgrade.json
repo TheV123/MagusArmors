@@ -2,27 +2,27 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "#L#",
-        "FnF",
-        "P/P"
+        "/C/",
+        "NnN"
     ],
     "key": {
         "#": {
-            "item": "minecraft:netherite_scrap"
+            "item": "minecraft:phantom_membrane"
         },
         "L": {
             "item": "minecraft:lightning_rod"
         },
-        "F": {
-            "item": "minecraft:feather"
+        "/": {
+            "item": "minecraft:blaze_rod"
+        },
+        "C": {
+            "item": "awesomearmaments:windcaller_upgrade"
+        },
+        "N": {
+            "item": "minecraft:netherite_scrap"
         },
         "n": {
             "item": "minecraft:netherite_ingot"
-        },
-        "P": {
-            "item": "minecraft:phantom_membrane"
-        },
-        "/": {
-            "item": "minecraft:blaze_rod"
         }
     },
     "result": {

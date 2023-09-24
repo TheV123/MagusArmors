@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherite_scrap"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": {
+    "item": "awesomearmaments:withering_sword"
+  },
+  "template": {
+    "item": "awesomearmaments:withering_upgrade"
+  }
+}
