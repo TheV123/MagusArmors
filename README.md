@@ -50,6 +50,7 @@ textures, enchanted ore (+ bottle of exp recipe), elder guardian scale drop (nep
 
 # Authors
 Vishal Kamalakrishnan 
+
 Special Thanks to: Deyan Jani
 
 # Credits
