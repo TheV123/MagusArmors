@@ -1,5 +1,5 @@
-[01:29:33] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.14.21
-[01:29:33] [main/INFO] (FabricLoader) Loading 46 mods:
+[16:21:03] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.14.21
+[16:21:03] [main/INFO] (FabricLoader) Loading 46 mods:
 	- awesomearmaments 1.1.0
 	- fabric-api 0.85.0+1.20.1
 	- fabric-api-base 0.4.29+b04edc7a77
@@ -46,13 +46,13 @@
 	- fabricloader 0.14.21
 	- java 17
 	- minecraft 1.20.1
-[01:29:34] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Vishal/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[01:29:34] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[01:29:34] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[01:29:34] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[01:29:40] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 174 milliseconds
-[01:29:43] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:29:43] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+[16:21:03] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Vishal/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[16:21:03] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[16:21:03] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[16:21:03] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[16:21:10] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 186 milliseconds
+[16:21:13] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:21:13] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar:?]
@@ -70,100 +70,96 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar:?]
 	... 9 more
-[01:29:43] [Render thread/INFO] (Minecraft) Setting user: Player92
-[01:29:43] [Render thread/INFO] (awesomearmaments) Hello Fabric world!
-[01:29:43] [Render thread/INFO] (awesomearmaments) Registering Mod Items for awesomearmaments
-[01:29:43] [Render thread/INFO] (awesomearmaments) Registering Item Groups for awesomearmaments
-[01:29:43] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[01:29:44] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
-[01:29:45] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-gametest-api-v1, fabric-game-rule-api-v1, fabric-resource-loader-v0, fabric-crash-report-info-v1, fabric-message-api-v1, fabric-rendering-data-attachment-v1, fabric-transitive-access-wideners-v1, fabric-rendering-v1, fabric-client-tags-api-v1, fabric-api, fabric-networking-api-v1, fabric-loot-api-v2, fabric-particles-v1, fabric-registry-sync-v0, fabric-rendering-fluids-v1, fabric-api-lookup-api-v1, fabric-lifecycle-events-v1, fabric-blockrenderlayer-v1, awesomearmaments, fabric-dimensions-v1, fabric-sound-api-v1, fabric-screen-handler-api-v1, fabric-item-api-v1, fabric-biome-api-v1, fabric-mining-level-api-v1, fabric-command-api-v2, fabric-block-api-v1, fabric-data-generation-api-v1, fabric-content-registries-v0, fabricloader, fabric-screen-api-v1, fabric-transfer-api-v1, fabric-models-v0, fabric-renderer-indigo, fabric-object-builder-api-v1, fabric-renderer-api-v1, fabric-entity-events-v1, fabric-convention-tags-v1, fabric-api-base, fabric-events-interaction-v0, fabric-item-group-api-v1, fabric-resource-conditions-api-v1, fabric-key-binding-api-v1, fabric-recipe-api-v1)
-[01:29:45] [Worker-Main-6/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
-[01:29:45] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[01:29:45] [Worker-Main-4/WARN] (Minecraft) Texture awesomearmaments:item/bulwark_upgrade with size 18x18 limits mip level from 4 to 1
-[01:29:45] [Worker-Main-4/WARN] (Minecraft) minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 1, because of minimum power of two: 2
-[01:29:46] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[01:29:46] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[01:29:46] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
-[01:29:46] [Render thread/INFO] (Minecraft) Sound engine started
-[01:29:47] [Render thread/INFO] (Minecraft) Created: 1024x512x1 minecraft:textures/atlas/blocks.png-atlas
-[01:29:47] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[01:29:47] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[01:29:47] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[01:29:47] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[01:29:47] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[01:29:47] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[01:29:47] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[01:29:47] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[01:29:48] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[01:29:48] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[01:29:48] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[01:29:48] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[01:29:52] [Render thread/INFO] (FabricRegistrySync) [fabric-registry-sync] Loaded registry data [file 1/4]
-[01:29:53] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[01:29:53] [Render thread/INFO] (Minecraft) Loaded 1271 advancements
-[01:29:53] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 1.261 ms
-[01:29:53] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
-[01:29:53] [Server thread/INFO] (Minecraft) Generating keypair
-[01:29:55] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[01:29:57] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[01:29:57] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[01:29:57] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[01:29:57] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[01:29:57] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[01:29:57] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[01:29:58] [Render thread/INFO] (Minecraft) Preparing spawn area: 37%
-[01:29:58] [Render thread/INFO] (Minecraft) Time elapsed: 3339 ms
-[01:29:58] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
-[01:29:58] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
-[01:29:59] [Server thread/INFO] (Minecraft) Player92[local:E:4204c7bf] logged in with entity id 77 at (19.13688136106764, 64.07048680644888, -163.8868080945254)
-[01:29:59] [Server thread/INFO] (Minecraft) Player92 joined the game
-[01:30:00] [Render thread/INFO] (Minecraft) Loaded 12 advancements
-[01:30:47] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[01:30:47] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:overworld
-[01:30:47] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_nether
-[01:30:47] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_end
-[01:32:01] [Server thread/INFO] (Minecraft) [Player92: Removed 16 item(s) from player Player92]
-[01:32:01] [Render thread/INFO] (Minecraft) [System] [CHAT] Removed 16 item(s) from player Player92
-[01:33:05] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[01:33:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:overworld
-[01:33:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_nether
-[01:33:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_end
-[01:35:33] [Server thread/INFO] (Minecraft) [Player92: Summoned new Villager]
-[01:35:33] [Render thread/INFO] (Minecraft) [System] [CHAT] Summoned new Villager
-[01:35:46] [Server thread/INFO] (Minecraft) Villager VillagerEntity['Villager'/2045, l='ServerLevel[New World2]', x=86.53, y=62.60, z=-168.02] died, message: 'Villager was slain by Player92'
-[01:35:46] [Render thread/INFO] (Minecraft) Villager VillagerEntity['Villager'/2045, l='ClientLevel', x=86.50, y=62.66, z=-168.14] died, message: 'Villager died'
-[01:35:46] [Render thread/INFO] (Minecraft) Loaded 40 advancements
-[01:35:52] [Server thread/INFO] (Minecraft) [Player92: Summoned new Villager]
-[01:35:52] [Render thread/INFO] (Minecraft) [System] [CHAT] Summoned new Villager
-[01:35:55] [Server thread/INFO] (Minecraft) Villager VillagerEntity['Villager'/2322, l='ServerLevel[New World2]', x=106.72, y=65.17, z=-177.66] died, message: 'Villager was slain by Player92'
-[01:35:55] [Render thread/INFO] (Minecraft) Villager VillagerEntity['Villager'/2322, l='ClientLevel', x=106.62, y=64.44, z=-177.24] died, message: 'Villager died'
-[01:35:56] [Render thread/INFO] (Minecraft) Loaded 40 advancements
-[01:35:59] [Server thread/INFO] (Minecraft) [Player92: Summoned new Villager]
-[01:35:59] [Render thread/INFO] (Minecraft) [System] [CHAT] Summoned new Villager
-[01:36:13] [Server thread/INFO] (Minecraft) Villager VillagerEntity['Villager'/2361, l='ServerLevel[New World2]', x=105.70, y=64.00, z=-177.87] died, message: 'Villager was slain by Player92'
-[01:36:13] [Render thread/INFO] (Minecraft) Villager VillagerEntity['Villager'/2361, l='ClientLevel', x=105.70, y=64.00, z=-178.17] died, message: 'Villager died'
-[01:36:27] [Server thread/INFO] (Minecraft) [Player92: Applied enchantment Sharpness V to Player92's item]
-[01:36:27] [Render thread/INFO] (Minecraft) [System] [CHAT] Applied enchantment Sharpness V to Player92's item
-[01:36:29] [Server thread/INFO] (Minecraft) [Player92: Summoned new Villager]
-[01:36:29] [Render thread/INFO] (Minecraft) [System] [CHAT] Summoned new Villager
-[01:36:35] [Server thread/INFO] (Minecraft) Villager VillagerEntity['Villager'/2469, l='ServerLevel[New World2]', x=93.30, y=63.00, z=-166.42] died, message: 'Villager was slain by Player92'
-[01:36:35] [Render thread/INFO] (Minecraft) Villager VillagerEntity['Villager'/2469, l='ClientLevel', x=93.29, y=63.00, z=-166.07] died, message: 'Villager died'
-[01:36:50] [Render thread/WARN] (Minecraft) Unable to play empty soundEvent: minecraft:entity.salmon.ambient
-[01:38:11] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[01:38:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:overworld
-[01:38:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_nether
-[01:38:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_end
-[01:38:12] [Server thread/INFO] (Minecraft) Player92 lost connection: Disconnected
-[01:38:12] [Server thread/INFO] (Minecraft) Player92 left the game
-[01:38:12] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[01:38:12] [Server thread/INFO] (Minecraft) Stopping server
-[01:38:12] [Server thread/INFO] (Minecraft) Saving players
-[01:38:12] [Server thread/INFO] (Minecraft) Saving worlds
-[01:38:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:overworld
-[01:38:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_nether
-[01:38:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_end
-[01:38:12] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World2): All chunks are saved
-[01:38:12] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:38:12] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:38:12] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
-[01:38:13] [Render thread/INFO] (Minecraft) Stopping!
+[16:21:13] [Render thread/INFO] (Minecraft) Setting user: Player448
+[16:21:13] [Render thread/INFO] (awesomearmaments) Hello Fabric world!
+[16:21:13] [Render thread/INFO] (awesomearmaments) Registering Mod Items for awesomearmaments
+[16:21:13] [Render thread/INFO] (awesomearmaments) Registering Item Groups for awesomearmaments
+[16:21:13] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[16:21:14] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
+[16:21:15] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-renderer-api-v1, fabric-loot-api-v2, fabric-content-registries-v0, fabric-recipe-api-v1, fabric-data-generation-api-v1, fabric-key-binding-api-v1, fabric-convention-tags-v1, fabric-mining-level-api-v1, fabric-rendering-fluids-v1, fabric-blockrenderlayer-v1, fabric-object-builder-api-v1, awesomearmaments, fabricloader, fabric-biome-api-v1, fabric-dimensions-v1, fabric-item-group-api-v1, fabric-command-api-v2, fabric-client-tags-api-v1, fabric-gametest-api-v1, fabric-screen-api-v1, fabric-networking-api-v1, fabric-lifecycle-events-v1, fabric-models-v0, fabric-sound-api-v1, fabric-rendering-data-attachment-v1, fabric-resource-conditions-api-v1, fabric-crash-report-info-v1, fabric-screen-handler-api-v1, fabric-message-api-v1, fabric-api-lookup-api-v1, fabric-transfer-api-v1, fabric-rendering-v1, fabric-registry-sync-v0, fabric-api-base, fabric-api, fabric-renderer-indigo, fabric-particles-v1, fabric-transitive-access-wideners-v1, fabric-item-api-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-resource-loader-v0, fabric-game-rule-api-v1, fabric-block-api-v1)
+[16:21:16] [Worker-Main-3/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
+[16:21:16] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[16:21:16] [Worker-Main-5/WARN] (Minecraft) Texture awesomearmaments:item/bulwark_upgrade with size 18x18 limits mip level from 4 to 1
+[16:21:16] [Worker-Main-5/WARN] (Minecraft) minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 1, because of minimum power of two: 2
+[16:21:17] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[16:21:17] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[16:21:17] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[16:21:17] [Render thread/INFO] (Minecraft) Sound engine started
+[16:21:17] [Render thread/INFO] (Minecraft) Created: 1024x512x1 minecraft:textures/atlas/blocks.png-atlas
+[16:21:18] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[16:21:18] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[16:21:18] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[16:21:18] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[16:21:18] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[16:21:18] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[16:21:18] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[16:21:18] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[16:21:18] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[16:21:19] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[16:21:19] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[16:21:19] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[16:21:23] [Render thread/INFO] (FabricRegistrySync) [fabric-registry-sync] Loaded registry data [file 1/4]
+[16:21:24] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[16:21:24] [Render thread/INFO] (Minecraft) Loaded 1271 advancements
+[16:21:24] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 1.928 ms
+[16:21:24] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
+[16:21:24] [Server thread/INFO] (Minecraft) Generating keypair
+[16:21:26] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[16:21:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[16:21:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[16:21:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[16:21:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[16:21:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[16:21:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[16:21:29] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[16:21:29] [Render thread/INFO] (Minecraft) Preparing spawn area: 36%
+[16:21:29] [Render thread/INFO] (Minecraft) Time elapsed: 3869 ms
+[16:21:30] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[16:21:30] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[16:21:31] [Server thread/INFO] (Minecraft) Player448[local:E:4dc3908e] logged in with entity id 120 at (40.119806950308174, 64.0, -144.71081166821418)
+[16:21:31] [Server thread/INFO] (Minecraft) Player448 joined the game
+[16:21:32] [Render thread/INFO] (Minecraft) Loaded 3 advancements
+[16:21:35] [Render thread/WARN] (Minecraft) Unable to play empty soundEvent: minecraft:entity.cod.ambient
+[16:22:24] [Render thread/INFO] (Minecraft) Loaded 20 advancements
+[16:23:12] [Server thread/INFO] (Minecraft) [Player448: Applied enchantment Protection IV to Player448's item]
+[16:23:12] [Render thread/INFO] (Minecraft) [System] [CHAT] Applied enchantment Protection IV to Player448's item
+[16:23:13] [Server thread/INFO] (Minecraft) [Player448: Applied enchantment Protection IV to Player448's item]
+[16:23:13] [Render thread/INFO] (Minecraft) [System] [CHAT] Applied enchantment Protection IV to Player448's item
+[16:23:14] [Server thread/INFO] (Minecraft) [Player448: Applied enchantment Protection IV to Player448's item]
+[16:23:14] [Render thread/INFO] (Minecraft) [System] [CHAT] Applied enchantment Protection IV to Player448's item
+[16:23:15] [Server thread/INFO] (Minecraft) [Player448: Applied enchantment Protection IV to Player448's item]
+[16:23:15] [Render thread/INFO] (Minecraft) [System] [CHAT] Applied enchantment Protection IV to Player448's item
+[16:23:26] [Server thread/INFO] (Minecraft) [Player448: Set own game mode to Survival Mode]
+[16:23:26] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Survival Mode
+[16:23:29] [Render thread/INFO] (Minecraft) Loaded 38 advancements
+[16:23:30] [Render thread/INFO] (Minecraft) Loaded 47 advancements
+[16:23:45] [Server thread/INFO] (Minecraft) [Player448: Set own game mode to Creative Mode]
+[16:23:45] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Creative Mode
+[16:23:56] [Server thread/INFO] (Minecraft) [Player448: Summoned new Lightning Bolt]
+[16:23:56] [Render thread/INFO] (Minecraft) [System] [CHAT] Summoned new Lightning Bolt
+[16:24:03] [Server thread/INFO] (Minecraft) [Player448: Set own game mode to Survival Mode]
+[16:24:03] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Survival Mode
+[16:24:05] [Server thread/INFO] (Minecraft) Player448 was blown up by Creeper
+[16:24:05] [Render thread/INFO] (Minecraft) [System] [CHAT] Player448 was blown up by Creeper
+[16:24:05] [Render thread/INFO] (Minecraft) Loaded 75 advancements
+[16:24:07] [Render thread/INFO] (Minecraft) Loaded 75 advancements
+[16:24:57] [Server thread/INFO] (Minecraft) [Player448: Set own game mode to Creative Mode]
+[16:24:57] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Creative Mode
+[16:24:57] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[16:24:57] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:overworld
+[16:24:57] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_end
+[16:24:57] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_nether
+[16:24:58] [Server thread/INFO] (Minecraft) Player448 lost connection: Disconnected
+[16:24:58] [Server thread/INFO] (Minecraft) Player448 left the game
+[16:24:58] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[16:24:58] [Server thread/INFO] (Minecraft) Stopping server
+[16:24:58] [Server thread/INFO] (Minecraft) Saving players
+[16:24:58] [Server thread/INFO] (Minecraft) Saving worlds
+[16:24:58] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:overworld
+[16:24:58] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_end
+[16:24:58] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_nether
+[16:24:58] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World2): All chunks are saved
+[16:24:58] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:24:58] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:24:58] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[16:25:00] [Render thread/INFO] (Minecraft) Stopping!

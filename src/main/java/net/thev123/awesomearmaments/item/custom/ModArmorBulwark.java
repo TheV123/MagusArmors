@@ -53,7 +53,7 @@ public class ModArmorBulwark extends ArmorItem{
                     .build();
     private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP2 =
             new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>()
-                    .put(ModArmorMaterials.BULWARK, new StatusEffectInstance(StatusEffects.HUNGER, 200, 1))
+                    .put(ModArmorMaterials.BULWARK, new StatusEffectInstance(StatusEffects.HUNGER, 200, 0))
                     .build();
     @Override
     public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {
