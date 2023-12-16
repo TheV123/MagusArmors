@@ -40,7 +40,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     BERSERK_NETHERITE("berserk_netherite", 37, new int[]{3, 6, 8, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.NETHERITE_INGOT});
     }),
-    BULWARK("bulwark", 50, new int[]{5, 8, 10, 5}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 5F, 0.5F, () -> {
+    BULWARK("bulwark", 50, new int[]{4, 7, 9, 4}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 5F, 0.5F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.NETHERITE_INGOT});
     }),
     INFINITE_SIGHT("infinite_sight", 37, new int[]{3, 6, 8, 3}, 25, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3F, 0.1F, () -> {
