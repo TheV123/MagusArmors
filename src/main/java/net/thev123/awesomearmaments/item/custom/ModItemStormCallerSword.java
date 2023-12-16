@@ -16,23 +16,11 @@ import net.minecraft.world.World;
 
 public class ModItemStormCallerSword extends SwordItem {
     private final float EFFECT_CHANCE =  0.15f;
-    private final Multimap<EntityAttribute, EntityAttributeModifier> attributeModifiers;
     public ModItemStormCallerSword(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, Settings settings) {
         super(toolMaterial, attackDamage, attackSpeed, settings);
-        float damage = 7.5f;
-        float speed = 1.8f;
-
-        ImmutableMultimap.Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
-        builder.put(EntityAttributes.GENERIC_ATTACK_DAMAGE, new EntityAttributeModifier("Attack modifier", damage, EntityAttributeModifier.Operation.ADDITION));
-        builder.put(EntityAttributes.GENERIC_ATTACK_SPEED, new EntityAttributeModifier("Attack speed modifier", speed, EntityAttributeModifier.Operation.ADDITION));
-
-        this.attributeModifiers = builder.build();
     }
     @Override
     public Multimap<EntityAttribute, EntityAttributeModifier> getAttributeModifiers(EquipmentSlot slot) {
-        if (slot == EquipmentSlot.MAINHAND) {
-            return this.attributeModifiers;
-        }
         return super.getAttributeModifiers(slot);
     }
     @Override

@@ -19,23 +19,11 @@ import net.minecraft.world.World;
 
 public class ModItemStormCallerAxe extends AxeItem {
     private final float EFFECT_CHANCE =  0.25f;
-    private final Multimap<EntityAttribute, EntityAttributeModifier> attributeModifiers;
     public ModItemStormCallerAxe(ToolMaterial material, float attackDamage, float attackSpeed, Settings settings) {
         super(material, attackDamage, attackSpeed, settings);
-        float damage = 9.0f;
-        float speed = 1.2f;
-
-        ImmutableMultimap.Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
-        builder.put(EntityAttributes.GENERIC_ATTACK_DAMAGE, new EntityAttributeModifier("Attack modifier", damage, EntityAttributeModifier.Operation.ADDITION));
-        builder.put(EntityAttributes.GENERIC_ATTACK_SPEED, new EntityAttributeModifier("Attack speed modifier", speed, EntityAttributeModifier.Operation.ADDITION));
-
-        this.attributeModifiers = builder.build();
     }
     @Override
     public Multimap<EntityAttribute, EntityAttributeModifier> getAttributeModifiers(EquipmentSlot slot) {
-        if (slot == EquipmentSlot.MAINHAND) {
-            return this.attributeModifiers;
-        }
         return super.getAttributeModifiers(slot);
     }
     @Override

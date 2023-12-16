@@ -51,28 +51,28 @@ public class ModItems {
             new Item(new FabricItemSettings()));
 
     public static final Item WINDCALLER_SWORD = registerItem("windcaller_sword",
-            new ModItemWindCallerSword(ModToolMaterial.WINDCALLER, 0, 0f, new Item.Settings()));
+            new ModItemWindCallerSword(ModToolMaterial.WINDCALLER, 3, -2.2f, new Item.Settings()));
     public static final Item WINDCALLER_AXE = registerItem("windcaller_axe",
-            new ModItemWindCallerAxe(ModToolMaterial.WINDCALLER, 0, 0f, new Item.Settings()));
+            new ModItemWindCallerAxe(ModToolMaterial.WINDCALLER, 4, -2.8f, new Item.Settings()));
 
     public static final Item STORMCALLER_SWORD = registerItem("stormcaller_sword",
-            new ModItemStormCallerSword(ModToolMaterial.STORMCALLER, 0, 0f, new Item.Settings()));
+            new ModItemStormCallerSword(ModToolMaterial.STORMCALLER, 3, -2.1f, new Item.Settings()));
     public static final Item STORMCALLER_AXE = registerItem("stormcaller_axe",
-            new ModItemStormCallerAxe(ModToolMaterial.STORMCALLER, 0, 0f, new Item.Settings()));
+            new ModItemStormCallerAxe(ModToolMaterial.STORMCALLER, 4, -2.7f, new Item.Settings()));
 
     public static final Item VENOMOUS_UPGRADE = registerItem("venomous_upgrade",
             new Item(new FabricItemSettings()));
     public static final Item VENOMOUS_SWORD = registerItem("venomous_sword",
             new ModItemVenomousSword(ModToolMaterial.VENOMOUS, 3, -2.4f, new Item.Settings()));
     public static final Item VENOMOUS_AXE = registerItem("venomous_axe",
-            new ModItemVenomousAxe(ModToolMaterial.VENOMOUS, 4, -3.0f, new Item.Settings()));
+            new ModItemVenomousAxe(ModToolMaterial.VENOMOUS, 5, -3.0f, new Item.Settings()));
 
     public static final Item WITHERING_UPGRADE = registerItem("withering_upgrade",
             new Item(new FabricItemSettings()));
     public static final Item WITHERING_SWORD = registerItem("withering_sword",
             new ModItemWitheringSword(ModToolMaterial.WITHERING, 4, -2.4f, new Item.Settings()));
     public static final Item WITHERING_AXE = registerItem("withering_axe",
-            new ModItemWitheringAxe(ModToolMaterial.WITHERING, 4, -3.0f, new Item.Settings()));
+            new ModItemWitheringAxe(ModToolMaterial.WITHERING, 5, -3.0f, new Item.Settings()));
 
     public static final Item PLATED_IRON_HELMET = registerItem("plated_iron_helmet",
             new ArmorItem(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.HELMET,
