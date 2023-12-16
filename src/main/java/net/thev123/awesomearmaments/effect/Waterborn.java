@@ -20,8 +20,8 @@ public class Waterborn extends StatusEffect {
     private static final UUID HEALTH_MODIFIER_ID = UUID.fromString("f669e5a0-df49-11eb-ba80-0242ac130004");
     private static final double HEALTH_INCREASE_AMOUNT = 4.0; // 2 hearts increase (each heart is 2 health points)
 
-    private static final UUID DAMAGE_REDUCTION_MODIFIER_ID = UUID.fromString("f669e5a1-df49-11eb-ba80-0242ac130004");
-    private static final double DAMAGE_REDUCTION_AMOUNT = -3; //3 damage decrease while out of water
+//    private static final UUID DAMAGE_REDUCTION_MODIFIER_ID = UUID.fromString("f669e5a1-df49-11eb-ba80-0242ac130004");
+//    private static final double DAMAGE_REDUCTION_AMOUNT = -3; //3 damage decrease while out of water
     private static int timeOutsideWater = 0;
 
     protected Waterborn(StatusEffectCategory category, int color) {
@@ -40,23 +40,20 @@ public class Waterborn extends StatusEffect {
                     HEALTH_INCREASE_AMOUNT,
                     EntityAttributeModifier.Operation.ADDITION
             );
-            EntityAttributeInstance attributeInstance2 = player.getAttributeInstance(EntityAttributes.GENERIC_ATTACK_DAMAGE);
-
-            EntityAttributeModifier damageNerf = new EntityAttributeModifier(
-                    DAMAGE_REDUCTION_MODIFIER_ID,
-                    "Out of water Damage Nerf",
-                    DAMAGE_REDUCTION_AMOUNT,
-                    EntityAttributeModifier.Operation.ADDITION
-            );
+//            EntityAttributeInstance attributeInstance2 = player.getAttributeInstance(EntityAttributes.GENERIC_ATTACK_DAMAGE);
+//
+//            EntityAttributeModifier damageNerf = new EntityAttributeModifier(
+//                    DAMAGE_REDUCTION_MODIFIER_ID,
+//                    "Out of water Damage Nerf",
+//                    DAMAGE_REDUCTION_AMOUNT,
+//                    EntityAttributeModifier.Operation.ADDITION
+//            );
             if(player.isSubmergedInWater() || player.isSwimming() || player.isTouchingWater() || player.isInsideWaterOrBubbleColumn()){
                 timeOutsideWater = 0;
                 player.removeStatusEffect(StatusEffects.POISON);
+                player.removeStatusEffect(StatusEffects.WEAKNESS);
                 if (attributeInstance != null && !attributeInstance.hasModifier(healthModifier)) {
                     attributeInstance.addTemporaryModifier(healthModifier);
-                }
-                if(attributeInstance2 != null  && attributeInstance2.hasModifier(damageNerf)){
-                    attributeInstance2.removeModifier(damageNerf);
-                    attributeInstance2.removeModifier(DAMAGE_REDUCTION_MODIFIER_ID);
                 }
                 if(healingCooldown <= 0){
                     player.heal(1.0f);
@@ -71,12 +68,10 @@ public class Waterborn extends StatusEffect {
                     attributeInstance.removeModifier(healthModifier);
                     attributeInstance.removeModifier(HEALTH_MODIFIER_ID);
                 }
-                if(attributeInstance2 != null && !attributeInstance2.hasModifier(damageNerf)){
-                    attributeInstance2.addTemporaryModifier(damageNerf);
-                }
+                player.addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, Integer.MAX_VALUE, 0));
                 timeOutsideWater++;
                 if(timeOutsideWater == 3600){
-                    player.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 999999999, 0));
+                    player.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, Integer.MAX_VALUE, 0));
                 }
             }
         }
