@@ -19,9 +19,6 @@ public class Waterborn extends StatusEffect {
 
     private static final UUID HEALTH_MODIFIER_ID = UUID.fromString("f669e5a0-df49-11eb-ba80-0242ac130004");
     private static final double HEALTH_INCREASE_AMOUNT = 4.0; // 2 hearts increase (each heart is 2 health points)
-
-//    private static final UUID DAMAGE_REDUCTION_MODIFIER_ID = UUID.fromString("f669e5a1-df49-11eb-ba80-0242ac130004");
-//    private static final double DAMAGE_REDUCTION_AMOUNT = -3; //3 damage decrease while out of water
     private static int timeOutsideWater = 0;
 
     protected Waterborn(StatusEffectCategory category, int color) {
@@ -40,14 +37,6 @@ public class Waterborn extends StatusEffect {
                     HEALTH_INCREASE_AMOUNT,
                     EntityAttributeModifier.Operation.ADDITION
             );
-//            EntityAttributeInstance attributeInstance2 = player.getAttributeInstance(EntityAttributes.GENERIC_ATTACK_DAMAGE);
-//
-//            EntityAttributeModifier damageNerf = new EntityAttributeModifier(
-//                    DAMAGE_REDUCTION_MODIFIER_ID,
-//                    "Out of water Damage Nerf",
-//                    DAMAGE_REDUCTION_AMOUNT,
-//                    EntityAttributeModifier.Operation.ADDITION
-//            );
             if(player.isSubmergedInWater() || player.isSwimming() || player.isTouchingWater() || player.isInsideWaterOrBubbleColumn()){
                 timeOutsideWater = 0;
                 player.removeStatusEffect(StatusEffects.POISON);
@@ -68,10 +57,16 @@ public class Waterborn extends StatusEffect {
                     attributeInstance.removeModifier(healthModifier);
                     attributeInstance.removeModifier(HEALTH_MODIFIER_ID);
                 }
-                player.addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, 100, 0));
+                if(timeOutsideWater >= 400){
+                    if(!player.hasStatusEffect(StatusEffects.WEAKNESS)){
+                        player.addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, 200, 0));
+                    }
+                }
                 timeOutsideWater++;
-                if(timeOutsideWater >= 4000){
-                    player.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 100, 0));
+                if(timeOutsideWater >= 10000){
+                    if(!player.hasStatusEffect(StatusEffects.POISON)){
+                        player.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 200, 0));
+                    }
                 }
             }
         }
