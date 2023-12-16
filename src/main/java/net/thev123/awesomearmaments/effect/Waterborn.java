@@ -68,10 +68,10 @@ public class Waterborn extends StatusEffect {
                     attributeInstance.removeModifier(healthModifier);
                     attributeInstance.removeModifier(HEALTH_MODIFIER_ID);
                 }
-                player.addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, Integer.MAX_VALUE, 0));
+                player.addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, 100, 0));
                 timeOutsideWater++;
-                if(timeOutsideWater == 3600){
-                    player.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, Integer.MAX_VALUE, 0));
+                if(timeOutsideWater >= 4000){
+                    player.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 100, 0));
                 }
             }
         }
