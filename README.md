@@ -45,8 +45,13 @@ while outside water
 Increases damage and speed and greatly empowers you while in low health
 but saps your vitality
 
+Planned Updates:
+textures, enchanted ore (+ bottle of exp recipe), elder guardian scale drop (neptune/aqua netherite armor) extra weapons (magic/holy), changed recipes, redone mod page
+
 # Authors
-Vishal Kamalakrishnan & Deyan Jani
+Vishal Kamalakrishnan 
+
+Special Thanks to: Deyan Jani
 
 # Credits
 Kaupenjoe for his amazing tutorial series
