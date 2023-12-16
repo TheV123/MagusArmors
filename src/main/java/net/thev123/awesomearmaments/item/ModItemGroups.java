@@ -13,7 +13,7 @@ public class ModItemGroups {
     public static final ItemGroup UPGRADE = Registry.register(Registries.ITEM_GROUP,
             new Identifier(AwesomeArmaments.MOD_ID, "awesome_armaments"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.awesomearmaments"))
-                    .icon(() -> new ItemStack(ModItems.INFINITE_SIGHT_CHESTPLATE)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModItems.BLOODLUST_HELMET)).entries((displayContext, entries) -> {
                         entries.add(ModItems.WINDCALLER_UPGRADE);
                         entries.add(ModItems.WINDCALLER_SWORD);
                         entries.add(ModItems.WINDCALLER_AXE);
