@@ -1,57 +1,37 @@
-# AwesomeArmaments
+# Awesome Armaments
 A mod which adds Awesome armors and weapons to the game based on unique Archetypes
 
-## ARCHETYPES
-### Plated
-Higher durability and protection
-  - Plated Iron
-  - Plated Diamond
-  - Plated Netherite
-
-### Wise
-Empowers users who in pursuit of knowledge. Armor comes with auto-repair
-Diamond and netherite tiers have the Experience Empower effect, providing
-a chance to heal the player when collecting experience
-  - Wise Iron
-  - Wise Diamond
-  - Wise Netherite
-
-### Aqua
-Empowers users who are in the water. Diamond tier comes with dolphins grace while 
-netherite tier also comes with conduit power
-  - Aqua Diamond
-  - Aqua Netherite
-
-### Berserk
-Provides speed and damage. Diamond tier gives player speed and Netherite
-tier increases their damage as they wear each piece of armor
-  - Berserk Diamond
-  - Berserk Netherite
+## Armor Archetypes
+- **Plated**: Higher durability and protection
+- **Wise**: Empowers users who in pursuit of knowledge
+- **Aqua**: Empowers users' water traversal
+- **Berserk**: Empowers the user's attack power and speed
 
 ## Eldritch Armors
 These armors are of the highest tier and provide great power... At a cost
-
-### Bulwark Armor
-Grants immense protection but slows you down and hungers you
-
-### Infinite Sight Armor
-Grants periodic boons enhancing your power but has the chance to blind you
-
-### Neptune Armor
-Grants great vitality and regeneration while underwater, but weakens you
+- **Bulwark**: Grants immense protection but slows you down and hungers you
+- **Infinite Sight**: Grants periodic boons enhancing your power but has the chance to blind you
+- **Neptune**: Grants great vitality and regeneration while underwater, but weakens you
 while outside water
+- **Bloodlust**: Increases damage and speed and greatly empowers you while in low health but saps your vitality
 
-### Bloodlust Armor
-Increases damage and speed and greatly empowers you while in low health
-but saps your vitality
+## Weapon Archetypes
+- **Windcaller**: Strikes faster and has a chance to levitate the enemy
+- **Stormcaller**: Strikes faster and has a chance to levitate the enemy and strike lightning
+- **Venomous**: Has a chance to poison the enemy
+- **Withering**: Has a chance to wither the enemy
 
-Planned Updates:
-textures, enchanted ore (+ bottle of exp recipe), elder guardian scale drop (neptune/aqua netherite armor) extra weapons (magic/holy), changed recipes, redone mod page
+
+## PLANNED2.0 UPDATE!!!
+* Overhaul to recipes of armors including
+* Custom items and mob drops - following the vanilla feel
+* New weapons
+* Better textures
 
 # Authors
-Vishal Kamalakrishnan 
+TheV123
 
-Special Thanks to: Deyan Jani
+Special Thanks to: DeyanJ17
 
 # Credits
 Kaupenjoe for his amazing tutorial series
