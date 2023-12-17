@@ -11,6 +11,8 @@ import net.thev123.awesomearmaments.AwesomeArmaments;
 import net.thev123.awesomearmaments.item.custom.*;
 
 public class ModItems {
+
+    //armor upgrades
     public static final Item PLATED_IRON_UPGRADE = registerItem("plated_iron_upgrade",
             new Item(new FabricItemSettings()));
     public static final Item PLATED_DIAMOND_UPGRADE = registerItem("plated_diamond_upgrade",
@@ -44,36 +46,40 @@ public class ModItems {
     public static final Item NEPTUNE_UPGRADE = registerItem("neptune_upgrade",
             new Item(new FabricItemSettings()));
 
+    //weapon upgrades
     public static final Item WINDCALLER_UPGRADE = registerItem("windcaller_upgrade",
             new Item(new FabricItemSettings()));
-
     public static final Item STORMCALLER_UPGRADE = registerItem("stormcaller_upgrade",
             new Item(new FabricItemSettings()));
+    public static final Item VENOMOUS_UPGRADE = registerItem("venomous_upgrade",
+            new Item(new FabricItemSettings()));
+    public static final Item WITHERING_UPGRADE = registerItem("withering_upgrade",
+            new Item(new FabricItemSettings()));
 
+    //other items
+    public static final Item ELDER_GUARDIAN_SCALES = registerItem("elder_guardian_scales",
+            new Item(new FabricItemSettings()));
+
+    //weapons
     public static final Item WINDCALLER_SWORD = registerItem("windcaller_sword",
             new ModItemWindCallerSword(ModToolMaterial.WINDCALLER, 3, -2.2f, new Item.Settings()));
     public static final Item WINDCALLER_AXE = registerItem("windcaller_axe",
             new ModItemWindCallerAxe(ModToolMaterial.WINDCALLER, 4, -2.8f, new Item.Settings()));
-
     public static final Item STORMCALLER_SWORD = registerItem("stormcaller_sword",
             new ModItemStormCallerSword(ModToolMaterial.STORMCALLER, 3, -2.1f, new Item.Settings()));
     public static final Item STORMCALLER_AXE = registerItem("stormcaller_axe",
             new ModItemStormCallerAxe(ModToolMaterial.STORMCALLER, 4, -2.7f, new Item.Settings()));
-
-    public static final Item VENOMOUS_UPGRADE = registerItem("venomous_upgrade",
-            new Item(new FabricItemSettings()));
     public static final Item VENOMOUS_SWORD = registerItem("venomous_sword",
             new ModItemVenomousSword(ModToolMaterial.VENOMOUS, 3, -2.4f, new Item.Settings()));
     public static final Item VENOMOUS_AXE = registerItem("venomous_axe",
             new ModItemVenomousAxe(ModToolMaterial.VENOMOUS, 5, -3.0f, new Item.Settings()));
 
-    public static final Item WITHERING_UPGRADE = registerItem("withering_upgrade",
-            new Item(new FabricItemSettings()));
     public static final Item WITHERING_SWORD = registerItem("withering_sword",
             new ModItemWitheringSword(ModToolMaterial.WITHERING, 4, -2.4f, new Item.Settings()));
     public static final Item WITHERING_AXE = registerItem("withering_axe",
             new ModItemWitheringAxe(ModToolMaterial.WITHERING, 5, -3.0f, new Item.Settings()));
 
+    //armor
     public static final Item PLATED_IRON_HELMET = registerItem("plated_iron_helmet",
             new ArmorItem(ModArmorMaterials.PLATED_IRON, ArmorItem.Type.HELMET,
                     new FabricItemSettings()));
