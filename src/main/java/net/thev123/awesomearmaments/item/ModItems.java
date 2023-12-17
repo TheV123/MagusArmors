@@ -3,7 +3,6 @@ package net.thev123.awesomearmaments.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.SwordItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -57,7 +56,7 @@ public class ModItems {
             new Item(new FabricItemSettings()));
 
     //other items
-    public static final Item ELDER_GUARDIAN_SCALES = registerItem("elder_guardian_scales",
+    public static final Item ELDER_GUARDIAN_SCALE = registerItem("elder_guardian_scale",
             new Item(new FabricItemSettings()));
 
     //weapons

@@ -6,6 +6,7 @@ import net.thev123.awesomearmaments.datagen.ModModelProvider;
 import net.thev123.awesomearmaments.effect.ModEffects;
 import net.thev123.awesomearmaments.item.ModItemGroups;
 import net.thev123.awesomearmaments.item.ModItems;
+import net.thev123.awesomearmaments.util.ModLootTableModifiers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,5 +21,6 @@ public class AwesomeArmaments implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 		ModEffects.registerEffects();
+		ModLootTableModifiers.modifyLootTables();
 	}
 }
