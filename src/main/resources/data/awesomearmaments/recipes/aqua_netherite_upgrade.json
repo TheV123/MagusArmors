@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "#N#",
-    "WCW",
+    "CAC",
     "#T#"
   ],
   "key": {
     "#": {
       "item": "minecraft:prismarine_shard"
     },
+    "C": {
+      "item": "minecraft:conduit"
+    },
     "N": {
       "item": "minecraft:netherite_scrap"
     },
-    "W": {
-      "item": "minecraft:water_bucket"
-    },
-    "C": {
+    "A": {
       "item": "awesomearmaments:aqua_diamond_upgrade"
     },
     "T": {

@@ -3,14 +3,14 @@
   "pattern": [
     "#s#",
     "CTC",
-    "#C#"
+    "#s#"
   ],
   "key": {
     "#": {
-      "item": "minecraft:trident"
+      "item": "minecraft:prismarine_shard"
     },
     "C": {
-      "item": "minecraft:conduit"
+      "item": "awesomearmaments:elder_guardian_scale"
     },
     "T": {
       "item": "awesomearmaments:aqua_netherite_upgrade"
