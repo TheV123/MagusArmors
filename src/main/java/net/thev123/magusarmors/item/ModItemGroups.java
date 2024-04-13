@@ -34,6 +34,11 @@ public class ModItemGroups {
                         entries.add(ModItems.HEALING_CHESTPLATE);
                         entries.add(ModItems.HEALING_LEGGINGS);
                         entries.add(ModItems.HEALING_BOOTS);
+
+                        entries.add(ModItems.RANGED_HELMET);
+                        entries.add(ModItems.RANGED_CHESTPLATE);
+                        entries.add(ModItems.RANGED_LEGGINGS);
+                        entries.add(ModItems.RANGED_BOOTS);
                     }).build());
 
     public static void registerItemGroups() {

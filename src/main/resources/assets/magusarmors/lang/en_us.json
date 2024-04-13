@@ -14,5 +14,15 @@
   "item.magusarmors.arcane_helmet": "Grand Arcanist Helmet",
   "item.magusarmors.arcane_chestplate": "Grand Arcanist Chestplate",
   "item.magusarmors.arcane_leggings": "Grand Arcanist Leggings",
-  "item.magusarmors.arcane_boots": "Grand Arcanist Boots"
+  "item.magusarmors.arcane_boots": "Grand Arcanist Boots",
+
+  "item.magusarmors.healing_helmet": "Grand Apostle Helmet",
+  "item.magusarmors.healing_chestplate": "Grand Apostle Chestplate",
+  "item.magusarmors.healing_leggings": "Grand Apostle Leggings",
+  "item.magusarmors.healing_boots": "Grand Apostle Boots",
+
+  "item.magusarmors.ranged_helmet": "Grand Sharpshooter Helmet",
+  "item.magusarmors.ranged_chestplate": "Grand Sharpshooter Chestplate",
+  "item.magusarmors.ranged_leggings": "Grand Sharpshooter Leggings",
+  "item.magusarmors.ranged_boots": "Grand Sharpshooter Boots"
 }

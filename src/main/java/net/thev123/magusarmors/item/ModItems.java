@@ -7,10 +7,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.thev123.magusarmors.MagusArmors;
-import net.thev123.magusarmors.item.custom.ModArmorArcane;
-import net.thev123.magusarmors.item.custom.ModArmorFire;
-import net.thev123.magusarmors.item.custom.ModArmorFrost;
-import net.thev123.magusarmors.item.custom.ModArmorHealing;
+import net.thev123.magusarmors.item.custom.*;
 
 public class ModItems {
     //armor
@@ -64,6 +61,19 @@ public class ModItems {
                     new FabricItemSettings()));
     public static final Item HEALING_BOOTS = registerItem("healing_boots",
             new ModArmorHealing(ModArmorMaterials.HEALING_MATERIAL, ArmorItem.Type.BOOTS,
+                    new FabricItemSettings()));
+
+    public static final Item RANGED_HELMET = registerItem("ranged_helmet",
+            new ModArmorRanged(ModArmorMaterials.RANGED_MATERIAL, ArmorItem.Type.HELMET,
+                    new FabricItemSettings()));
+    public static final Item RANGED_CHESTPLATE = registerItem("ranged_chestplate",
+            new ModArmorRanged(ModArmorMaterials.RANGED_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new FabricItemSettings()));
+    public static final Item RANGED_LEGGINGS = registerItem("ranged_leggings",
+            new ModArmorRanged(ModArmorMaterials.RANGED_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new FabricItemSettings()));
+    public static final Item RANGED_BOOTS = registerItem("ranged_boots",
+            new ModArmorRanged(ModArmorMaterials.RANGED_MATERIAL, ArmorItem.Type.BOOTS,
                     new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
