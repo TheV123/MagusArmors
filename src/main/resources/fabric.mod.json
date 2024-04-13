@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "awesomearmaments",
+	"id": "magusarmors",
 	"version": "${version}",
-	"name": "Awesome Armaments",
-	"description": "A mod which adds awesome armors and weapons to the game based on unique archetypes",
+	"name": "Magus Armors",
+	"description": "A mod that adds in armor with spell attributes",
 	"authors": [
 		"Vishal Kamalakrishnan"
 	],
@@ -16,17 +16,17 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.thev123.awesomearmaments.AwesomeArmaments"
+			"net.thev123.magusarmors.MagusArmors"
 		],
 		"client": [
-			"net.thev123.awesomearmaments.AwesomeArmamentsClient"
+			"net.thev123.magusarmors.MagusArmorsClient"
 		],
 		"fabric-datagen": [
-			"net.thev123.awesomearmaments.AwesomeArmamentsDataGenerator"
+			"net.thev123.magusarmors.MagusArmorsDataGenerator"
 		]
 	},
 	"mixins": [
-		"awesomearmaments.mixins.json"
+		"magusarmors.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.22",
