@@ -14,7 +14,7 @@ public class ModItemGroups {
     public static final ItemGroup UPGRADE = Registry.register(Registries.ITEM_GROUP,
             new Identifier(MagusArmors.MOD_ID, "magus_armors"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.magusarmors"))
-                    .icon(() -> new ItemStack(Items.DIAMOND)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModItems.FIRE_HELMET)).entries((displayContext, entries) -> {
                         entries.add(ModItems.FIRE_HELMET);
                         entries.add(ModItems.FIRE_CHESTPLATE);
                         entries.add(ModItems.FIRE_LEGGINGS);
