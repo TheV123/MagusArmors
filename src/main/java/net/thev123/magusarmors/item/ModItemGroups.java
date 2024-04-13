@@ -15,7 +15,10 @@ public class ModItemGroups {
             new Identifier(MagusArmors.MOD_ID, "magus_armors"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.magusarmors"))
                     .icon(() -> new ItemStack(Items.DIAMOND)).entries((displayContext, entries) -> {
-
+                        entries.add(ModItems.FIRE_HELMET);
+                        entries.add(ModItems.FIRE_CHESTPLATE);
+                        entries.add(ModItems.FIRE_LEGGINGS);
+                        entries.add(ModItems.FIRE_BOOTS);
                     }).build());
 
     public static void registerItemGroups() {

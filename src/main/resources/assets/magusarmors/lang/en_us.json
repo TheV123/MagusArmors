@@ -1,3 +1,7 @@
 {
-  "itemgroup.magusarmors": "Magus Armors"
+  "itemgroup.magusarmors": "Magus Armors",
+  "item.magusarmors.fire_helmet": "Grand Pyromancer Helmet",
+  "item.magusarmors.fire_chestplate": "Grand Pyromancer Chestplate",
+  "item.magusarmors.fire_leggings": "Grand Pyromancer Leggings",
+  "item.magusarmors.fire_boots": "Grand Pyromancer Boots"
 }
