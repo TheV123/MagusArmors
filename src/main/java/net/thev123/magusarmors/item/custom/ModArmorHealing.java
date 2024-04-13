@@ -14,12 +14,12 @@ import net.thev123.magusarmors.item.ModArmorMaterials;
 
 import java.util.UUID;
 
-public class ModArmorFrost extends ArmorItem {
+public class ModArmorHealing extends ArmorItem {
     private final Multimap<EntityAttribute, EntityAttributeModifier> attributeModifiers;
-    public ModArmorFrost(ArmorMaterial material, Type type, Settings settings) {
+    public ModArmorHealing(ArmorMaterial material, Type type, Settings settings) {
         super(material, type, settings);
 
-        float frostSpellPower = 0.2F;
+        float holySpellPower = 0.2F;
         float hastePower = 0.05F;
         float critDamagePower = 0.03F;
         float critChancePower = 0.02F;
@@ -28,11 +28,11 @@ public class ModArmorFrost extends ArmorItem {
         float toughness = ModArmorMaterials.HEALING_MATERIAL.getToughness();
 
         ImmutableMultimap.Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
-        builder.put(SpellSchools.FROST.attribute,
+        builder.put(SpellSchools.HEALING.attribute,
                 new EntityAttributeModifier(
                         UUID.randomUUID(),
                         "Spell Power",
-                        frostSpellPower,
+                        holySpellPower,
                         EntityAttributeModifier.Operation.MULTIPLY_BASE
                 )
         );

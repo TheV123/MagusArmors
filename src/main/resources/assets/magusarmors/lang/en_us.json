@@ -9,5 +9,10 @@
   "item.magusarmors.frost_helmet": "Grand Frostweaver Helmet",
   "item.magusarmors.frost_chestplate": "Grand Frostweaver Chestplate",
   "item.magusarmors.frost_leggings": "Grand Frostweaver Leggings",
-  "item.magusarmors.frost_boots": "Grand Frostweaver Boots"
+  "item.magusarmors.frost_boots": "Grand Frostweaver Boots",
+
+  "item.magusarmors.arcane_helmet": "Grand Arcanist Helmet",
+  "item.magusarmors.arcane_chestplate": "Grand Arcanist Chestplate",
+  "item.magusarmors.arcane_leggings": "Grand Arcanist Leggings",
+  "item.magusarmors.arcane_boots": "Grand Arcanist Boots"
 }

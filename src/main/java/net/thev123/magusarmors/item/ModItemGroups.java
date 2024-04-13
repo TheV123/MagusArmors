@@ -19,10 +19,21 @@ public class ModItemGroups {
                         entries.add(ModItems.FIRE_CHESTPLATE);
                         entries.add(ModItems.FIRE_LEGGINGS);
                         entries.add(ModItems.FIRE_BOOTS);
+
                         entries.add(ModItems.FROST_HELMET);
                         entries.add(ModItems.FROST_CHESTPLATE);
                         entries.add(ModItems.FROST_LEGGINGS);
                         entries.add(ModItems.FROST_BOOTS);
+
+                        entries.add(ModItems.ARCANE_HELMET);
+                        entries.add(ModItems.ARCANE_CHESTPLATE);
+                        entries.add(ModItems.ARCANE_LEGGINGS);
+                        entries.add(ModItems.ARCANE_BOOTS);
+
+                        entries.add(ModItems.HEALING_HELMET);
+                        entries.add(ModItems.HEALING_CHESTPLATE);
+                        entries.add(ModItems.HEALING_LEGGINGS);
+                        entries.add(ModItems.HEALING_BOOTS);
                     }).build());
 
     public static void registerItemGroups() {

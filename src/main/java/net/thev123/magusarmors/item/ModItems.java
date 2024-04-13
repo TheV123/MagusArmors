@@ -7,8 +7,10 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.thev123.magusarmors.MagusArmors;
+import net.thev123.magusarmors.item.custom.ModArmorArcane;
 import net.thev123.magusarmors.item.custom.ModArmorFire;
 import net.thev123.magusarmors.item.custom.ModArmorFrost;
+import net.thev123.magusarmors.item.custom.ModArmorHealing;
 
 public class ModItems {
     //armor
@@ -24,17 +26,44 @@ public class ModItems {
     public static final Item FIRE_BOOTS = registerItem("fire_boots",
             new ModArmorFire(ModArmorMaterials.FIRE_MATERIAL, ArmorItem.Type.BOOTS,
                     new FabricItemSettings()));
+
     public static final Item FROST_HELMET = registerItem("frost_helmet",
-            new ModArmorFrost(ModArmorMaterials.FIRE_MATERIAL, ArmorItem.Type.HELMET,
+            new ModArmorFrost(ModArmorMaterials.FROST_MATERIAL, ArmorItem.Type.HELMET,
                     new FabricItemSettings()));
     public static final Item FROST_CHESTPLATE= registerItem("frost_chestplate",
-            new ModArmorFrost(ModArmorMaterials.FIRE_MATERIAL, ArmorItem.Type.CHESTPLATE,
+            new ModArmorFrost(ModArmorMaterials.FROST_MATERIAL, ArmorItem.Type.CHESTPLATE,
                     new FabricItemSettings()));
     public static final Item FROST_LEGGINGS = registerItem("frost_leggings",
-            new ModArmorFrost(ModArmorMaterials.FIRE_MATERIAL, ArmorItem.Type.LEGGINGS,
+            new ModArmorFrost(ModArmorMaterials.FROST_MATERIAL, ArmorItem.Type.LEGGINGS,
                     new FabricItemSettings()));
     public static final Item FROST_BOOTS = registerItem("frost_boots",
-            new ModArmorFrost(ModArmorMaterials.FIRE_MATERIAL, ArmorItem.Type.BOOTS,
+            new ModArmorFrost(ModArmorMaterials.FROST_MATERIAL, ArmorItem.Type.BOOTS,
+                    new FabricItemSettings()));
+
+    public static final Item ARCANE_HELMET = registerItem("arcane_helmet",
+            new ModArmorArcane(ModArmorMaterials.ARCANE_MATERIAL, ArmorItem.Type.HELMET,
+                    new FabricItemSettings()));
+    public static final Item ARCANE_CHESTPLATE = registerItem("arcane_chestplate",
+            new ModArmorArcane(ModArmorMaterials.ARCANE_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new FabricItemSettings()));
+    public static final Item ARCANE_LEGGINGS = registerItem("arcane_leggings",
+            new ModArmorArcane(ModArmorMaterials.ARCANE_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new FabricItemSettings()));
+    public static final Item ARCANE_BOOTS = registerItem("arcane_boots",
+            new ModArmorArcane(ModArmorMaterials.ARCANE_MATERIAL, ArmorItem.Type.BOOTS,
+                    new FabricItemSettings()));
+
+    public static final Item HEALING_HELMET = registerItem("healing_helmet",
+            new ModArmorHealing(ModArmorMaterials.HEALING_MATERIAL, ArmorItem.Type.HELMET,
+                    new FabricItemSettings()));
+    public static final Item HEALING_CHESTPLATE = registerItem("healing_chestplate",
+            new ModArmorHealing(ModArmorMaterials.HEALING_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new FabricItemSettings()));
+    public static final Item HEALING_LEGGINGS = registerItem("healing_leggings",
+            new ModArmorHealing(ModArmorMaterials.HEALING_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new FabricItemSettings()));
+    public static final Item HEALING_BOOTS = registerItem("healing_boots",
+            new ModArmorHealing(ModArmorMaterials.HEALING_MATERIAL, ArmorItem.Type.BOOTS,
                     new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {

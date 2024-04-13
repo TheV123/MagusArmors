@@ -10,10 +10,16 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
     //enum format credits: https://github.com/aleganza/Plenty-Of-Armors
-    FIRE_MATERIAL("fire_material", 33, new int[]{3, 8, 6, 3}, 9, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0F, () -> {
+    FIRE_MATERIAL("fire_material", 33, new int[]{3, 8, 6, 3}, 9, SoundEvents.BLOCK_AMETHYST_BLOCK_CHIME, 2.0F, 0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.NETHER_STAR});
     }),
-    FROST_MATERIAL("frost_material", 33, new int[]{3, 8, 6, 3}, 9, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0F, () -> {
+    FROST_MATERIAL("frost_material", 33, new int[]{3, 8, 6, 3}, 9, SoundEvents.BLOCK_AMETHYST_BLOCK_CHIME, 2.0F, 0F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{Items.NETHER_STAR});
+    }),
+    ARCANE_MATERIAL("arcane_material", 33, new int[]{3, 8, 6, 3}, 9, SoundEvents.BLOCK_AMETHYST_BLOCK_CHIME, 2.0F, 0F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{Items.NETHER_STAR});
+    }),
+    HEALING_MATERIAL("healing_material", 33, new int[]{3, 8, 6, 3}, 9, SoundEvents.BLOCK_AMETHYST_BLOCK_CHIME, 2.0F, 0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.NETHER_STAR});
     });
 
