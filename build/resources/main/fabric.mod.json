@@ -5,7 +5,7 @@
 	"name": "Awesome Armaments",
 	"description": "A mod which adds awesome armors and weapons to the game based on unique archetypes",
 	"authors": [
-		"Vishal Kamalakrishnan, Deyan Jani"
+		"Vishal Kamalakrishnan"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -29,10 +29,11 @@
 		"awesomearmaments.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.14.21",
+		"fabricloader": ">=0.14.22",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"spell_power": ">=0.10.2+1.20.1"
 	},
 	"suggests": {
 		"another-mod": "*"
