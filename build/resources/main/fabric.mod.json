@@ -12,7 +12,7 @@
 		"sources": "https://github.com/TheV123/AwesomeArmaments"
 	},
 	"license": "MIT",
-	"icon": "assets/awesomearmaments/icon.png",
+	"icon": "assets/magusarmors/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

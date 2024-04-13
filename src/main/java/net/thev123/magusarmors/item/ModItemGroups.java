@@ -13,7 +13,7 @@ import net.minecraft.registry.Registry;
 public class ModItemGroups {
     public static final ItemGroup UPGRADE = Registry.register(Registries.ITEM_GROUP,
             new Identifier(MagusArmors.MOD_ID, "magus_armors"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.awesomearmaments"))
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.magusarmors"))
                     .icon(() -> new ItemStack(Items.DIAMOND)).entries((displayContext, entries) -> {
 
                     }).build());
