@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:nether_star"
+  },
+  "base": {
+    "item": "minecraft:diamond_chestplate"
+  },
+  "result": {
+    "item": "magusarmors:fire_chestplate"
+  },
+  "template": {
+    "item": "runes:fire_stone"
+  }
+}

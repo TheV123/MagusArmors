@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:nether_star"
+  },
+  "base": {
+    "item": "minecraft:diamond_leggings"
+  },
+  "result": {
+    "item": "magusarmors:frost_leggings"
+  },
+  "template": {
+    "item": "runes:frost_stone"
+  }
+}

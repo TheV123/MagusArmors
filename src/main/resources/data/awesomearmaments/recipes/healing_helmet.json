@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:nether_star"
+  },
+  "base": {
+    "item": "minecraft:diamond_helmet"
+  },
+  "result": {
+    "item": "magusarmors:healing_helmet"
+  },
+  "template": {
+    "item": "runes:healing_stone"
+  }
+}
