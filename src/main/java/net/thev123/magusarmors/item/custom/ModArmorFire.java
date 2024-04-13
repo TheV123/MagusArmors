@@ -1,4 +1,4 @@
-package net.thev123.magusarmors.item;
+package net.thev123.magusarmors.item.custom;
 
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
@@ -10,6 +10,7 @@ import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.spell_power.api.SpellPowerMechanics;
 import net.spell_power.api.SpellSchools;
+import net.thev123.magusarmors.item.ModArmorMaterials;
 
 import java.util.UUID;
 

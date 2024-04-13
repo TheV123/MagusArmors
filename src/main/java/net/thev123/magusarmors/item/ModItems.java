@@ -7,6 +7,8 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.thev123.magusarmors.MagusArmors;
+import net.thev123.magusarmors.item.custom.ModArmorFire;
+import net.thev123.magusarmors.item.custom.ModArmorFrost;
 
 public class ModItems {
     //armor
@@ -21,6 +23,18 @@ public class ModItems {
                     new FabricItemSettings()));
     public static final Item FIRE_BOOTS = registerItem("fire_boots",
             new ModArmorFire(ModArmorMaterials.FIRE_MATERIAL, ArmorItem.Type.BOOTS,
+                    new FabricItemSettings()));
+    public static final Item FROST_HELMET = registerItem("frost_helmet",
+            new ModArmorFrost(ModArmorMaterials.FIRE_MATERIAL, ArmorItem.Type.HELMET,
+                    new FabricItemSettings()));
+    public static final Item FROST_CHESTPLATE= registerItem("frost_chestplate",
+            new ModArmorFrost(ModArmorMaterials.FIRE_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new FabricItemSettings()));
+    public static final Item FROST_LEGGINGS = registerItem("frost_leggings",
+            new ModArmorFrost(ModArmorMaterials.FIRE_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new FabricItemSettings()));
+    public static final Item FROST_BOOTS = registerItem("frost_boots",
+            new ModArmorFrost(ModArmorMaterials.FIRE_MATERIAL, ArmorItem.Type.BOOTS,
                     new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {

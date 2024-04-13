@@ -19,6 +19,10 @@ public class ModItemGroups {
                         entries.add(ModItems.FIRE_CHESTPLATE);
                         entries.add(ModItems.FIRE_LEGGINGS);
                         entries.add(ModItems.FIRE_BOOTS);
+                        entries.add(ModItems.FROST_HELMET);
+                        entries.add(ModItems.FROST_CHESTPLATE);
+                        entries.add(ModItems.FROST_LEGGINGS);
+                        entries.add(ModItems.FROST_BOOTS);
                     }).build());
 
     public static void registerItemGroups() {

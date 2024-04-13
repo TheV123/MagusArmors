@@ -1,7 +1,13 @@
 {
   "itemgroup.magusarmors": "Magus Armors",
+
   "item.magusarmors.fire_helmet": "Grand Pyromancer Helmet",
   "item.magusarmors.fire_chestplate": "Grand Pyromancer Chestplate",
   "item.magusarmors.fire_leggings": "Grand Pyromancer Leggings",
-  "item.magusarmors.fire_boots": "Grand Pyromancer Boots"
+  "item.magusarmors.fire_boots": "Grand Pyromancer Boots",
+
+  "item.magusarmors.frost_helmet": "Grand Frostweaver Helmet",
+  "item.magusarmors.frost_chestplate": "Grand Frostweaver Chestplate",
+  "item.magusarmors.frost_leggings": "Grand Frostweaver Leggings",
+  "item.magusarmors.frost_boots": "Grand Frostweaver Boots"
 }

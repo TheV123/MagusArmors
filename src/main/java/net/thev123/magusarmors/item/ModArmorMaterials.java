@@ -12,6 +12,9 @@ public enum ModArmorMaterials implements ArmorMaterial {
     //enum format credits: https://github.com/aleganza/Plenty-Of-Armors
     FIRE_MATERIAL("fire_material", 33, new int[]{3, 8, 6, 3}, 9, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.NETHER_STAR});
+    }),
+    FROST_MATERIAL("frost_material", 33, new int[]{3, 8, 6, 3}, 9, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{Items.NETHER_STAR});
     });
 
     private static final int[] BASE_DURABILITY = new int[]{13, 15, 16, 11};
